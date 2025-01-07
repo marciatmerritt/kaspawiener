@@ -1,10 +1,11 @@
 import { component$, useStore } from "@builder.io/qwik";
 import { useContent } from "@builder.io/qwik-city";
-
-import Logo from "~/components/common/Logo";
 import ToggleTheme from "~/components/common/ToggleTheme";
 import ToggleMenu from "~/components/common/ToggleMenu";
 import IconChevronDown from "../icons/IconChevronDown";
+import KoinLogo from "../common/KoinLogo";
+import IconTelegram from "../icons/IconTelegram";
+import IconTwitter from "../icons/IconTwitter";
 
 export default component$(() => {
   const store = useStore({
@@ -29,14 +30,13 @@ export default component$(() => {
         }
       }}
     >
-      <div class="absolute inset-0"></div>
+      <div class="absolute inset-0 bg-white/80 dark:bg-gray-900/80"></div>
       <div class="relative text-default py-3 px-3 md:px-6 mx-auto w-full md:flex md:justify-between max-w-7xl">
         <div class="mr-auto rtl:mr-0 rtl:ml-auto flex justify-between">
           <a class="flex items-center" href={"/"}>
-            <Logo />
+            <KoinLogo />
           </a>
           <div class="flex items-center md:hidden">
-            <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" />
             <ToggleMenu />
           </div>
         </div>
@@ -79,14 +79,31 @@ export default component$(() => {
         <div class="hidden md:self-center md:flex items-center md:mb-0 fixed w-full md:w-auto md:static justify-end left-0 rtl:left-auto rtl:right-0 bottom-0 p-3 md:p-0">
           <div class="items-center flex justify-between w-full md:w-auto">
             <div class="flex">
-              <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" />
+              <a
+                        class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
+                        aria-label={"Telegram"}
+                        title={"Telegram"}
+                        href={"https://t.me/+Zhe2fvsS1WQyNTA0"}
+                      >
+                        <IconTelegram />
+                      </a>
+
+                      <a
+                        class="text-gray-500 dark:text-gray-400 mr-2 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
+                        aria-label={"X"}
+                        title={"X"}
+                        href={"https://x.com/kaskrc20token"}
+      
+                      >
+                        <IconTwitter />
+                      </a>
             </div>
             <span class="ml-4 rtl:ml-0 rtl:mr-4">
               <a
                 href="https://github.com/onwidget/qwind"
                 class="btn btn-primary ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto"
               >
-                Download
+                Buy $KOIN
               </a>
             </span>
           </div>

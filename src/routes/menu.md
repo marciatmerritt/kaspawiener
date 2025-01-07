@@ -1,11 +1,13 @@
 # Menu
 
-## Pages
+## [About](/about)
+## [Roadmap](/roadmap)
+## [News](/blog)
+## [Contact](/contact)
 
-- [Services](#)
-- [Porfolio](#)
-- [About us](#)
-- [Terms](/terms)
-- [Privacy](/privacy)
+## Exchanges
+- [KSPR Bot](#)
+- [Kaspiano](#)
+- [Chainge](#)
 
-## [Blog](/blog)
+

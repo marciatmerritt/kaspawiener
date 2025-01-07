@@ -1,5 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
+import { Image } from "@unpic/qwik";
 
 import Hero from "~/components/widgets/Hero";
 import Features from "~/components/widgets/Features";
@@ -64,6 +65,19 @@ export default component$(() => {
           },
         ]}
       />
+
+<Image
+                src="/images/roadmap.jpg"
+                layout="constrained"
+                width={493}
+                height={616}
+                alt="Qwind Hero Image (Cool dog)"
+                class="mx-auto w-full drop-shadow-2xl rounded-md"
+                priority={true}
+                breakpoints={[320, 480, 640, 768, 1024]}
+              />
+
+
       <Steps />
       <FAQs
         title="Frequently Asked Questions"

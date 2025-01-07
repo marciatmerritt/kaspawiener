@@ -1,10 +1,10 @@
 export const SITE = {
-  name: "Qwind",
+  name: "KOIN",
 
   title:
-    "Qwind — Free template for Qwik + Tailwind CSS to build your new website.",
+    "KOIN — Everyone needs some KOIN in their wallet.",
   description:
-    "Qwind is a free and ready to start template to make your website using Qwik and Tailwind CSS.",
+    "KOIN - Everyone needs some KOIN in their wallet.",
 
   origin: "https://qwind.pages.dev",
   basePathname: "/",
