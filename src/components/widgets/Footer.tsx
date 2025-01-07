@@ -5,10 +5,6 @@ import IconTwitter from "~/components/icons/IconTwitter"
 import IconTelegram from "../icons/IconTelegram";
 import ToggleTheme from "../common/ToggleTheme";
 
-
-
-
-
 export default component$(() => {
   const links = [
     {
@@ -45,8 +41,7 @@ export default component$(() => {
         { title: "Docs", href: "#" },
         { title: "Community Forum", href: "#" },
         { title: "Professional Services", href: "#" },
-        { title: "Skills", href: "#" },
-        { title: "Status", href: "#" },
+   
       ],
     },
 
