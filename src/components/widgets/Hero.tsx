@@ -12,7 +12,7 @@ export default component$(() => {
       <div class="absolute inset-0 pointer-events-none" aria-hidden="true"></div>
       <div class="relative max-w-7xl mx-auto px-4 sm:px-6">
         <div class="pt-0 pointer-events-none"></div>
-        <div class="py-12 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
+        <div class="py-8 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
           <div class="basis-1/2 text-center lg:text-left pb-10 md:pb-16 mx-auto">
          
          
@@ -38,11 +38,11 @@ export default component$(() => {
                     target="_blank"
                     rel="noopener"
                   >
-                    Get template
+                    Buy $KOIN
                   </a>
                 </div>
                 <div class="flex w-full sm:w-auto">
-                  <button class="btn w-full bg-gray-50 dark:bg-transparent">Learn more</button>
+                  <button class="btn w-full bg-gray-50 dark:bg-transparent">Join Telegram</button>
                 </div>
               </div>
             </div>
