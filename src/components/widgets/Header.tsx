@@ -67,14 +67,14 @@ export default component$(() => {
                 <li key={key} class={items?.length ? "dropdown" : ""}>
                   {items?.length ? (
                     <>
-                      <button class="hover:text-link dark:hover:text-white px-4 py-3 flex items-center">
+                      <button class="hover:text-primary px-4 py-3 flex items-center">
                         {text} <IconChevronDown class="w-3.5 h-3.5 ml-0.5 rtl:ml-0 rtl:mr-0.5 hidden md:inline" />
                       </button>
                       <ul class="dropdown-menu md:backdrop-blur-md dark:md:bg-slate-800 rounded md:absolute pl-4 md:pl-0 md:hidden font-medium md:bg-white/90 md:min-w-[200px] drop-shadow-xl">
                         {items.map(({ text: text2, href: href2 }, key2) => (
                           <li key={key2}>
                             <a
-                              class="first:rounded-t last:rounded-b md:hover:bg-gray-100 hover:text-link dark:hover:text-white dark:hover:bg-gray-700 py-2 px-5 block whitespace-no-wrap"
+                              class="first:rounded-t last:rounded-b md:hover:bg-gray-100  hover:text-primary dark:hover:bg-gray-700 py-2 px-5 block whitespace-no-wrap"
                               href={href2}
                             >
                               {text2}
@@ -84,7 +84,7 @@ export default component$(() => {
                       </ul>
                     </>
                   ) : (
-                    <a class="hover:text-link dark:hover:text-white px-4 py-3 flex items-centers" href={href}>
+                    <a class="hover:text-primary px-4 py-3 flex items-centers" href={href}>
                       {text}
                     </a>
                   )}
