@@ -60,7 +60,7 @@ export default component$(() => {
           <div class="col-span-12 lg:col-span-4 pr-8 sm:pl-2">
             <div class="flex items-center mb-4">
               <Link
-                class="inline-block font-bold text-[#70C7BA] text-2xl"
+                class="inline-block font-bold text-primary-600 text-2xl"
                 href={"/"}
               >
                 KOIN
@@ -97,7 +97,7 @@ export default component$(() => {
             {social.map(({ label, href, icon: Icon }, index) => (
               <li key={index}>
                 <Link
-                  class="text-gray-500 dark:text-gray-400 hover:bg-[#70C7BA]/35  focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
+                  class="text-gray-500 dark:text-gray-400 hover:bg-[#70C7BA] hover:text-white  focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
                   aria-label={label}
                   title={label}
                   href={href}

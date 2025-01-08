@@ -23,7 +23,7 @@ export default component$(() => {
          
           <h1 class="text-5xl md:text-7xl font-bold leading-tighter tracking-tighter text-primary mb-4 font-heading dark:text-gray-200">
 
-<span class="text-[#70C7BA]">KOIN The King Of Kaspa</span>
+<span class="text-[#70C7BA]">KOIN on Kaspa</span>
 </h1>
             <div class="max-w-3xl mx-auto lg:max-w-none">
             <p class="text-xl mb-6 dark:text-slate-300">
@@ -42,7 +42,7 @@ export default component$(() => {
                   </a>
                 </div>
                 <div class="flex w-full sm:w-auto">
-                  <button class="btn w-full bg-gray-50 dark:bg-transparent">Join Telegram</button>
+                  <button class="btn w-full bg-primary/60 dark:bg-transparent">Join Telegram</button>
                 </div>
               </div>
             </div>

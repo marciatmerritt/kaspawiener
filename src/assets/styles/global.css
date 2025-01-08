@@ -42,3 +42,7 @@
 html {
   scroll-behavior: smooth;
 }
+
+section {
+  scroll-margin-top: 6px; /* Adjust the value based on your offset */
+}

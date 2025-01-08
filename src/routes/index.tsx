@@ -64,6 +64,7 @@ export default component$(() => {
       />
 
 <Image
+id="roadmap"
                 src="/images/roadmap.jpg"
                 layout="constrained"
                 width={1920}
@@ -77,8 +78,9 @@ export default component$(() => {
 
    
      
-      <Stats />
+      <Stats/>
       <Image
+     
                 src="/images/ranks.jpg"
                 layout="constrained"
                 width={1920}
