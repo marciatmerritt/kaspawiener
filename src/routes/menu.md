@@ -3,7 +3,6 @@
 ## [About](#about)
 ## [Roadmap](#roadmap)
 ## [Tokenomics](#tokenomics)
-## [Contact](/contact)
 
 ## Exchanges
 - [KSPR Bot](https://t.me/kspr_home_bot?start=WdRcvw)
