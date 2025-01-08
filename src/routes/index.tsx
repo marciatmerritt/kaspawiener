@@ -84,12 +84,12 @@ id="roadmap"
                 width={1920}
                 height={1080}
                 alt="Qwind Hero Image (Cool dog)"
-                class="mx-auto w-full h-auto drop-shadow-2xl rounded-t-md"
+                class="mx-auto w-full h-auto drop-shadow-2xl rounded-md"
                 priority={true}
                 breakpoints={[320, 480, 640, 768, 1024]}
               />
       {/* <CallToAction /> */}
-      <div class="h-2 bg-gray-50 dark:bg-gray-900 w-full"></div>
+      <div class="h-2 bg-white dark:bg-gray-900 w-full"></div>
       <Image
 id="team"
                 src="/images/team.jpg"
@@ -97,7 +97,7 @@ id="team"
                 width={1920}
                 height={1080}
                 alt="Qwind Hero Image (Cool dog)"
-                class="mx-auto w-full h-auto drop-shadow-2xl rounded-md"
+                class="mx-auto w-full h-auto drop-shadow-2xl rounded-t-md"
                 priority={true}
                 breakpoints={[320, 480, 640, 768, 1024]}
               />
