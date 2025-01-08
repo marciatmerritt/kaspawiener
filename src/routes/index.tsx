@@ -89,8 +89,9 @@ id="roadmap"
                 breakpoints={[320, 480, 640, 768, 1024]}
               />
       {/* <CallToAction /> */}
+      <div class="h-2 bg-gray-50 dark:bg-gray-900 w-full"></div>
       <Image
-id="roadmap"
+id="team"
                 src="/images/team.jpg"
                 layout="constrained"
                 width={1920}
@@ -100,6 +101,7 @@ id="roadmap"
                 priority={true}
                 breakpoints={[320, 480, 640, 768, 1024]}
               />
+                    <div class="h-2 bg-white dark:bg-gray-900 w-full"></div>
     </>
   );
 });
