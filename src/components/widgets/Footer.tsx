@@ -127,7 +127,7 @@ export default component$(() => {
                 </g>
               </g>
             </svg>
-            Donate: kaspa:qz05sf3dfzefkz3dwdnh02ejyd6rtwuee6pck25m0tsyqfgz4ltjqst9wgda9
+            <span class="hidden sm:block">Donate: kaspa:qz05sf3dfzefkz3dwdnh02ejyd6rtwuee6pck25m0tsyqfgz4ltjqst9wgda9 </span>
           </div>
         </div>
       </div>
