@@ -32,22 +32,22 @@ export default component$(() => {
 
                 <div class=" sm:max-w-md m-auto grid grid-cols-2 gap-4 sm:grid-cols-2 lg:grid-cols-2 lg:max-w-7xl">
                   <div class="flex w-full">
-                    <button class="btn w-full bg-blue-200 py-1 rounded-md dark:bg-blue-400">
+                    <button class="btn-primary w-full bg-blue-200 py-1 rounded-md dark:bg-blue-300">
                       Buy $KOIN
                     </button>
                   </div>
                   <div class="flex w-full">
-                    <button class="btn w-full bg-red-200 py-1 rounded-md dark:bg-red-400">
+                    <button class="btn-primary w-full bg-red-200 py-1 rounded-md dark:bg-red-300">
                       Join Telegram
                     </button>
                   </div>
                   <div class="flex w-full">
-                    <button class="btn w-full bg-green-200 p-1 rounded-md dark:bg-green-400">
+                    <button class="btn-primary w-full bg-green-200 p-1 rounded-md dark:bg-green-300">
                       Share on X
                     </button>
                   </div>
                   <div class="flex w-full">
-                    <button class="btn w-full bg-yellow-200 p-1 rounded-md dark:bg-yellow-400">
+                    <button class="btn-primary w-full bg-yellow-200 p-1 rounded-md dark:bg-yellow-300">
                       Partnerships
                     </button>
                   </div>
