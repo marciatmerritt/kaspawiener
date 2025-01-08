@@ -1,8 +1,8 @@
 # Menu
 
-## [About](/about)
-## [Roadmap](/roadmap)
-## [News](/blog)
+## [About](#about)
+## [Roadmap](#roadmap)
+## [Tokenomics](#tokenomics)
 ## [Contact](/contact)
 
 ## Exchanges
