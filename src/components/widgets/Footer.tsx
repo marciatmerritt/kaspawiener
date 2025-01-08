@@ -39,8 +39,7 @@ export default component$(() => {
       title: "Support",
       items: [
         { title: "Docs", href: "#" },
-        { title: "Community Forum", href: "#" },
-        { title: "Professional Services", href: "#" },
+       
 
       ],
     },
@@ -92,7 +91,7 @@ export default component$(() => {
           ))}
 
         </div>
-        <div class="md:flex md:items-center md:justify-between pb-2">
+        <div class=" flex justify-end md:items-center md:justify-between pb-2">
           <ul class="flex mb-2 md:order-1 -ml-2 md:ml-4 md:mb-0">
             {social.map(({ label, href, icon: Icon }, index) => (
               <li key={index}>

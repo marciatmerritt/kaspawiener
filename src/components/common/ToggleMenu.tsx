@@ -22,10 +22,7 @@ export default component$((props: ItemProps) => {
       onClick$={() => {
         store.isExpanded = store.isExpanded ? false : true;
 
-        // TODO:
-        document.body.classList.toggle("overflow-hidden");
-        document.getElementById("header")?.classList.toggle("h-screen");
-        document.querySelector("#header nav")?.classList.toggle("hidden");
+        
       }}
     >
       <IconMenu class={iconClass} />
