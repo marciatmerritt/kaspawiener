@@ -5,7 +5,6 @@ import { Image } from "@unpic/qwik";
 import Hero from "~/components/widgets/Hero";
 import Stats from "~/components/widgets/Stats";
 
-import { qwikSerialized } from "~/utils/qwikSerialized";
 
 // const IconBrandTailwind = qwikSerialized(() => import("../components/icons/IconBrandTailwind"));
 // const IconApps = qwikSerialized(() => import("../components/icons/IconApps"));
