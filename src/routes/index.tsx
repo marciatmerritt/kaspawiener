@@ -91,6 +91,17 @@ id="roadmap"
                 breakpoints={[320, 480, 640, 768, 1024]}
               />
       {/* <CallToAction /> */}
+      <Image
+id="roadmap"
+                src="/images/team.jpg"
+                layout="constrained"
+                width={1920}
+                height={1080}
+                alt="Qwind Hero Image (Cool dog)"
+                class="mx-auto w-full h-auto drop-shadow-2xl rounded-md"
+                priority={true}
+                breakpoints={[320, 480, 640, 768, 1024]}
+              />
     </>
   );
 });
