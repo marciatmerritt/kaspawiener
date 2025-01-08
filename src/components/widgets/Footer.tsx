@@ -116,9 +116,7 @@ export default component$(() => {
      
 
         <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 197.05 196.86" class="hidden sm:block">
-<defs>
- 
-</defs>
+
 <g id="Layer_1-2">
   <g>
     <g>
