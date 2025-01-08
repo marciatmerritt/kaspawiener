@@ -5,7 +5,6 @@ import { Image } from "@unpic/qwik";
 import Hero from "~/components/widgets/Hero";
 import Features from "~/components/widgets/Features";
 import Stats from "~/components/widgets/Stats";
-import CallToAction from "~/components/widgets/CallToAction";
 
 import { qwikSerialized } from "~/utils/qwikSerialized";
 
