@@ -30,22 +30,29 @@ export default component$(() => {
                   Everyone needs some <span class="font-semibold">KOIN</span> in their wallet.
                 </p>
 
-              <div class="max-w-xs sm:max-w-md m-auto flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4 lg:justify-start lg:m-0 lg:max-w-7xl">
-                <div class="flex w-full sm:w-auto">
-                  <a
-                    class="btn btn-primary sm:mb-0 w-full"
-                    href="https://github.com/onwidget/qwind"
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    Buy $KOIN
-                  </a>
-                  
+                <div class=" sm:max-w-md m-auto grid grid-cols-2 gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:max-w-7xl">
+                  <div class="flex w-full">
+                    <button class="btn w-full bg-blue-200 py-1 rounded-md dark:bg-blue-400">
+                      Buy $Froppy
+                    </button>
+                  </div>
+                  <div class="flex w-full">
+                    <button class="btn w-full bg-red-200 py-1 rounded-md dark:bg-red-400">
+                      Join Telegram
+                    </button>
+                  </div>
+                  <div class="flex w-full">
+                    <button class="btn w-full bg-green-200 p-1 rounded-md dark:bg-green-400">
+                      Share on X
+                    </button>
+                  </div>
+                  <div class="flex w-full">
+                    <button class="btn w-full bg-yellow-200 p-1 rounded-md dark:bg-yellow-400">
+                      Partnerships
+                    </button>
+                  </div>
                 </div>
-                <div class="flex w-full sm:w-auto">
-                  <button class="btn btn-primary w-full bg-primary/60 dark:bg-transparent">Join Telegram</button>
-                </div>
-              </div>
+
             </div>
           </div>
           <div class="basis-1/2">
