@@ -60,9 +60,9 @@ export default component$(() => {
           },
         ]}
       /> */}
-
+<section id="roadmap">
 <Image
-id="roadmap"
+
                 src="/images/roadmap.jpg"
                 layout="constrained"
                 width={1920}
@@ -72,11 +72,13 @@ id="roadmap"
                 priority={true}
                 breakpoints={[320, 480, 640, 768, 1024]}
               />
+              </section>
 
 
    
-     
+     <section id="tokenomics">
       <Stats/>
+      </section>
       <Image
      
                 src="/images/ranks.jpg"
@@ -90,8 +92,8 @@ id="roadmap"
               />
       {/* <CallToAction /> */}
       <div class="h-2 bg-white dark:bg-gray-900 w-full"></div>
-      <Image
-id="team"
+      <section id="team">
+      <Image id="team"
                 src="/images/team.jpg"
                 layout="constrained"
                 width={1920}
@@ -101,6 +103,7 @@ id="team"
                 priority={true}
                 breakpoints={[320, 480, 640, 768, 1024]}
               />
+              </section>
                     <div class="h-2 bg-white dark:bg-gray-900 w-full"></div>
     </>
   );

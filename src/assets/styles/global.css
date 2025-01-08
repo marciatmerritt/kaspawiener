@@ -44,5 +44,5 @@ html {
 }
 
 section {
-  scroll-margin-top: 6px; /* Adjust the value based on your offset */
+  scroll-margin-top: 40px; /* Adjust the value based on your offset */
 }
