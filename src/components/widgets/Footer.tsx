@@ -112,7 +112,7 @@ export default component$(() => {
 
       
 
-        <div class="text-sm text-gray-700 mr-4 pb-2 dark:text-slate-400 flex items-center">
+        <div class="text-xs sm:text-sm text-gray-700 mr-4 pb-2 dark:text-slate-400 flex items-center">
      
 
         <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 197.05 196.86" class="hidden sm:block">
