@@ -68,7 +68,7 @@ id="roadmap"
                 width={1920}
                 height={1080}
                 alt="Qwind Hero Image (Cool dog)"
-                class="mx-auto w-full h-auto drop-shadow-2xl rounded-md"
+                class="mx-auto w-full h-auto rounded-md"
                 priority={true}
                 breakpoints={[320, 480, 640, 768, 1024]}
               />
@@ -84,7 +84,7 @@ id="roadmap"
                 width={1920}
                 height={1080}
                 alt="Qwind Hero Image (Cool dog)"
-                class="mx-auto w-full h-auto drop-shadow-2xl rounded-md"
+                class="mx-auto w-full h-auto rounded-md"
                 priority={true}
                 breakpoints={[320, 480, 640, 768, 1024]}
               />
@@ -97,7 +97,7 @@ id="team"
                 width={1920}
                 height={1080}
                 alt="Qwind Hero Image (Cool dog)"
-                class="mx-auto w-full h-auto drop-shadow-2xl rounded-t-md"
+                class="mx-auto w-full h-auto rounded-t-md"
                 priority={true}
                 breakpoints={[320, 480, 640, 768, 1024]}
               />
