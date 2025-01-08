@@ -6,7 +6,7 @@ const coverImage =
 
 export default component$(() => {
   return (
-    <div class="relative sm:bg-white/85 bg-white/95 sm:dark:bg-gray-900/90 dark:bg-gray-900/95 overflow-hidden flex items-center justify-center mx-2 mt-1.5 mb-2 rounded-md">
+    <div class="relative sm:bg-white/85 bg-white/95 sm:dark:bg-gray-900/90 dark:bg-gray-900/95 overflow-hidden flex items-center justify-center mx-1.5 mt-1 mb-2 rounded-md">
 
     <section class="relative not-prose">
       <div class="absolute inset-0 pointer-events-none" aria-hidden="true"></div>
