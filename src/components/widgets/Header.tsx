@@ -37,7 +37,7 @@ export default component$(() => {
           </a>
           <div class="flex items-center md:hidden">
           <a
-                        class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
+                        class="text-gray-500 dark:text-gray-400 hover:text-white hover:bg-primary focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
                         aria-label={"Telegram"}
                         title={"Telegram"}
                         href={"https://t.me/+Zhe2fvsS1WQyNTA0"}
@@ -46,7 +46,7 @@ export default component$(() => {
                       </a>
 
                       <a
-                        class="text-gray-500 dark:text-gray-400 mr-2 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
+                        class="text-gray-500 dark:text-gray-400 mr-2 hover:bg-primary hover:text-white  focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
                         aria-label={"X"}
                         title={"X"}
                         href={"https://x.com/kaskrc20token"}

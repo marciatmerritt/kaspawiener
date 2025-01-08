@@ -17,13 +17,13 @@ export default component$(() => {
          
          
           <a href="https://twitter.com/intent/retweet?tweet_id=1874968926096171242" class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-6 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700" role="alert">
-                <span class="text-xs bg-primary-600 rounded-full text-white px-4 py-1.5 mr-3">New</span> <span class="text-sm font-medium">Chainge listing coming soon!</span>
+                <span class="text-xs bg-primary rounded-full text-white px-4 py-1.5 mr-3">New</span> <span class="text-sm font-medium">Chainge listing coming soon!</span>
                 <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
               </a>
          
           <h1 class="text-5xl md:text-7xl font-bold leading-tighter tracking-tighter text-primary mb-4 font-heading dark:text-gray-200">
 
-<span class="text-[#70C7BA]"> <span class="text-primary-600">KOIN</span> on Kaspa</span>
+<span class="text-primary-600">KOIN <span class="text-primary">on</span> Kaspa</span>
 </h1>
             <div class="max-w-3xl mx-auto lg:max-w-none">
             <p class="text-xl mb-6 dark:text-slate-300">
@@ -42,7 +42,7 @@ export default component$(() => {
                   </a>
                 </div>
                 <div class="flex w-full sm:w-auto">
-                  <button class="btn w-full bg-primary/60 dark:bg-transparent">Join Telegram</button>
+                  <button class="btn btn-primary w-full bg-primary/60 dark:bg-transparent">Join Telegram</button>
                 </div>
               </div>
             </div>
