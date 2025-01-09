@@ -27,7 +27,6 @@ export default component$(() => {
     isScrolling: false,
   });
 
-  const { menu } = useContent();
 
   return (
     <header
