@@ -54,9 +54,9 @@ export default component$(() => {
 
   return (
     <footer class="py-1.5 px-1.5 bg-gradient-to-r from-primary-600 via-primary to-primary-600">
-      <div class="max-w-8xl mx-auto px-4 bg-white/90 dark:bg-gray-900 shadow-lg border-radius-dot-25 rounded-lg">
-        <div class="grid grid-cols-12 gap-4 gap-y-4 sm:gap-8 pt-6 pb-2 md:py-12">
-          <div class="col-span-12 lg:col-span-4 pr-8 sm:pl-2">
+      <div class="max-w-8xl mx-auto px-6 bg-white/90 dark:bg-gray-900 shadow-lg border-radius-dot-25 rounded-lg">
+        <div class="grid grid-cols-12 gap-4 gap-y-4 sm:gap-8 pt-6 pb-2 md:pt-8 pb-4">
+          <div class="col-span-12 lg:col-span-4 pr-8">
             <div class="flex items-center mb-4">
               <Link
                 class="inline-block font-bold text-primary-600 hover:text-primary text-2xl"
@@ -91,12 +91,12 @@ export default component$(() => {
           ))}
 
         </div>
-        <div class=" flex justify-end md:items-center md:justify-between pb-2">
-          <ul class="flex mb-2 md:order-1 -ml-2 md:ml-4 md:mb-0">
+           <div class="md:flex md:items-center md:justify-between pb-3 md:py-4">
+          <ul class="flex mb-2 md:order-1 -ml-2 md:ml-4 md:mb-0 justify-end">
             {social.map(({ label, href, icon: Icon }, index) => (
               <li key={index}>
                 <Link
-                  class="text-gray-500 dark:text-gray-400 hover:bg-[#70C7BA] hover:text-white  focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
+                  class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
                   aria-label={label}
                   title={label}
                   href={href}
@@ -105,28 +105,10 @@ export default component$(() => {
                 </Link>
               </li>
             ))}
-            <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" />
-
           </ul>
-
-
-
-          <div class="text-sm sm:text-sm text-gray-700 mr-4 pb-2 dark:text-slate-400 flex items-center">
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 197.05 196.86" class="hidden sm:block">
-
-              <g id="Layer_1-2">
-                <g>
-                  <g>
-                    <circle class="fill-[#fff]" cx="98.52" cy="98.43" r="41.03"></circle>
-                    <path class="fill-[#6fc7ba]" d="m149.42,76.34c-2.8-6.76-7.22-13.03-12.32-18.12-5.08-5.1-11.61-8.91-18.38-11.71-6.51-2.71-13.78-4.07-21.28-4.07s-15.21.27-21.72,2.98c-6.76,2.8-12.42,8.12-17.51,13.22-5.1,5.1-11.02,10.51-13.82,17.26-2.71,6.53-1.83,14.48-1.83,21.99s.55,14.85,3.26,21.38c2.8,6.76,8.52,11.54,13.6,16.64,5.1,5.1,9.71,11.18,16.47,13.98,6.53,2.71,14.04,4.55,21.54,4.55s14.87-2.22,21.4-4.94c6.75-2.8,12.86-7.18,17.96-12.27,5.1-5.1,9.19-11.32,12.01-18.08,2.7-6.51,5.79-13.76,5.79-21.26s-2.48-15-5.19-21.53Zm-36.26,53.49l-11.88-1.75,3.39-23-24.87,19.16-7.32-9.56,21.82-16.8-21.82-16.81,7.32-9.56,24.87,19.16-3.39-22.99,11.88-1.77,4.73,31.98-4.73,31.96Z"></path>
-                  </g>
-                  <rect class="fill-none" x=".09" y="-.09" width="196.86" height="197.05" transform="translate(196.96 -.09) rotate(90)"></rect>
-                </g>
-              </g>
-            </svg>
-            <span class="hidden sm:block">Donate: kaspa:qz05sf3dfzefkz3dwdnh02ejyd6rtwuee6pck25m0tsyqfgz4ltjqst9wgda9 </span>
+          <div class="text-sm text-gray-700 mr-4 pb-2 dark:text-slate-400 flex items-center">
+     
+            <span class="hidden md:inline">Donate: kaspa:qz05sf3dfzefkz3dwdnh02ejyd6rtwuee6pck25m0tsyqfgz4ltjqst9wgda9</span>
           </div>
         </div>
       </div>

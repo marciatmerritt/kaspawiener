@@ -25,6 +25,7 @@ export default component$(() => {
   const store = useStore({
     isScrolling: false,
   });
+  
 
 
   return (
