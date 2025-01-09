@@ -19,10 +19,11 @@ export default component$(() => {
   return (
     <>
       <Hero />
+ 
       <Features id="about"
         highlight="Exchanges"
         title="Where to Buy KOIN"
-        subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae."
+        subtitle="We're currently listed on Chainge, Kaspiano and KSPR Bot with more exchanges coming soon."
         items={[
           {
             title: "Qwik + Tailwind CSS Integration",

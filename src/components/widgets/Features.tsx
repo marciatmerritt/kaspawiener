@@ -1,9 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import { twMerge } from "tailwind-merge";
 import { Headline } from "~/components/ui/Headline";
-import { ItemGrid } from "~/components/ui/ItemGrid";
-
-import IconStar from "~/components/icons/IconStar";
 
 interface Item {
   title?: string;
@@ -34,22 +31,24 @@ export default component$((props: Props) => {
       </div>
       <div
         class={twMerge(
-          "relative mx-auto max-w-5xl px-4 md:px-6 pb-16 md:pb-20 lg:pb-24 text-primary",
+          "relative mx-auto max-w-5xl px-4 md:px-6 pb-16 md:pb-20 lg:pb-24",
           classes?.container,
           isDark ? "dark" : ""
         )}
       >
         <Headline title={title} subtitle={subtitle} highlight={highlight} classes={classes?.headline} />
-        <ItemGrid
-          items={items}
-          defaultIcon={IconStar}
-          classes={{
-            container: "md:grid-cols-2",
-            title: "md:text-[1.3rem]",
-            icon: "text-primary bg-secondary-500 dark:bg-secondary-700 rounded-full w-10 h-10 p-2 md:w-12 md:h-12 md:p-3 mr-4",
-            ...(classes?.items ?? {}),
-          }}
-        />
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+  <a href="https://t.me/kspr_home_bot?start=WdRcvw" target="_blank">
+    <img width="720" height="332" src="/images/ksprbot.png" alt="KSPR Bot" class="w-full h-48 object-cover rounded-md hover:opacity-80"/>
+  </a>
+  <a href="https://krc20.chainge.finance" target="_blank">
+    <img width="2400" height="1260" src="/images/chainge.png" alt="Chainge" class="w-full h-48 object-cover rounded-md hover:opacity-80"/>
+  </a>
+  <a href="https://www.kaspiano.com/token/koin?ref=koin" target="_blank">
+    <img width="540" height="540" src="/images/kaspiano.png" alt="Kaspiano" class="w-full h-48 object-cover rounded-md hover:opacity-80"/>
+  </a>
+  
+</div>
       </div>
     </section>
   );
