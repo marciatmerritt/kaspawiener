@@ -91,7 +91,7 @@ export default component$(() => {
           ))}
 
         </div>
-           <div class="md:flex md:items-center md:justify-between pb-3 md:py-4">
+           <div class="md:flex md:items-center md:justify-between pb-3 md:pt-8">
           <ul class="flex mb-2 md:order-1 -ml-2 md:ml-4 md:mb-0 justify-end">
             {social.map(({ label, href, icon: Icon }, index) => (
               <li key={index}>
