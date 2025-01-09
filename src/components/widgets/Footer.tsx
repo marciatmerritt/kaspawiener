@@ -105,7 +105,9 @@ export default component$(() => {
                 </Link>
               </li>
             ))}
+             <ToggleTheme/>
           </ul>
+         
           <div class="text-sm text-gray-700 mr-4 pb-2 dark:text-slate-400 flex items-center">
      
             <span class="hidden md:inline">Donate: kaspa:qz05sf3dfzefkz3dwdnh02ejyd6rtwuee6pck25m0tsyqfgz4ltjqst9wgda9</span>
