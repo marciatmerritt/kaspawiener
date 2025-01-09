@@ -1,8 +1,8 @@
 # Menu
 
-## [Roadmap](#roadmap)
-## [Tokenomics](#tokenomics)
-## [Team](#team)
+## [Roadmap](/roadmap)
+## [Tokenomics](/tokenomics)
+## [Team](/team)
 
 ## Exchanges
 - [KSPR Bot](https://t.me/kspr_home_bot?start=WdRcvw)
