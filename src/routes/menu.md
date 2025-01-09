@@ -1,6 +1,6 @@
 # Menu
 
-## [Roadmap](/roadmap)
+## [Roadmap](#roadmap)
 ## [Tokenomics](#tokenomics)
 ## [Team](#team)
 

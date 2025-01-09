@@ -10,9 +10,9 @@ export default component$(() => {
     {
       title: "About",
       items: [
-        { title: "Team", href: "/about" },
-        { title: "Roadmap", href: "/roadmap" },
-        { title: "Tokenomics", href: "#" },
+        { title: "Team", href: "#team" },
+        { title: "Roadmap", href: "#roadmap" },
+        { title: "Tokenomics", href: "#tokenomics" },
 
       ],
     },
@@ -59,7 +59,7 @@ export default component$(() => {
           <div class="col-span-12 lg:col-span-4 pr-8 sm:pl-2">
             <div class="flex items-center mb-4">
               <Link
-                class="inline-block font-bold text-primary-600 text-2xl"
+                class="inline-block font-bold text-primary-600 hover:text-primary text-2xl"
                 href={"/"}
               >
                 KOIN
