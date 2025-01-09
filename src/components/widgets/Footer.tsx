@@ -93,7 +93,7 @@ export default component$(() => {
 
         </div>
         <div class="md:flex md:items-center md:justify-between md:pt-8 md:pb-2">
-          <ul class="flex mb-2 pt-4 md:order-1 -ml-2 md:ml-4 md:mb-0 justify-end">
+          <ul class="flex md:order-1 -ml-2 md:ml-4 md:mb-0 justify-end">
             {social.map(({ label, href, icon: Icon }, index) => (
               <li key={index}>
                 <Link
@@ -109,7 +109,7 @@ export default component$(() => {
             <ToggleTheme />
           </ul>
 
-          <div class="text-sm text-gray-700 mr-4 pb-2 dark:text-slate-400 flex items-center">
+          <div class="text-sm text-gray-700 mr-4 dark:text-slate-400 flex items-center">
 
             Donate<span class="text-primary mx-1">♥</span><span class="hidden sm:block">kaspa:qz05sf3dfzefkz3dwdnh02ejyd6rtwuee6pck25m0tsyqfgz4ltjqst9wgda9</span>
           </div>
