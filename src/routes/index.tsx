@@ -13,7 +13,7 @@ export default component$(() => {
     <>
       <Hero />
  
-      <Features id="about"
+      <Features id="Exchanges"
         highlight="Exchanges"
         title="Where to Buy KOIN"
         subtitle="We're currently listed on Chainge, Kaspiano and KSPR Bot with more exchanges coming soon."
