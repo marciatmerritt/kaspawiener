@@ -36,9 +36,10 @@ export default component$(() => {
       ],
     },
     {
-      title: "Support",
+      title: "Kaspa",
       items: [
-        { title: "Docs", href: "#" },
+        { title: "Docs", href: "https://kaspa.org/" },
+        { title: "Explorer", href: "https://explorer.kaspa.org/?_gl=1*zucsjw*_ga*MTU0NTUwNzk2NC4xNzM0MTE4NTEw*_ga_YSMK4G52CC*MTczNjQwNzQ0Ny4yMi4xLjE3MzY0MDc4NjEuMC4wLjA." },
        
 
       ],
