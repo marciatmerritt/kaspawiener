@@ -31,7 +31,7 @@ export default component$(() => {
       items: [
         { title: "Kas.fyi", href: "https://kas.fyi/token/krc20/KOIN" },
         { title: "KRC-20", href: "https://kasplex.org/" },
-       
+
 
       ],
     },
@@ -40,7 +40,7 @@ export default component$(() => {
       items: [
         { title: "Docs", href: "https://kaspa.org/" },
         { title: "Explorer", href: "https://explorer.kaspa.org/?_gl=1*zucsjw*_ga*MTU0NTUwNzk2NC4xNzM0MTE4NTEw*_ga_YSMK4G52CC*MTczNjQwNzQ0Ny4yMi4xLjE3MzY0MDc4NjEuMC4wLjA." },
-       
+
 
       ],
     },
@@ -92,7 +92,7 @@ export default component$(() => {
           ))}
 
         </div>
-           <div class="md:flex md:items-center md:justify-between md:pt-8 md:pb-2">
+        <div class="md:flex md:items-center md:justify-between md:pt-8 md:pb-2">
           <ul class="flex mb-2 pt-4 md:order-1 -ml-2 md:ml-4 md:mb-0 justify-end">
             {social.map(({ label, href, icon: Icon }, index) => (
               <li key={index}>
@@ -106,12 +106,12 @@ export default component$(() => {
                 </Link>
               </li>
             ))}
-             <ToggleTheme/>
+            <ToggleTheme />
           </ul>
-         
-          <div class="text-sm text-gray-700 mr-4 pb-2 dark:text-slate-400 flex items-center">
-     
-            <span class="hidden md:inline">Donate<span class="text-primary mx-1">♥</span>kaspa:qz05sf3dfzefkz3dwdnh02ejyd6rtwuee6pck25m0tsyqfgz4ltjqst9wgda9</span>
+
+          <div class="text-sm text-gray-700 pb-2 dark:text-slate-400 flex items-center">
+
+           <span class="text-xs -ml-4 sm:block">kaspa:qz05sf3dfzefkz3dwdnh02ejyd6rtwuee6pck25m0tsyqfgz4ltjqst9wgda9</span>
           </div>
         </div>
       </div>
