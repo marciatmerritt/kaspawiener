@@ -21,7 +21,7 @@ export default component$(() => {
       items: [
         { title: "KSPR Bot", href: "https://t.me/kspr_home_bot?start=WdRcvw" },
         { title: "Kaspiano", href: "https://www.kaspiano.com/token/koin?ref=koin" },
-        { title: "Chainge (coming soon)", href: "https://krc20.chainge.finance/" },
+        { title: "Chainge", href: "https://krc20.chainge.finance/" },
 
       ],
     },
@@ -30,8 +30,8 @@ export default component$(() => {
       title: "Resources",
       items: [
         { title: "Kas.fyi", href: "https://kas.fyi/token/krc20/KOIN" },
-        { title: "Partners", href: "#" },
-        { title: "Atom", href: "#" },
+        { title: "KRC-20", href: "https://kasplex.org/" },
+       
 
       ],
     },
