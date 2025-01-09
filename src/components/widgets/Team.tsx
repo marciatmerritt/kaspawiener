@@ -1,5 +1,6 @@
 import { component$ } from '@builder.io/qwik';
 import { Image } from "@unpic/qwik";
+import Stats from './Stats';
 
 
 export default component$(() => {
@@ -16,6 +17,8 @@ export default component$(() => {
     class="w-full h-auto object-cover rounded-sm"
     priority={true}
   />
+
+  <Stats/>
   
   </section>
   </div>
