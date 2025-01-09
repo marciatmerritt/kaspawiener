@@ -45,7 +45,7 @@ export default component$((props: Props) => {
     <img width="2400" height="1260" src="/images/chainge.png" alt="Chainge" class="w-full h-48 object-cover rounded-md hover:opacity-80"/>
   </a>
   <a href="https://www.kaspiano.com/token/koin?ref=koin" target="_blank">
-    <img width="540" height="540" src="/images/kaspiano.png" alt="Kaspiano" class="w-full h-48 object-cover rounded-md hover:opacity-80"/>
+    <img width="540" height="540" src="/images/kaspacom.jpg" alt="Kaspiano" class="w-full h-48 object-cover rounded-md hover:opacity-80"/>
   </a>
   
 </div>
