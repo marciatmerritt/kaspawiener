@@ -58,7 +58,7 @@ export default component$(() => {
       <div class="max-w-8xl mx-auto px-5 sm:px-6 bg-white/90 dark:bg-gray-900 shadow-lg border-radius-dot-25 rounded-lg">
         <div class="grid grid-cols-12 gap-4 gap-y-4 sm:gap-8 pt-6 md:pt-8 pb-2">
           <div class="col-span-12 lg:col-span-4 pr-8">
-            <div class="flex items-center mb-4">
+            <div class="flex items-center mb-1">
               <Link
                 class="inline-block font-bold text-primary-600 hover:text-primary text-2xl"
                 href={"/"}
@@ -92,8 +92,8 @@ export default component$(() => {
           ))}
 
         </div>
-           <div class="md:flex md:items-center md:justify-between pb-3 md:pt-8">
-          <ul class="flex mb-2 md:order-1 -ml-2 md:ml-4 md:mb-0 justify-end">
+           <div class="md:flex md:items-center md:justify-between md:pt-8 md:pb-2">
+          <ul class="flex mb-2 pt-4 md:order-1 -ml-2 md:ml-4 md:mb-0 justify-end">
             {social.map(({ label, href, icon: Icon }, index) => (
               <li key={index}>
                 <Link
