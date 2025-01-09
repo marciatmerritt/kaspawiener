@@ -67,7 +67,7 @@ export default component$(() => {
               </Link>
             </div>
 
-            <div class="text-sm text-gray-600 dark:text-gray-400">
+            <div class="text-sm mb-2 text-gray-600 dark:text-gray-400">
               Everyone needs some KOIN in their wallet.
             </div>
           </div>
