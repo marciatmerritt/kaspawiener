@@ -55,8 +55,8 @@ export default component$(() => {
 
   return (
     <footer class="py-1.5 px-1.5 bg-gradient-to-r from-primary-600 via-primary to-primary-600">
-      <div class="max-w-8xl mx-auto px-6 bg-white/90 dark:bg-gray-900 shadow-lg border-radius-dot-25 rounded-lg">
-        <div class="grid grid-cols-12 gap-4 gap-y-4 sm:gap-8 pt-6 pb-2 md:pt-8 pb-4">
+      <div class="max-w-8xl mx-auto px-5 sm:px-6 bg-white/90 dark:bg-gray-900 shadow-lg border-radius-dot-25 rounded-lg">
+        <div class="grid grid-cols-12 gap-4 gap-y-4 sm:gap-8 pt-6 md:pt-8 pb-2">
           <div class="col-span-12 lg:col-span-4 pr-8">
             <div class="flex items-center mb-4">
               <Link
