@@ -17,8 +17,18 @@ export default component$(() => {
     class="w-full h-auto object-cover rounded-sm"
     priority={true}
   />
-
-  <Stats/>
+<div class="h-2 bg-gray-50 dark:bg-gray-900"></div>
+<Image
+     
+     src="/images/ranks.jpg"
+     layout="constrained"
+     width={1920}
+     height={1080}
+     alt="Qwind Hero Image (Cool dog)"
+     class="mx-auto w-full h-auto rounded-md"
+     priority={true}
+     breakpoints={[320, 480, 640, 768, 1024]}
+   />
   
   </section>
   </div>
