@@ -33,9 +33,8 @@ export default component$(() => {
 
                 <div class=" sm:max-w-md m-auto grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-2 lg:max-w-7xl">
                   <div class="flex w-full">
-                  <a href="https://example.com" 
-   target="_blank" 
-   rel="noopener noreferrer" 
+                  <a href="#Exchanges" 
+
    class="btn-primary w-full bg-primary-600 hover:bg-primary dark:bg-primary-600 py-2 rounded-md text-center block">
   Buy $KOIN
 </a>
@@ -49,16 +48,7 @@ export default component$(() => {
 </a>
 
                   </div>
-                  {/* <div class="flex w-full">
-                    <button class="btn-primary w-full bg-primary-600 p-1 rounded-md ">
-                      Share on X
-                    </button>
-                  </div>
-                  <div class="flex w-full">
-                    <button class="btn-primary w-full bg-primary-800 p-1 rounded-md ">
-                      Partnerships
-                    </button>
-                  </div> */}
+          
                 </div>
 
             </div>
