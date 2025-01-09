@@ -1,26 +1,28 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import { Image } from "@unpic/qwik";
+import Features from "~/components/widgets/Features";
 
 import Hero from "~/components/widgets/Hero";
 import Stats from "~/components/widgets/Stats";
 
 
-// const IconBrandTailwind = qwikSerialized(() => import("../components/icons/IconBrandTailwind"));
-// const IconApps = qwikSerialized(() => import("../components/icons/IconApps"));
-// const IconRocket = qwikSerialized(() => import("../components/icons/IconRocket"));
-// const IconBrandGoogle = qwikSerialized(() => import("../components/icons/IconBrandGoogle"));
-// const IconBulb = qwikSerialized(() => import("../components/icons/IconBulb"));
+const IconBrandTailwind = qwikSerialized(() => import("../components/icons/IconBrandTailwind"));
+const IconApps = qwikSerialized(() => import("../components/icons/IconApps"));
+const IconRocket = qwikSerialized(() => import("../components/icons/IconRocket"));
+const IconBrandGoogle = qwikSerialized(() => import("../components/icons/IconBrandGoogle"));
+const IconBulb = qwikSerialized(() => import("../components/icons/IconBulb"));
 
 import { SITE } from "~/config.mjs";
+import { qwikSerialized } from "~/utils/qwikSerialized";
 
 export default component$(() => {
   return (
     <>
       <Hero />
-      {/* <Features id="about"
-        highlight="Features"
-        title="What you get with Qwind"
+      <Features id="about"
+        highlight="Exchanges"
+        title="Where to Buy KOIN"
         subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae."
         items={[
           {
@@ -46,20 +48,9 @@ export default component$(() => {
               "Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.",
             icon: IconRocket,
           },
-          {
-            title: "Search Engine Optimization (SEO)",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
-            icon: IconBrandGoogle,
-          },
-          {
-            title: "Open to new ideas and contributions",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
-            icon: IconBulb
-          },
+          
         ]}
-      /> */}
+      />
 <section id="roadmap">
 <Image
 
