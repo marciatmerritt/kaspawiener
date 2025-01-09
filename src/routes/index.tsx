@@ -6,14 +6,7 @@ import Features from "~/components/widgets/Features";
 import Hero from "~/components/widgets/Hero";
 import Stats from "~/components/widgets/Stats";
 
-
-const IconBrandTailwind = qwikSerialized(() => import("../components/icons/IconBrandTailwind"));
-const IconApps = qwikSerialized(() => import("../components/icons/IconApps"));
-const IconRocket = qwikSerialized(() => import("../components/icons/IconRocket"));
-
-
 import { SITE } from "~/config.mjs";
-import { qwikSerialized } from "~/utils/qwikSerialized";
 
 export default component$(() => {
   return (
@@ -25,31 +18,7 @@ export default component$(() => {
         title="Where to Buy KOIN"
         subtitle="We're currently listed on Chainge, Kaspiano and KSPR Bot with more exchanges coming soon."
         items={[
-          {
-            title: "Qwik + Tailwind CSS Integration",
-            description:
-              "A seamless integration between two great frameworks that offer high productivity, performance and versatility.",
-            icon: IconBrandTailwind,
-          },
-          {
-            title: "Ready-to-use Components",
-            description:
-              "Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...",
-            icon: IconApps,
-          },
-          {
-            title: "Best Practices",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
-              icon: IconApps,
-          },
-          {
-            title: "Excellent Page Speed",
-            description:
-              "Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.",
-            icon: IconRocket,
-          },
-          
+        
         ]}
       />
 <section id="roadmap">
