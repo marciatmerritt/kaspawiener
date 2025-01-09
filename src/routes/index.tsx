@@ -10,8 +10,7 @@ import Stats from "~/components/widgets/Stats";
 const IconBrandTailwind = qwikSerialized(() => import("../components/icons/IconBrandTailwind"));
 const IconApps = qwikSerialized(() => import("../components/icons/IconApps"));
 const IconRocket = qwikSerialized(() => import("../components/icons/IconRocket"));
-const IconBrandGoogle = qwikSerialized(() => import("../components/icons/IconBrandGoogle"));
-const IconBulb = qwikSerialized(() => import("../components/icons/IconBulb"));
+
 
 import { SITE } from "~/config.mjs";
 import { qwikSerialized } from "~/utils/qwikSerialized";
@@ -41,6 +40,7 @@ export default component$(() => {
             title: "Best Practices",
             description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
+              icon: IconApps,
           },
           {
             title: "Excellent Page Speed",
