@@ -48,7 +48,7 @@ export default component$(() => {
 
   const social = [
     { label: "Twitter", icon: IconTwitter, href: "https://x.com/kaskrc20token" },
-    { label: "Instagram", icon: IconTelegram, href: "https://t.me/+Zhe2fvsS1WQyNTA0" },
+    { label: "Telegram", icon: IconTelegram, href: "https://t.me/+Zhe2fvsS1WQyNTA0" },
 
   ];
 
