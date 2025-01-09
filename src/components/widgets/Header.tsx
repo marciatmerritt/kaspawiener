@@ -4,28 +4,17 @@ import IconChevronDown from "../icons/IconChevronDown";
 import KoinLogo from "../common/KoinLogo";
 import IconTelegram from "../icons/IconTelegram";
 import IconTwitter from "../icons/IconTwitter";
+import { useContent } from "@builder.io/qwik-city";
 
-const desktopmenu = {
-  items: [
-    { text: "Roadmap", href: "#roadmap" },
-    { text: "Tokenomics", href: "#tokenomics" },
-    { text: "Team", href: "#team" },
-    {
-      text: "Exchanges",
-      items: [
-        { text: "KSPR Bot", href: "https://t.me/kspr_home_bot?start=WdRcvw" },
-        { text: "Kaspiano", href: "https://www.kaspiano.com/token/koin?ref=koin" },
-        { text: "Chainge", href: "https://krc20.chainge.finance" },
-      ],
-    },
-  ],
-};
+
 
 export default component$(() => {
+  
   const store = useStore({
     isScrolling: false,
   });
   
+  const { menu } = useContent();
 
 
   return (
@@ -76,9 +65,9 @@ export default component$(() => {
           class="items-center w-full md:w-auto hidden md:flex text-default overflow-y-auto overflow-x-hidden md:overflow-y-visible md:overflow-x-auto md:mx-5"
           aria-label="Main navigation"
         >
-          {desktopmenu && desktopmenu.items ? (
+          {menu && menu.items ? (
             <ul class="flex flex-col md:flex-row md:self-center w-full md:w-auto text-xl md:text-[0.9375rem] tracking-[0.01rem] font-medium">
-              {desktopmenu.items.map(({ text, href, items }, key) => (
+              {menu.items.map(({ text, href, items }, key) => (
                 <li key={key} class={items?.length ? "dropdown" : ""}>
                   {items?.length ? (
                     <>

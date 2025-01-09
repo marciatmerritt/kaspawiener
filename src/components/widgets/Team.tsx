@@ -8,7 +8,7 @@ export default component$(() => {
     <section class="relative rounded-md not-prose mx-1 my-1 bg-white/75 dark:bg-gray-900/90">
 
     <Image
-    src="/images/roadmap.jpg"
+    src="/images/team.jpg"
     layout="constrained"
     width={1920}
     height={1080}
