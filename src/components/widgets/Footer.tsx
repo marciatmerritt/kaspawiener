@@ -21,7 +21,7 @@ export default component$(() => {
       items: [
         { title: "KSPR Bot", href: "https://t.me/kspr_home_bot?start=WdRcvw" },
         { title: "Kaspiano", href: "https://www.kaspiano.com/token/koin?ref=koin" },
-        { title: "Chainge", href: "https://krc20.chainge.finance/" },
+        { title: "Chainge", href: "https://krc20.chainge.finance/liquidity?symbol=KOIN" },
 
       ],
     },
