@@ -23,7 +23,8 @@ export default component$(() => {
             </h1>
             <div class="max-w-3xl mx-auto lg:max-w-none">
               <p class="text-xl mb-6 dark:text-slate-300">
-                Join the fun with <span class="font-semibold">Froppy</span>—the hottest memecoin on the Kaspa chain. Fast, fun, and ready for the next big trend.
+              Transform your online presence with our custom web design and development services. We help businesses create stunning, fast, and secure websites.
+
               </p>
 
               <div class=" sm:max-w-md m-auto grid grid-cols-1 border-radius-dot-25 gap-4 sm:grid-cols-2 lg:grid-cols-2 lg:max-w-7xl">

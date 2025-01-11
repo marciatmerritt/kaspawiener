@@ -10,6 +10,7 @@ export default component$(() => {
   return (
     <>
       <Hero />
+      
  
       {/* <Features id="Exchanges"
         highlight="Exchanges"
