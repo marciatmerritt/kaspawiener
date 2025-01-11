@@ -9,9 +9,9 @@ export default component$(() => {
     <div>
     <PageWrapper>
       <Headline
-        title={"Feedback from our Clients"}
-        subtitle={"Hear what some of our past clients have to say about the work we've done"}
-        highlight={"Reviews"}
+        title={"Flexible Pricing Options"}
+        subtitle={"Choose a one-time payment or pay it off over a longer period"}
+        highlight={"Pricing"}
       />
       {/* Page content goes here */}
     </PageWrapper>
