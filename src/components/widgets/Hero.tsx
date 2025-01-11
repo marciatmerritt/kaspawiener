@@ -6,68 +6,60 @@ const coverImage =
 
 export default component$(() => {
   return (
-    <div class="relative bg-white/80 dark:bg-gray-900/80 overflow-hidden flex items-center justify-center mx-1.5 mt-1 mb-2 rounded-md">
+    <div class="relative bg-white/80 dark:bg-gray-900/80 overflow-hidden flex items-center justify-center mx-1.5 mt-1 mb-2 border-radius-dot-25 rounded-lg">
 
-<section class="relative rounded-md not-prose mx-1.5 my-1.5 bg-white/90 dark:bg-gray-900/90">
 
-      <div class="absolute inset-0 pointer-events-none" aria-hidden="true"></div>
-      <div class="relative max-w-7xl mx-auto px-4 sm:px-6">
-        <div class="pt-0 pointer-events-none"></div>
-        <div class="py-8 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
-          <div class="basis-1/2 text-center lg:text-left pb-10 md:pb-16 mx-auto">
-         
-         
-          <a href="https://krc20.chainge.finance/liquidity?symbol=KOIN" class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-5 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700" role="alert">
-                <span class="text-xs bg-primary rounded-full text-white px-4 py-1.5 mr-3">New</span> <span class="text-sm font-medium">Add Liquidity on Chainge!</span>
-                <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
-              </a>
-              
-          <h1 class="text-5xl md:text-7xl font-bold leading-tighter tracking-tighter text-primary mb-4 font-heading dark:text-gray-200">
+    <section class="relative rounded-lg  md:-mt-[76px] not-prose mx-1.5 my-1.5 bg-white/90 dark:bg-gray-900/90 border-radius-dot-25">
 
-<span class="text-primary-600">KOIN The King Of Kaspa</span>
-</h1>
+
+
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-10 ">
+        <div class="pt-0 md:pt-[76px] pointer-events-none"></div>
+        <div class="pt-6 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
+          <div class="basis-1/2 text-center lg:text-left pb-8 md:pb-16 mx-auto">
+          <a href="https://twitter.com/intent/retweet?tweet_id=1874968926096171242" class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-6 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700" role="alert">
+          <span class="text-xs bg-primary rounded-full text-white px-4 py-1.5 mr-3">New</span> <span class="text-sm font-medium">Free Website & SEO Audit!</span> 
+          <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+      </a>
+            <h1 class="text-5xl md:text-7xl font-bold leading-tighter tracking-tighter text-primary mb-4 font-heading dark:text-gray-200">
+            
+              <span class="text-sky-500">Website Design & Development Services</span>
+            </h1>
             <div class="max-w-3xl mx-auto lg:max-w-none">
-            <p class="text-xl mb-6 dark:text-slate-300">
-                  Everyone needs some <span class="font-semibold">KOIN</span> in their wallet.
-                </p>
+              <p class="text-xl mb-6 dark:text-slate-300">
+                Join the fun with <span class="font-semibold">Froppy</span>—the hottest memecoin on the Kaspa chain. Fast, fun, and ready for the next big trend.
+              </p>
 
-                <div class=" sm:max-w-md m-auto grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-2 lg:max-w-7xl">
-                  <div class="flex w-full">
-                  <a href="#Exchanges" 
-
-   class="btn-primary w-full bg-primary-600 hover:bg-primary dark:bg-primary-600 py-2 rounded-md text-center block">
-  Buy $KOIN
-</a>
-                  </div>
-                  <div class="flex w-full">
-                  <a href="https://t.me/+Zhe2fvsS1WQyNTA0" 
-   target="_blank" 
-   rel="noopener noreferrer" 
-   class="btn-primary w-full bg-[#B6B6B6] hover:bg-primary dark:bg-[#B6B6B6] py-2 rounded-md text-center block">
-  Join Our Community
-</a>
-
-                  </div>
-          
+              <div class=" sm:max-w-md m-auto grid grid-cols-1 border-radius-dot-25 gap-4 sm:grid-cols-2 lg:grid-cols-2 lg:max-w-7xl">
+                <div class="flex w-full">
+                  <button class="btn w-full bg-blue-200 py-1 rounded-sm dark:bg-blue-400">
+                    Get Started
+                  </button>
                 </div>
+                <div class="flex w-full">
+                  <button class="btn w-full bg-red-200 py-1 rounded-sm dark:bg-red-400">
+                    Book A Free Consultation
+                  </button>
+                </div>
+           
+              </div>
 
             </div>
           </div>
-          <div class="basis-1/2">
-            <Image
-              src={coverImage}
-              layout="constrained"
-              width={493}
-              height={616}
-              alt="Qwind Hero Image (Cool dog)"
-              class="mx-auto lg:mr-0 w-full drop-shadow-2xl rounded-md"
-              priority={true}
-              breakpoints={[320, 480, 640, 768, 1024]}
-            />
+
+
+
+
+          <div class="basis-1/2 ">
+          {/* <object type="image/svg+xml" class="border-radius-dot-25 rounded-md" data="https://cdn.svgator.com/images/2021/10/animated-astronaut-illustration.svg" width="100%"></object> */}
+          <img src="https://cdn.svgator.com/images/2021/10/solar-system-animation.svg" width="700" height="400" fetchPriority="high" alt="Animated Vectors Flying to the Moon and Back: About the Space Animation Trend"/>
           </div>
+
         </div>
+
       </div>
+
     </section>
-    </div>
+  </div>
   );
 });

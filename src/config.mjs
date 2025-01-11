@@ -1,10 +1,10 @@
 export const SITE = {
-  name: "KOIN",
+  name: "Webdev.ca",
 
   title:
-    "KOIN — Everyone needs some KOIN in their wallet.",
+    "Webdev.ca — Premium Website Design & Development Services.",
   description:
-    "KOIN - Everyone needs some KOIN in their wallet.",
+    "Webdev.ca — Transform your online presence with our custom web design and development services. We help businesses create stunning, fast, and secure websites.",
 
   origin: "https://qwind.pages.dev",
   basePathname: "/",

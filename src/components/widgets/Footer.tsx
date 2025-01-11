@@ -68,7 +68,7 @@ export default component$(() => {
             </div>
 
             <div class="text-sm mb-2 text-gray-600 dark:text-gray-400">
-              Everyone needs some KOIN in their wallet.
+            Transform your online presence with our custom web design and development services. We help businesses create stunning, fast, and secure websites.
             </div>
           </div>
           {links.map(({ title, items }, index) => (
@@ -109,9 +109,18 @@ export default component$(() => {
             <ToggleTheme />
           </ul>
 
-          <div class="text-sm text-gray-700 mr-4 dark:text-slate-400 flex items-center">
-
-            <span class="hidden sm:block"> Donate<span class="text-primary mx-1">♥</span> kaspa:qz05sf3dfzefkz3dwdnh02ejyd6rtwuee6pck25m0tsyqfgz4ltjqst9wgda9</span>
+          <div class="text-sm text-gray-700 mr-4 pb-2 dark:text-slate-400 flex items-center">
+            {/* Replace favicon span with your Logo component */}
+            {/* © 2025 Webdev.ca */}
+            Made with {" "}<span class="text-primary mx-1">♥</span> by&nbsp;
+            <a class="text-gray-900 underline dark:text-gray-200" href="#">
+              Webdev.ca
+            </a>{" "} 
+            {/* &nbsp;&&nbsp;
+            <a class="text-gray-900 underline dark:text-gray-200" href="#">
+              nft.cx
+            </a> */}
+            {/* <span class="hidden md:inline"> · All rights reserved.</span> */}
           </div>
         </div>
       </div>
