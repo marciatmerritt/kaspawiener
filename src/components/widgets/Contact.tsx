@@ -14,18 +14,18 @@ export default component$(() => {
         {/* Page content goes here */}
       </PageWrapper>
 
-
+      <section class="bg-white dark:bg-gray-900">
       <div class="py-3 px-3 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-        <section class="bg-white dark:bg-gray-900">
+       
 
       
 
-          <div class="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24" />
+         
 
 
     
 
-          <div class="max-w-3xl mx-auto mt-8 lg:mt-24">
+        
             <form action="#" class="grid max-w-screen-md grid-cols-1 mx-auto gap-x-8 gap-y-6 sm:grid-cols-2">
               <div>
                 <label for="first-name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
@@ -171,7 +171,7 @@ export default component$(() => {
           </section>
       </div>
       
-    </div>
+   
      
      
 
