@@ -2,45 +2,47 @@ import { component$ } from "@builder.io/qwik";
 import { Image } from "@unpic/qwik";
 
 import IconStar from "~/components/icons/IconStar";
-const sideImg =
-  "https://images.unsplash.com/photo-1583195648430-18b2681307e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80";
+
 
 export default component$(() => {
   const stepsData = {
-    title: "Sed ac magna sit amet risus tristique interdum. hac.",
+    title: "Our Process: From Vision to Reality",
     items: [
       {
-        title: "Step 1",
+        title: "Step 1: Free Consultation",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.",
+          "Start with a free consultation where we learn about your goals, challenges, and vision for your website. This is where your ideas take shape, and we establish the foundation for success.",
         icon: IconStar,
       },
       {
-        title: "Step 2",
+        title: "Step 2: Tailored Design",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.",
+          "Our team crafts a custom design that aligns with your brand and captivates your audience. Every detail is carefully planned to ensure a seamless and stunning user experience.",
         icon: IconStar,
       },
       {
-        title: "Step 3",
+        title: "Step 3: Development Excellence",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.",
+          "We bring your design to life with clean, efficient, and scalable code. Our developers ensure your website is fast, responsive, and ready to perform across all devices.",
         icon: IconStar,
       },
       {
-        title: "Ready!",
+        title: "Step 4: Testing & Launch",
+        description:
+          "Before going live, we rigorously test your website to ensure it meets the highest quality standards. Once perfected, we launch your site, setting you up for digital success.",
         icon: IconStar,
       },
     ],
     image: {
-      src: sideImg,
-      alt: "Steps image",
+      src: "/assets/images/steps.webp",
+      alt: "Steps to success image",
     },
   };
+  
   const { title, items, image } = stepsData;
 
   return (
-    <section class="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20 bg-gray-100">
+    <section class="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20 bg-gray-100 dark:bg-gray-900">
       <div class="row-gap-10 grid gap-6 md:grid-cols-2">
         <div class="mb-4 md:mb-0 md:py-4 md:pr-16">
           {title && <h2 class="font-heading mb-8 text-3xl font-bold lg:text-4xl">{title}</h2>}
@@ -81,7 +83,7 @@ export default component$(() => {
           {typeof image !== "undefined" && (
             <Image
               layout="constrained"
-              src={image.src}
+              src="/images/steps.webp"
               width={532}
               height={704}
               alt={image.alt}
