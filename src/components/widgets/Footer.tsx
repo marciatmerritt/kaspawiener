@@ -63,7 +63,7 @@ export default component$(() => {
                 class="inline-block font-bold text-primary-600 hover:text-primary text-2xl"
                 href={"/"}
               >
-                KOIN
+                Webdev.ca
               </Link>
             </div>
 

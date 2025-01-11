@@ -1,10 +1,8 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import { Image } from "@unpic/qwik";
-import Features from "~/components/widgets/Features";
+
 
 import Hero from "~/components/widgets/Hero";
-import Stats from "~/components/widgets/Stats";
 
 import { SITE } from "~/config.mjs";
 

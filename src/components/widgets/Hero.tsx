@@ -1,8 +1,4 @@
 import { component$ } from "@builder.io/qwik";
-import { Image } from "@unpic/qwik";
-
-const coverImage =
-  "/images/koin.png";
 
 export default component$(() => {
   return (
