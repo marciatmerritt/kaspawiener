@@ -15,7 +15,7 @@ export default component$(() => {
     </PageWrapper>
 
 <section class="bg-white">
-<div class="py-3 px-3 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+<div class="py-3 px-2 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
  
   <div class="grid gap-8 lg:grid-cols-3">
     <div class="space-y-6">
