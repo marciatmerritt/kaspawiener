@@ -5,6 +5,8 @@ import Features from "~/components/widgets/Features";
 
 
 import Hero from "~/components/widgets/Hero";
+import Reviews from "~/components/widgets/Reviews";
+
 import Steps from "~/components/widgets/Steps";
 
 import { SITE } from "~/config.mjs";
@@ -66,6 +68,8 @@ export default component$(() => {
 
 <Steps/>
 
+
+<Reviews/>
    
 
     </>
