@@ -5,6 +5,7 @@ import Features from "~/components/widgets/Features";
 
 
 import Hero from "~/components/widgets/Hero";
+import Steps from "~/components/widgets/Steps";
 
 import { SITE } from "~/config.mjs";
 import { qwikSerialized } from "~/utils/qwikSerialized";
@@ -63,6 +64,7 @@ export default component$(() => {
         ]}
       />
 
+<Steps/>
 
    
 
