@@ -1,6 +1,7 @@
 # Menu
 
 ## [Reviews](/reviews)
+## [Pricing](/pricing)
 ## [Team](/team)
 
 ## Exchanges
