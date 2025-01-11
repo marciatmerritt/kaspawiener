@@ -1,6 +1,9 @@
 import { component$ } from "@builder.io/qwik";
 import { twMerge } from "tailwind-merge";
 import { Headline } from "~/components/ui/Headline";
+import { ItemGrid } from "~/components/ui/ItemGrid";
+
+import IconStar from "~/components/icons/IconStar";
 
 interface Item {
   title?: string;
@@ -20,7 +23,7 @@ interface Props {
 }
 
 export default component$((props: Props) => {
-  const { id, title = "", subtitle = "", highlight = "", classes = {}, isDark = false } = props;
+  const { id, title = "", subtitle = "", highlight = "", items = [], classes = {}, isDark = false } = props;
 
   return (
     <section class="relative scroll-mt-16" {...(id ? { id } : {})}>
@@ -31,24 +34,22 @@ export default component$((props: Props) => {
       </div>
       <div
         class={twMerge(
-          "relative mx-auto max-w-5xl px-4 md:px-6 pb-10 md:pb-20 lg:pb-24",
+          "relative mx-auto max-w-5xl px-4 md:px-6 py-12 md:py-16 lg:py-20 text-default",
           classes?.container,
           isDark ? "dark" : ""
         )}
       >
         <Headline title={title} subtitle={subtitle} highlight={highlight} classes={classes?.headline} />
-        <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
-  <a href="https://t.me/kspr_home_bot?start=WdRcvw" target="_blank">
-    <img width="720" height="332" src="/images/ksprbot.png" alt="KSPR Bot" class="w-full h-48 object-cover rounded-md hover:opacity-80"/>
-  </a>
-  <a href="https://krc20.chainge.finance/liquidity?symbol=KOIN" target="_blank">
-    <img width="2400" height="1260" src="/images/chainge.png" alt="Chainge" class="w-full h-48 object-cover rounded-md hover:opacity-80"/>
-  </a>
-  <a href="https://www.kaspiano.com/token/koin?ref=koin" target="_blank">
-    <img width="540" height="540" src="/images/kaspacom.jpg" alt="Kaspiano" class="w-full h-48 object-cover rounded-md hover:opacity-80"/>
-  </a>
-  
-</div>
+        <ItemGrid
+          items={items}
+          defaultIcon={IconStar}
+          classes={{
+            container: "md:grid-cols-2",
+            title: "md:text-[1.3rem]",
+            icon: "text-white bg-secondary-500 dark:bg-secondary-700 rounded-full w-10 h-10 p-2 md:w-12 md:h-12 md:p-3 mr-4",
+            ...(classes?.items ?? {}),
+          }}
+        />
       </div>
     </section>
   );
