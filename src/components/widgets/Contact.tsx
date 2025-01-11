@@ -1,6 +1,7 @@
 import { component$ } from '@builder.io/qwik';
 import { Headline } from '../ui/Headline';
 import { PageWrapper } from '../common/PageWrapper';
+import { ContentWrapper } from '../common/ContentWrapper';
 
 export default component$(() => {
   return (
@@ -14,18 +15,7 @@ export default component$(() => {
         {/* Page content goes here */}
       </PageWrapper>
 
-      <section class="bg-white dark:bg-gray-900">
-      <div class="pt-7 pb-10 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-       
-
-      
-
-         
-
-
-    
-
-        
+        <ContentWrapper>
             <form action="#" class="grid max-w-screen-md grid-cols-1 mx-auto gap-x-8 gap-y-6 sm:grid-cols-2">
               <div>
                 <label for="first-name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
@@ -167,15 +157,10 @@ export default component$(() => {
                 class="px-5 py-3 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send
                 message</button>
             </form>
-          </div>
-          </section>
+          
+            </ContentWrapper>
+
       </div>
       
-   
-     
-     
-
-   
-
   );
 });
