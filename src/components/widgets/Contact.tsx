@@ -65,7 +65,7 @@ export default component$(() => {
 
               <div>
                 <div class="flex items-center gap-1.5 mb-2">
-                  <label for="country" class="block text-sm font-medium text-gray-900 dark:text-gray-300">
+                  <label for="country" class="block text-md font-medium text-gray-900 dark:text-gray-300">
                     Country
                   </label>
                   <button type="button" data-popover-target="country-description" class="w-4 h-4">
@@ -77,7 +77,7 @@ export default component$(() => {
                     </svg>
                     <span class="sr-only">Show information</span>
                   </button>
-                  <div data-popover id="country-description" role="tooltip" class="absolute z-10 invisible inline-block text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 w-72 dark:bg-gray-800 dark:border-gray-600 dark:text-gray-400">
+                  <div data-popover id="country-description" role="tooltip" class="absolute z-10 invisible inline-block text-md font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 w-72 dark:bg-gray-800 dark:border-gray-600 dark:text-gray-400">
                     <div class="p-3 space-y-2">
                       <h3 class="font-semibold text-gray-900 dark:text-white">Country based on fiscal residency</h3>
                       <p>Report helps navigate cumulative growth of community activities. Ideally, the chart should have a growing trend, as stagnating chart signifies a significant decrease of community activity.</p>
@@ -89,7 +89,7 @@ export default component$(() => {
                   </div>
                 </div>
                 <select id="country"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                  class="bg-gray-50 border border-gray-300 text-gray-900 text-md rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
                   <option>Select a country</option>
                   <option value="US" selected>United States</option>
                   <option value="DE">Germany</option>
@@ -104,7 +104,7 @@ export default component$(() => {
 
               <div>
                 <div class="flex items-center gap-1.5 mb-2">
-                  <label for="language" class="block text-sm font-medium text-gray-900 dark:text-gray-300">
+                  <label for="language" class="block text-md font-medium text-gray-900 dark:text-gray-300">
                     Language
                   </label>
                   <button type="button" data-popover-target="language-description" class="w-4 h-4">
@@ -116,7 +116,7 @@ export default component$(() => {
                     </svg>
                     <span class="sr-only">Show information</span>
                   </button>
-                  <div data-popover id="language-description" role="tooltip" class="absolute z-10 invisible inline-block text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 w-72 dark:bg-gray-800 dark:border-gray-600 dark:text-gray-400">
+                  <div data-popover id="language-description" role="tooltip" class="absolute z-10 invisible inline-block text-md font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 w-72 dark:bg-gray-800 dark:border-gray-600 dark:text-gray-400">
                     <div class="p-3 space-y-2">
                       <h3 class="font-semibold text-gray-900 dark:text-white">Choosing an international language</h3>
                       <p>Report helps navigate cumulative growth of community activities. Ideally, the chart should have a growing trend, as stagnating chart signifies a significant decrease of community activity.</p>
@@ -126,7 +126,7 @@ export default component$(() => {
                   </div>
                 </div>
                 <select id="language"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                  class="bg-gray-50 border border-gray-300 text-gray-900 text-md rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
                   <option>Select a language</option>
                   <option value="US" selected>English (US)</option>
                   <option value="DE">German</option>
@@ -142,7 +142,7 @@ export default component$(() => {
                   Your message
                 </label>
                 <textarea id="message" rows={6}
-                  class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                  class="block p-2.5 w-full text-md text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
                   placeholder=""></textarea>
               </div>
 
