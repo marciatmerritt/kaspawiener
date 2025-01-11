@@ -1,6 +1,7 @@
 import { component$ } from '@builder.io/qwik';
 import { Headline } from '../ui/Headline';
 import { PageWrapper } from '../common/PageWrapper';
+import { Input } from '../ui/Input';
 
 export default component$(() => {
   return (
@@ -16,7 +17,8 @@ export default component$(() => {
 
 <section class="bg-white dark:bg-gray-900">
 <div class="py-3 px-3 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
- //page
+<Input type="email" placeholder="Email" />
+
 </div>
 </section>
 </div>
