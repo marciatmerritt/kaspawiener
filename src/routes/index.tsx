@@ -1,11 +1,13 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import Contact from "~/components/widgets/Contact";
+import FAQs from "~/components/widgets/FAQs";
 
 import Features from "~/components/widgets/Features";
 
 
 import Hero from "~/components/widgets/Hero";
+import Pricing from "~/components/widgets/Pricing";
 import Reviews from "~/components/widgets/Reviews";
 
 import Steps from "~/components/widgets/Steps";
@@ -68,9 +70,10 @@ export default component$(() => {
       />
 
 <Steps/>
-
-
 <Reviews/>
+<Pricing/>
+
+
 
 <Contact/>
    
