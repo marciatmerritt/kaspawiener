@@ -54,7 +54,7 @@ export default component$(() => {
         <figcaption class="flex items-center space-x-3">
           <img class="w-9 h-9 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="profile picture" />
           <div class="space-y-0.5 font-medium dark:text-white">
-            <div>Jese Leos</div>
+            <div>Jeses Leos</div>
             <div class="text-sm font-light text-gray-500 dark:text-gray-400">CEO at Oracle</div>
           </div>
         </figcaption>
