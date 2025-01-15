@@ -19,11 +19,13 @@ export default component$(() => {
 
 
 <div class="py-2 px-2 mx-auto bg-gray-200 dark:bg-gray-800  lg:py-16 lg:px-6">
-<div class="py-3 px-3 mx-auto bg-gray-100 dark:bg-gray-900  lg:py-16 lg:px-6">
+
  
  
   <div class="grid gap-8 lg:grid-cols-3">
     <div class="space-y-3">
+
+      <div class="p-2 bg-gray-100">
       <figure class="p-6 bg-gray-50 rounded dark:bg-gray-800">
   <blockquote class="text-sm text-gray-500 dark:text-gray-400">
     <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Great insights and generous heart</h3>
@@ -37,6 +39,7 @@ export default component$(() => {
     </div>
   </figcaption>
 </figure>
+</div>
 
 <figure class="p-6 bg-gray-50 rounded dark:bg-gray-800">
   <blockquote class="text-sm text-gray-500 dark:text-gray-400">
@@ -111,7 +114,7 @@ export default component$(() => {
     </div>
  
 
-  </div>
+  
 </div>
 </div>
 </div>
