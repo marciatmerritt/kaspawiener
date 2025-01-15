@@ -9,7 +9,7 @@ const reviews = [
     name: "Carole Françoise Noel",
     position: "CTO at Open AI",
     image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png",
-    borderClass: "border-8",
+
   },
   {
     title: "Collaboration between artist and printer",
@@ -17,7 +17,7 @@ const reviews = [
     name: "Ruth Dick",
     position: "Software Engineer at Tesla",
     image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png",
-    borderClass: "border-gray-100 border-8",
+   
   },
   {
     title: "Always high-caliber work",
@@ -25,7 +25,7 @@ const reviews = [
     name: "Joy Kardish",
     position: "CEO at Oracle",
     image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png",
-    borderClass: "border-gray-100 border-8",
+   
   },
   {
     title: "Attention to detail",
@@ -33,7 +33,7 @@ const reviews = [
     name: "Andrew Balfour",
     position: "CTO at Open AI",
     image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png",
-    borderClass: "border-gray-100 border-8",
+   
   },
   {
     title: "Dedicated to the artists",
@@ -41,7 +41,7 @@ const reviews = [
     name: "Alan Mirabelli",
     position: "Software Engineer at Tesla",
     image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png",
-    borderClass: "border-gray-100 border-8",
+
   },
   {
     title: "Craftsmanship and love",
@@ -49,7 +49,7 @@ const reviews = [
     name: "Beth Gordon",
     position: "CEO at Oracle",
     image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png",
-    borderClass: "border-gray-100 border-8",
+    
   },
 ];
 
@@ -68,10 +68,10 @@ export default component$(() => {
         <div class="mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div class="py-2 px-2 mx-auto bg-gray-200 dark:bg-gray-800 lg:py-16 lg:px-6">
             <div class="grid gap-8 lg:grid-cols-3">
-              {reviews.map(({ title, text, name, position, image, borderClass }, index) => (
+              {reviews.map(({ title, text, name, position, image}, index) => (
                 <figure
                   key={index}
-                  class={`p-6 bg-gray-50 rounded dark:bg-gray-800 ${borderClass}`}
+                  class={`p-6 bg-gray-50 rounded dark:bg-gray-800 border-8 border-gray-100`}
                 >
                   <blockquote class="text-sm text-gray-500 dark:text-gray-400">
                     <h3 class="text-lg font-semibold text-gray-900 dark:text-white">{title}</h3>
