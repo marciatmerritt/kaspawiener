@@ -16,9 +16,9 @@ export default component$(() => {
 
 <section class="bg-white dark:bg-gray-900">
 <div class=" mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-<div class="py-5 px-4 mx-auto bg-white dark:bg-gray-900  lg:py-8 lg:px-6">
+<div class="py-4 px-3 mx-auto bg-gray-200 dark:bg-gray-900  lg:py-8 lg:px-6">
  
-<div class="grid gap-6 p-5 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+<div class="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 
   <div class="group relative overflow-hidden  shadow-md">
     <img width={700} height={400}

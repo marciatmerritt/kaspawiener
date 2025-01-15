@@ -16,7 +16,7 @@ export default component$(() => {
 
 <section class="bg-white dark:bg-gray-900">
 <div class=" mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-<div class="py-5 px-3 mx-auto bg-gray-200 dark:bg-gray-900  lg:py-16 lg:px-6">
+<div class="py-4 px-3 mx-auto bg-gray-200 dark:bg-gray-900  lg:py-16 lg:px-6">
  
   <div class="grid gap-8 lg:grid-cols-3">
     <div class="space-y-4">
