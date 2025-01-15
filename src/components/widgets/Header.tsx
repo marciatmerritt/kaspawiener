@@ -1,10 +1,11 @@
 import { component$, useStore } from "@builder.io/qwik";
 import ToggleMenu from "~/components/common/ToggleMenu";
 import IconChevronDown from "../icons/IconChevronDown";
-import KoinLogo from "../common/KoinLogo";
+
 import IconTelegram from "../icons/IconTelegram";
 import IconTwitter from "../icons/IconTwitter";
 import { useContent } from "@builder.io/qwik-city";
+import { Logo } from "../common/KoinLogo";
 
 
 
@@ -37,7 +38,7 @@ export default component$(() => {
       <div class="relative text-default py-2.5 px-2.5 md:px-6 mx-auto w-full md:flex md:justify-between max-w-7xl">
         <div class="mr-auto rtl:mr-0 rtl:ml-auto flex justify-between">
           <a class="flex items-center" href={"/"}>
-            <KoinLogo />
+            <Logo />
           </a>
           <div class="flex items-center md:hidden">
           <a
