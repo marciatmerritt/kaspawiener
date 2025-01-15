@@ -54,13 +54,13 @@ export default component$(() => {
   ];
 
   return (
-    <footer class="py-1.5 px-1.5 bg-gradient-to-r from-primary-600 via-primary to-primary-600">
-      <div class="max-w-8xl mx-auto px-4 sm:px-6 bg-white/90 dark:bg-gray-900 shadow-lg border-radius-dot-25 rounded-lg">
+    <footer class="py-2 px-2 bg-gradient-to-r from-primary-600 via-primary to-primary-600">
+      <div class="max-w-8xl mx-auto px-4 sm:px-6 bg-white/90 dark:bg-gray-900/90 shadow-lg rounded-lg">
         <div class="grid grid-cols-12 gap-4 gap-y-4 sm:gap-8 pt-6 md:pt-8 pb-2">
           <div class="col-span-12 lg:col-span-4 pr-8">
-            <div class="flex items-center mb-1">
+            <div class="flex items-center mb-3">
               <Link
-                class="inline-block font-bold text-primary-600 hover:text-primary text-2xl"
+                class="inline-block font-bold text-primary-600 hover:text-primary text-xl"
                 href={"/"}
               >
                 Webdev.ca

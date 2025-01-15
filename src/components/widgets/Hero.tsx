@@ -19,7 +19,7 @@ export default component$(() => {
       </a>
             <h1 class="text-5xl md:text-7xl font-bold leading-tighter tracking-tighter text-primary mb-4 font-heading dark:text-gray-200">
             
-              <span class="text-sky-500">Website Design & Development Services</span>
+              <span class="text-primary">Website Design & Development Services</span>
             </h1>
             <div class="max-w-3xl mx-auto lg:max-w-none">
               <p class="text-xl mb-6 dark:text-slate-300">
