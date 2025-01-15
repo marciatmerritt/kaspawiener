@@ -7,8 +7,8 @@ export default component$(() => {
     <div>
     <PageWrapper>
       <Headline
-        title={"Feedback from Clients"}
-        subtitle={"Hear what some of our past clients have to say about the work we've done"}
+        title={"Client Testimonials"}
+        subtitle={"Hear what some of our past clients have to say about our past work."}
         highlight={"Reviews"}
       />
       {/* Page content goes here */}
