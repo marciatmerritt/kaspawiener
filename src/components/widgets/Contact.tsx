@@ -17,7 +17,7 @@ export default component$(() => {
 <div class=" mx-auto max-w-screen-xl lg:py-16 lg:px-6">
 <div class="py-4 px-3 mx-auto bg-gray-200 dark:bg-gray-900  lg:py-16 lg:px-6">
  
- <div class="px-2 bg-gray-100">
+ <div class="p-3 bg-gray-100">
             <form action="#" class="grid max-w-screen-md grid-cols-1 mx-auto gap-x-8 gap-y-6 sm:grid-cols-2">
               <div>
                 <label for="first-name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
