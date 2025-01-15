@@ -1,6 +1,7 @@
 import { component$ } from '@builder.io/qwik';
 import { Headline } from '../ui/Headline';
 import { PageWrapper } from '../common/PageWrapper';
+import { ContentWrapper } from '../common/ContentWrapper';
 
 const reviews = [
   {
@@ -64,9 +65,8 @@ export default component$(() => {
         />
       </PageWrapper>
 
-      <section class="bg-white dark:bg-gray-900">
-        <div class="mx-auto max-w-7xl lg:py-16 lg:px-6">
-          <div class="py-3 px-2 mx-auto bg-gray-200 dark:bg-gray-800 lg:py-16 lg:px-6">
+    <ContentWrapper>
+   
             <div class="grid gap-2 md:gap-4 lg:grid-cols-3">
               {reviews.map(({ title, text, name, position, image}, index) => (
                 <figure
@@ -93,9 +93,8 @@ export default component$(() => {
                 </figure>
               ))}
             </div>
-          </div>
-        </div>
-      </section>
+            </ContentWrapper>
+    
     </div>
   );
 });
