@@ -13,7 +13,7 @@ export default component$(() => {
         />
         {/* Page content goes here */}
       </PageWrapper>
-      <section class="bg-white dark:bg-gray-900">
+      <section class="bg-white dark:bg-gray-800">
 <div class=" mx-auto max-w-screen-xl lg:py-16 lg:px-6">
 <div class="py-2 px-2 mx-auto bg-gray-200 dark:bg-gray-900  lg:py-16 lg:px-6">
  
