@@ -71,7 +71,7 @@ export default component$(() => {
               {reviews.map(({ title, text, name, position, image}, index) => (
                 <figure
                   key={index}
-                  class={`p-6 bg-gray-50 rounded dark:bg-gray-800 border-6 border-gray-100`}
+                  class={`p-6 bg-gray-50 rounded dark:bg-gray-800 border-4 border-gray-100`}
                 >
                   <blockquote class="text-sm text-gray-500 dark:text-gray-400">
                     <h3 class="text-lg font-semibold text-gray-900 dark:text-white">{title}</h3>
