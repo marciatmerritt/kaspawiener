@@ -24,26 +24,17 @@ export default component$(() => {
             <div class="max-w-3xl mx-auto lg:max-w-none">
               <p class="text-xl mb-6 dark:text-slate-300">
               Bringing Your Memories to Life-- Expert Digital Art, Restoration, and Prints
-
-
-
-
-
-
-
-
-
               </p>
 
               <div class=" sm:max-w-md m-auto grid grid-cols-1 border-radius-dot-25 gap-4 sm:grid-cols-2 lg:grid-cols-2 lg:max-w-7xl">
                 <div class="flex w-full">
-                  <button class="btn w-full bg-blue-200 py-1 rounded-sm dark:bg-blue-400">
+                  <button class="btn w-full bg-primary-200 py-2 rounded-sm dark:bg-primary-200">
                     Our Services
                   </button>
                 </div>
                 <div class="flex w-full">
-                  <button class="btn w-full bg-red-200 py-1 rounded-sm dark:bg-red-400">
-                    Book A Consultation
+                  <button class="btn w-full bg-primary-400 py-2 rounded-sm dark:bg-primary-400">
+                    Request A Quote
                   </button>
                 </div>
            

@@ -4,7 +4,6 @@ import Contact from "~/components/pages/Contact";
 import FAQs from "~/components/widgets/FAQs";
 import Features from "~/components/widgets/Features";
 import Hero from "~/components/widgets/Hero";
-import Pricing from "~/components/pages/Pricing";
 import Reviews from "~/components/pages/Reviews";
 import Steps from "~/components/widgets/Steps";
 import { SITE } from "~/config.mjs";
@@ -24,8 +23,8 @@ export default component$(() => {
       <Hero />
       <Services/>
       <Features
-        highlight="Features"
-        title="What you get with Qwind"
+        highlight="Our Portfolio"
+        title="Past Work with some awesome clients"
         subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae."
         items={[
           {
@@ -65,13 +64,13 @@ export default component$(() => {
           },
         ]}
       />
+      <Steps/>
       <ReviewsMobile/>
 
       
 
-<Steps/>
+
 <Reviews/>
-<Pricing/>
 
 <FAQs
         highlight="Features"
