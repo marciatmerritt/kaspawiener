@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import Contact from "~/components/widgets/Contact";
+import Contact from "~/components/pages/Contact";
 
 export default component$(() => {
   return (

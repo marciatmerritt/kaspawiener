@@ -1,6 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import Contact from "~/components/widgets/Contact";
+import Contact from "~/components/pages/Contact";
 import FAQs from "~/components/widgets/FAQs";
 
 import Features from "~/components/widgets/Features";
