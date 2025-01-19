@@ -37,31 +37,31 @@ export default component$(() => {
           {testimonials.map((testimonial, index) => (
             <Carousel.Slide key={index} class="carousel-slide">
               <div class="bg-white pt-12 pb-16 sm:pt-32 sm:pb-24 xl:pb-32">
-                <div class="bg-gray-900 pb-20 sm:pb-24 xl:pb-0">
-                  <div class="mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
-                    <div class="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
-                      <div class="relative aspect-2/1 h-64 sm:h-72 md:h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
-                        <img
-                          class="absolute inset-0 w-full h-[50%] rounded-2xl bg-gray-800 object-cover shadow-2xl"
-                          src={testimonial.image}
-                          alt={`${testimonial.name} testimonial`}
-                        />
-                      </div>
+              <div class="bg-gray-900 pb-8 sm:pb-12 xl:pb-0">
+  <div class="mx-auto flex max-w-7xl flex-col items-center gap-y-6 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-center">
+    <div class="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
+      <div class="relative aspect-2/1 h-48 sm:h-72 xl:aspect-auto">
+        <img
+          class="absolute inset-0 w-full h-full rounded-2xl bg-gray-800 object-cover shadow-2xl"
+          src={testimonial.image}
+          alt={`${testimonial.name} testimonial`}
+        />
+      </div>
+    </div>
+    <div class="w-full max-w-2xl xl:max-w-none xl:flex-auto xl:px-16 xl:py-16">
+      <figure class="relative isolate pt-6 sm:pt-12">
+        <blockquote class="text-lg sm:text-xl font-semibold text-white">
+          <p>{testimonial.text}</p>
+        </blockquote>
+        <figcaption class="mt-6 text-base">
+          <div class="font-semibold text-white">{testimonial.name}</div>
+          <div class="mt-1 text-gray-400">{testimonial.role}</div>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</div>
 
-                    </div>
-                    <div class="w-full max-w-2xl xl:max-w-none xl:flex-auto xl:px-16 xl:py-24">
-                      <figure class="relative isolate pt-6 sm:pt-12">
-                        <blockquote class="text-xl/8 font-semibold text-white sm:text-2xl/9">
-                          <p>{testimonial.text}</p>
-                        </blockquote>
-                        <figcaption class="mt-8 text-base">
-                          <div class="font-semibold text-white">{testimonial.name}</div>
-                          <div class="mt-1 text-gray-400">{testimonial.role}</div>
-                        </figcaption>
-                      </figure>
-                    </div>
-                  </div>
-                </div>
               </div>
             </Carousel.Slide>
           ))}
