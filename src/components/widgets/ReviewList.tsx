@@ -47,11 +47,11 @@ const reviews = [
 
 export default component$(() => {
   return (
-    <div class="grid gap-4 md:gap-6 lg:grid-cols-3">
+    <div class="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       {reviews.map(({ title, text, name, position, image }, index) => (
         <figure
           key={index}
-          class="p-5 bg-white rounded-lg shadow-md dark:bg-gray-800 border border-gray-300 dark:border-gray-700 transition-transform hover:scale-105"
+          class="group p-5 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md border border-gray-300 dark:border-gray-700 transition-transform hover:scale-105"
         >
           <blockquote class="text-sm text-gray-600 dark:text-gray-400 space-y-3">
             <h3 class="text-lg font-semibold text-gray-900 dark:text-white">{title}</h3>
@@ -59,7 +59,7 @@ export default component$(() => {
           </blockquote>
           <figcaption class="flex items-center mt-4 space-x-3">
             <img
-              class="w-10 h-10 rounded-full shadow-sm"
+              class="w-24 h-24 rounded-full object-cover"
               src={image}
               alt={`${name} profile picture`}
             />
