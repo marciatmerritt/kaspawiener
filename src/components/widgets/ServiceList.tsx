@@ -11,7 +11,7 @@ const services = [
   {
     title: "Reproduction Services",
     description: "Accurate reproductions for prints, publications, and digital archives.",
-    details: "Ensure every detail is captured for stunning, true-to-life reproductions.",
+    details: "Ensure every detail is captured for stunnning, true-to-life reproductions.",
     image: "/images/reproduction.jpg",
     alt: "Reproduction Services",
   },
