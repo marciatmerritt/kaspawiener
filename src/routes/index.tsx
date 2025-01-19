@@ -2,18 +2,14 @@ import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import Contact from "~/components/pages/Contact";
 import FAQs from "~/components/widgets/FAQs";
-
 import Features from "~/components/widgets/Features";
-
-
 import Hero from "~/components/widgets/Hero";
 import Pricing from "~/components/pages/Pricing";
 import Reviews from "~/components/pages/Reviews";
-
 import Steps from "~/components/widgets/Steps";
-
 import { SITE } from "~/config.mjs";
 import { qwikSerialized } from "~/utils/qwikSerialized";
+import ReviewCarousel from "~/components/widgets/ReviewCarousel";
 
 const IconBrandTailwind = qwikSerialized(() => import("../components/icons/IconBrandTailwind"));
 const IconApps = qwikSerialized(() => import("../components/icons/IconApps"));
@@ -25,6 +21,8 @@ export default component$(() => {
   return (
     <>
       <Hero />
+
+      <ReviewCarousel/>
 
       <Features
         highlight="Features"
