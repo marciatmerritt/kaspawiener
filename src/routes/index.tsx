@@ -57,7 +57,7 @@ export default component$(() => {
           {
             title: "Search Engine Optimization (SEO)",
             description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
+              "Lorem ipsum dolor sit amet, conssectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
             icon: IconBrandGoogle,
           },
           {
