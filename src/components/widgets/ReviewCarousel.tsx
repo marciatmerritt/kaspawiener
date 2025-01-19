@@ -5,19 +5,19 @@ import { ContentWrapper } from '../common/ContentWrapper';
 export default component$(() => {
   const items = [
     {
-      imgSrc: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80',
+      imgSrc: '/images/chainge.png',
       quote: 'Gravida quam mi erat tortor neque molestie. Auctor aliquet at porttitor a enim nunc suscipit tincidunt nunc. Et non lorem tortor posuere. Nunc eu scelerisque interdum eget tellus non nibh scelerisque bibendum.',
       author: 'Judith Black',
       role: 'CEO of Workcation',
     },
     {
-      imgSrc: 'https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80',
-      quote: 'Nullam scelerisque, leo id accumsan fermentum, arcu orci gravida felis, sit amet gravida ligula elit eget turpis.',
+        imgSrc: '/images/chainge.png',
+              quote: 'Nullam scelerisque, leo id accumsan fermentum, arcu orci gravida felis, sit amet gravida ligula elit eget turpis.',
       author: 'John Doe',
       role: 'CTO of InnovateTech',
     },
     {
-      imgSrc: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80',
+        imgSrc: '/images/chainge.png',
       quote: 'Aliquam euismod nisl quis sapien congue, vitae mattis elit facilisis. Vivamus vulputate nisl id libero ultrices tincidunt.',
       author: 'Alice Johnson',
       role: 'Founder of BrightIdeas',
