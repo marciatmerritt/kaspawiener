@@ -9,8 +9,8 @@ import Reviews from "~/components/pages/Reviews";
 import Steps from "~/components/widgets/Steps";
 import { SITE } from "~/config.mjs";
 import { qwikSerialized } from "~/utils/qwikSerialized";
-import ReviewCarousel from "~/components/widgets/ReviewCarousel";
 import Services from "~/components/pages/Services";
+import ReviewsMobile from "~/components/pages/ReviewsMobile";
 
 const IconBrandTailwind = qwikSerialized(() => import("../components/icons/IconBrandTailwind"));
 const IconApps = qwikSerialized(() => import("../components/icons/IconApps"));
@@ -23,9 +23,6 @@ export default component$(() => {
     <>
       <Hero />
       <Services/>
-
-      <ReviewCarousel/>
-
       <Features
         highlight="Features"
         title="What you get with Qwind"
@@ -68,6 +65,9 @@ export default component$(() => {
           },
         ]}
       />
+      <ReviewsMobile/>
+
+      
 
 <Steps/>
 <Reviews/>
