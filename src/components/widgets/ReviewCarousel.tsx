@@ -25,7 +25,7 @@ export default component$(() => {
 
   return (
     <ContentWrapper>
-      <Carousel.Root class="carousel-root" gap={30} draggable={true}>
+      <Carousel.Root class="carousel-root" gap={30} draggable={false}>
         <div class="carousel-buttons">
           <Carousel.Previous>Prev</Carousel.Previous>
           <Carousel.Next>Next</Carousel.Next>
