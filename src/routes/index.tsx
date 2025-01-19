@@ -22,6 +22,7 @@ export default component$(() => {
     <>
       <Hero />
       <Services/>
+      <Steps/>
       <Features
         highlight="Our Portfolio"
         title="Past Work with some awesome clients"
@@ -64,7 +65,7 @@ export default component$(() => {
           },
         ]}
       />
-      <Steps/>
+    
       <ReviewsMobile/>
 
       
