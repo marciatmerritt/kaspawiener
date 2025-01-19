@@ -50,7 +50,7 @@ export default component$(() => {
                   <label for="country" class="block text-md font-medium text-gray-900 dark:text-gray-300">
                     Country
                   </label>
-                  <button type="button" data-popover-target="country-description" class="w-4 h-4">
+                  <button type="button" data-popover-target="country-description" class="w-4 h-4 p-2.5">
                     <svg aria-hidden="true" class="text-gray-400 hover:text-gray-900 dark:hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
                       fill="currentColor">
                       <path fill-rule="evenodd"
