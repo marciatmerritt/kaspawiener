@@ -1,31 +1,37 @@
-import { component$ } from '@builder.io/qwik';
+import { component$, useSignal } from '@builder.io/qwik';
 import { Carousel } from '@qwik-ui/headless';
 import { ContentWrapper } from '../common/ContentWrapper';
 
+
 export default component$(() => {
-  const testimonials = [
-    {
-      text: "Gravida quam mi erat tortor neque molestie. Auctor aliquet at porttitor a enim nunc suscipit tincidunt nunc. Et non lorem tortor posuere. Nunc eu scelerisque interdum eget tellus non nibh scelerisque bibendum.",
-      name: "Judith Black",
-      role: "CEO of Workcation",
-      image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80",
-    },
-    {
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. In consequat, urna et pharetra sollicitudin, sapien eros volutpat eros, sit amet euismod risus metus id elit.",
-      name: "Michael Scott",
-      role: "Regional Manager",
-      image: "/images/chainge.png",
-    },
-    {
-      text: "Nulla facilisi. Phasellus non felis eros. Integer vel turpis blandit, vestibulum risus nec, consequat neque. Nam sit amet ante nec purus aliquam hendrerit sed sit amet elit.",
-      name: "Sarah Connor",
-      role: "Founder of FutureTech",
-      image: "/images/kaspacom.jpg",    },
-  ];
+
+    const testimonials = [
+        {
+          text: "Gravida quam mi erat tortor neque molestie. Auctor aliquet at porttitor a enim nunc suscipit tincidunt nunc. Et non lorem tortor posuere. Nunc eu scelerisque interdum eget tellus non nibh scelerisque bibendum.",
+          name: "Judith Black",
+          role: "CEO of Workcation",
+          image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80",
+        },
+        {
+          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. In consequat, urna et pharetra sollicitudin, sapien eros volutpat eros, sit amet euismod risus metus id elit.",
+          name: "Michael Scott",
+          role: "Regional Manager",
+          image: "/images/chainge.png",
+        },
+        {
+          text: "Nulla facilisi. Phasellus non felis eros. Integer vel turpis blandit, vestibulum risus nec, consequat neque. Nam sit amet ante nec purus aliquam hendrerit sed sit amet elit.",
+          name: "Sarah Connor",
+          role: "Founder of FutureTech",
+          image: "/images/kaspacom.jpg",    },
+      ];
+    
+  const isPlaying = useSignal<boolean>(false);
+
 
   return (
     <ContentWrapper>
-      <Carousel.Root class="carousel-root" gap={30} draggable={false}>
+      <Carousel.Root class="carousel-root" gap={30} draggable={false} autoPlayIntervalMs={3500}
+        bind:autoplay={isPlaying}>
         <div class="carousel-buttons">
           <Carousel.Previous>Prev</Carousel.Previous>
           <Carousel.Next>Next</Carousel.Next>
@@ -64,6 +70,10 @@ export default component$(() => {
           ))}
         </Carousel.Scroller>
       </Carousel.Root>
+      <p>isPlaying: {isPlaying.value.toString()}</p>
+      <button onClick$={() => (isPlaying.value = !isPlaying.value)}>
+        Toggle autoplay
+      </button>
     </ContentWrapper>
   );
 });
