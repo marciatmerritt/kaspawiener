@@ -10,41 +10,34 @@ export default component$(() => {
     {
       title: "About",
       items: [
-        { title: "Team", href: "#team" },
-        { title: "Roadmap", href: "#roadmap" },
-        { title: "Tokenomics", href: "#tokenomics" },
-
+        { title: "Our Team", href: "#team" },
+        { title: "Our Process", href: "#process" },
+        { title: "Testimonials", href: "#testimonials" },
       ],
     },
     {
-      title: "Exchanges",
+      title: "Services",
       items: [
-        { title: "KSPR Bot", href: "https://t.me/kspr_home_bot?start=WdRcvw" },
-        { title: "Kaspiano", href: "https://www.kaspiano.com/token/koin?ref=koin" },
-        { title: "Chainge", href: "https://krc20.chainge.finance/liquidity?symbol=KOIN" },
-
+        { title: "Photography", href: "#photography" },
+        { title: "Videography", href: "#videography" },
+        { title: "Editing", href: "#editing" },
+      ],
+    },
+    {
+      title: "Portfolio",
+      items: [
+        { title: "Photography Projects", href: "#photo-projects" },
+        { title: "Video Projects", href: "#video-projects" },
       ],
     },
 
     {
-      title: "Resources",
+      title: "Contact",
       items: [
-        { title: "Kas.fyi", href: "https://kas.fyi/token/krc20/KOIN" },
-        { title: "KRC-20", href: "https://kasplex.org/" },
-
-
+        { title: "Get in Touch", href: "#contact" },
+        { title: "Request a Quote", href: "#quote" },
       ],
     },
-    {
-      title: "Kaspa",
-      items: [
-        { title: "Docs", href: "https://kaspa.org/" },
-        { title: "Explorer", href: "https://explorer.kaspa.org/?_gl=1*zucsjw*_ga*MTU0NTUwNzk2NC4xNzM0MTE4NTEw*_ga_YSMK4G52CC*MTczNjQwNzQ0Ny4yMi4xLjE3MzY0MDc4NjEuMC4wLjA." },
-
-
-      ],
-    },
-
   ];
 
   const social = [
@@ -63,13 +56,20 @@ export default component$(() => {
                 class="inline-block font-bold text-primary-600 hover:text-primary text-xl"
                 href={"/"}
               >
-                Webdev.ca
+                MLB Media
               </Link>
             </div>
 
             <div class="text-sm mb-2 text-gray-600 dark:text-gray-400">
-            Transform your online presence with our custom web design and development services. We help businesses create stunning, fast, and secure websites.
-            </div>
+            Elevate your brand with our professional photography and videography services. We specialize in creating stunning visuals that capture your story and leave a lasting impression.
+
+
+
+
+
+
+
+</div>
           </div>
           {links.map(({ title, items }, index) => (
             <div key={index} class="col-span-6 md:col-span-3 lg:col-span-2">
@@ -112,7 +112,7 @@ export default component$(() => {
           <div class="text-sm text-gray-700 mr-4 pb-2 dark:text-slate-400 flex items-center">
             {/* Replace favicon span with your Logo component */}
             {/* © 2025 Webdev.ca */}
-            Made with {" "}<span class="text-primary mx-1">♥</span> by&nbsp;
+            Designed & Developed {" "} by&nbsp;
             <a class="text-gray-900 underline dark:text-gray-200" href="#">
               Webdev.ca
             </a>{" "} 

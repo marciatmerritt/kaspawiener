@@ -59,8 +59,8 @@ export default component$(() => {
     <div>
       <PageWrapper>
         <Headline
-          title={"Client Feedback"}
-          subtitle={"Hear what our past clients have to say about past work."}
+          title={"What Our Clients Say"}
+          subtitle={"Discover the experiences and success stories from our clients."}
           highlight={"Reviews"}
         />
       </PageWrapper>
@@ -71,7 +71,7 @@ export default component$(() => {
               {reviews.map(({ title, text, name, position, image}, index) => (
                 <figure
                   key={index}
-                  class={`p-6 bg-gray-50 rounded dark:bg-gray-800 border-8 border-gray-100`}
+                  class={`p-6 bg-gray-100 rounded dark:bg-gray-800 border-4 border-gray-200`}
                 >
                   <blockquote class="text-sm text-gray-500 dark:text-gray-400">
                     <h3 class="text-lg font-semibold text-gray-900 dark:text-white">{title}</h3>
