@@ -19,23 +19,31 @@ export default component$(() => {
       </a>
             <h1 class="text-5xl md:text-7xl font-bold leading-tighter tracking-tighter text-primary mb-4 font-heading dark:text-gray-200">
             
-              <span class="text-primary">Website Design & Development Services</span>
+              <span class="text-primary">Digital Art & Restoration</span>
             </h1>
             <div class="max-w-3xl mx-auto lg:max-w-none">
               <p class="text-xl mb-6 dark:text-slate-300">
-              Transform your online presence with our custom web design and development services. We help businesses create stunning, fast, and secure websites.
+              Bringing Your Memories to Life-- Expert Digital Art, Restoration, and Prints
+
+
+
+
+
+
+
+
 
               </p>
 
               <div class=" sm:max-w-md m-auto grid grid-cols-1 border-radius-dot-25 gap-4 sm:grid-cols-2 lg:grid-cols-2 lg:max-w-7xl">
                 <div class="flex w-full">
                   <button class="btn w-full bg-blue-200 py-1 rounded-sm dark:bg-blue-400">
-                    Get Started
+                    Our Services
                   </button>
                 </div>
                 <div class="flex w-full">
                   <button class="btn w-full bg-red-200 py-1 rounded-sm dark:bg-red-400">
-                    Book A Free Consultation
+                    Book A Consultation
                   </button>
                 </div>
            
