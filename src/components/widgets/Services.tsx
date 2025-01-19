@@ -8,7 +8,7 @@ export default component$(() => {
     <PageWrapper>
       <Headline
         title={"What We Do"}
-        subtitle={"Hear what some of our past clients have to say about the work we've done"}
+        subtitle={"Explore how our photography and videography services bring stories to life with creativity and precision."}
         highlight={"Services"}
       />
       {/* Page content goes here */}

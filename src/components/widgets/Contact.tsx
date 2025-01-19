@@ -8,7 +8,7 @@ export default component$(() => {
       <PageWrapper>
         <Headline
           title={"Get in touch"}
-          subtitle={"Contact us for a free consultation, we're passionate about learning about your business!"}
+          subtitle={"Reach out for a free consultation to bring your vision to life."}
           highlight={"Contact Us"}
         />
         {/* Page content goes here */}
