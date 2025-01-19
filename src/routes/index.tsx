@@ -7,7 +7,7 @@ import Features from "~/components/widgets/Features";
 
 
 import Hero from "~/components/widgets/Hero";
-import Pricing from "~/components/widgets/Pricing";
+import Pricing from "~/components/pages/Pricing";
 import Reviews from "~/components/pages/Reviews";
 
 import Steps from "~/components/widgets/Steps";
