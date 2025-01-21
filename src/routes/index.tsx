@@ -1,7 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import Contact from "~/components/pages/Contact";
-import FAQs from "~/components/widgets/FAQs";
 import Features from "~/components/widgets/Features";
 import Hero from "~/components/widgets/Hero";
 import Steps from "~/components/widgets/Steps";
@@ -73,7 +72,7 @@ export default component$(() => {
 
 
 
-<FAQs
+{/* <FAQs
         highlight="Features"
         title="What you get with Qwind"
         subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae."
@@ -114,7 +113,7 @@ export default component$(() => {
             icon: IconBulb
           },
         ]}
-      />
+      /> */}
 
 <Contact/>
    
