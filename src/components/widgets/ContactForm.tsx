@@ -45,7 +45,7 @@ export default component$(() => {
                 </dl>
             </div>
         </div>
-        <form action="#" method="POST" class="px-6 pb-12 pt-12 sm:pb-32 lg:px-8 lg:py-24">
+        <form action="#" method="POST" class="px-6 pb-8 pt-12 sm:pb-32 lg:px-8 lg:py-24">
             <div class="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
                 <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                     <div>
@@ -79,7 +79,7 @@ export default component$(() => {
                         </div>
                     </div>
                 </div>
-                <div class="mt-8 flex justify-end">
+                <div class="mt-8 flex w-full">
                 <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
                 </div>
             </div>
