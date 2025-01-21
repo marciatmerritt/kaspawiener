@@ -14,7 +14,7 @@ export default component$(() => {
         <div class="pt-6 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
           <div class="basis-1/2 text-center lg:text-left pb-8 md:pb-16 mx-auto">
           <a href="/reviews" class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-6 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700" role="alert">
-          <span class="text-xs bg-primary rounded-full text-white px-4 py-1.5 mr-3">New</span> <span class="text-sm font-medium">Free Website & SEO Audit!</span> 
+          <span class="text-xs bg-primary rounded-full text-white px-4 py-1.5 mr-3">New</span> <span class="text-sm font-medium">25% Off All Prints</span> 
           <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
       </a>
             <h1 class="text-5xl md:text-7xl font-bold leading-tighter tracking-tighter text-primary mb-4 font-heading dark:text-gray-200">
@@ -27,16 +27,24 @@ export default component$(() => {
               </p>
 
               <div class=" sm:max-w-md m-auto grid grid-cols-1 border-radius-dot-25 gap-4 sm:grid-cols-2 lg:grid-cols-2 lg:max-w-7xl">
+              <a href="#services">
                 <div class="flex w-full">
+                 
                   <button class="btn w-full bg-primary-200 py-2 rounded-sm dark:bg-primary-200">
                     Our Services
                   </button>
+                  
                 </div>
+                </a>
+                <a href="/contact2">
                 <div class="flex w-full">
+                 
                   <button class="btn w-full bg-primary-400 py-2 rounded-sm dark:bg-primary-400">
                     Request A Quote
                   </button>
+                 
                 </div>
+                </a>
            
               </div>
 

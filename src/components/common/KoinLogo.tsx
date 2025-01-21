@@ -1,8 +1,8 @@
 import { PropsOf, component$ } from '@builder.io/qwik';
 
-
 export const Logo = component$<PropsOf<'svg'>>(({ ...props }) => {
   return (
+    
     <svg
       {...props}
       xmlns="http://www.w3.org/2000/svg"
