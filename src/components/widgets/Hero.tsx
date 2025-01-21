@@ -23,7 +23,7 @@ export default component$(() => {
               </p>
 
               <div class=" sm:max-w-md m-auto grid grid-cols-1 border-radius-dot-25 gap-4 sm:grid-cols-2 lg:grid-cols-2 lg:max-w-7xl">
-              <a href="#services">
+              <a href="/services">
                 <div class="flex w-full">
                  
                   <button class="btn w-full bg-primary-200 py-2 rounded-sm dark:bg-primary-200">
