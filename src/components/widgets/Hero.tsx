@@ -53,7 +53,7 @@ export default component$(() => {
           <div class="basis-1/2 pb-16">
           <a href="https://iconscout.com/lottie-animations/print" class="text-underline font-size-sm" target="_blank">Print</a> by <a href="https://iconscout.com/contributors/iconsx" class="text-underline font-size-sm">IconsX</a> on <a href="https://iconscout.com" class="text-underline font-size-sm">IconScout</a>
           {/* <object type="image/svg+xml" class="border-radius-dot-25 rounded-md" data="https://cdn.svgator.com/images/2021/10/animated-astronaut-illustration.svg" width="100%"></object> */}
-          {/* <img src="https://cdn.svgator.com/images/2021/10/solar-system-animation.svg" width="700" height="400" fetchPriority="high" alt="Animated Vectors Flying to the Moon and Back: About the Space Animation Trend"/> */}
+          <img src="https://cdn.svgator.com/images/2021/10/solar-system-animation.svg" width="700" height="400" fetchPriority="high" alt="Animated Vectors Flying to the Moon and Back: About the Space Animation Trend"/>
           </div>
 
         </div>
