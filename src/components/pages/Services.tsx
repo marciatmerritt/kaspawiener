@@ -15,9 +15,7 @@ export default component$(() => {
       />
      <ServiceList/>
     </PageWrapper>
-    <ContentWrapper>
-
-</ContentWrapper>
+  
 </div>
   );
 });
