@@ -13,10 +13,10 @@ export default component$(() => {
         subtitle={"Explore how our photography and videography services bring stories to life with creativity and precision."}
         highlight={"Services"}
       />
-      {/* Page content goes here */}
+     <ServiceList/>
     </PageWrapper>
     <ContentWrapper>
-<ServiceList/>
+
 </ContentWrapper>
 </div>
   );
