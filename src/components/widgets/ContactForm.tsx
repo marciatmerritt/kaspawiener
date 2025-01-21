@@ -51,36 +51,36 @@ export default component$(() => {
                     <div>
                         <label for="first-name" class="block text-sm/6 font-semibold text-gray-900 dark:text-white">First name</label>
                         <div class="mt-2.5">
-                            <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md  bg-gray-50 dark:bg-white/5 px-3.5 py-2 text-base text-gray-900 dark:text-white outline outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500" />
+                        <input type="text" id="first-name" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Bonnie" required/>
                         </div>
                     </div>
                     <div>
                         <label for="last-name" class="block text-sm/6 font-semibold text-gray-900 dark:text-white">Last name</label>
                         <div class="mt-2.5">
-                            <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md bg-gray-50 dark:bg-white/5 px-3.5 py-2 text-base text-white outline outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500" />
+                        <input type="text" id="last-name" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Green" required/>
                         </div>
                     </div>
                     <div class="sm:col-span-2">
                         <label for="email" class="block text-sm/6 font-semibold text-gray-900 dark:text-white">Email</label>
                         <div class="mt-2.5">
-                            <input type="email" name="email" id="email" autocomplete="email" class="block w-full rounded-md bg-gray-50 dark:bg-white/5 px-3.5 py-2 text-base text-white outline outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500" />
+                        <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required/>
                         </div>
                     </div>
                     <div class="sm:col-span-2">
                         <label for="phone-number" class="block text-sm/6 font-semibold text-gray-900 dark:text-white">Phone number</label>
                         <div class="mt-2.5">
-                            <input type="tel" name="phone-number" id="phone-number" autocomplete="tel" class="block w-full rounded-md bg-gray-50 dark:bg-white/5 px-3.5 py-2 text-base text-white outline outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500" />
+                        <input type="number" id="phone-number" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="+12 345 6789" required/>
                         </div>
                     </div>
                     <div class="sm:col-span-2">
                         <label for="message" class="block text-sm/6 font-semibold text-gray-900 dark:text-white">Message</label>
                         <div class="mt-2.5">
-                            <textarea name="message" id="message" rows={4} class="block w-full rounded-md bg-gray-50 dark:bg-white/5 px-3.5 py-2 text-base text-white outline outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"></textarea>
+                        <textarea id="message" rows={6} class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
                         </div>
                     </div>
                 </div>
                 <div class="mt-8 flex justify-end">
-                    <button type="submit" class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-center text-sm font-semibold text-gray-900 dark:text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Send message</button>
+                    <button type="submit" class="rounded-md bg-primary px-3.5 py-2.5 text-center text-sm font-semibold text-gray-900 dark:text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Send message</button>
                 </div>
             </div>
         </form>
