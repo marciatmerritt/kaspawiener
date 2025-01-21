@@ -1,12 +1,12 @@
 import { component$ } from "@builder.io/qwik";
-import { PageWrapper } from "~/components/common/PageWrapper";
+import { PageWrapper2 } from "~/components/common/PageWrapper2";
 
 
 
 export default component$(() => {
   return (
     <>
-    <PageWrapper>
+    <PageWrapper2>
     <div class="relative isolate bg-white dark:bg-gray-900">
   <div class="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
     <div class="relative px-6 pb-12 pt-12 sm:pt-32 lg:static lg:px-8 lg:py-24">
@@ -90,7 +90,7 @@ export default component$(() => {
     </form>
   </div>
 </div>
-   </PageWrapper>
+   </PageWrapper2>
     </>
   );
 });
