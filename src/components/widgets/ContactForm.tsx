@@ -2,10 +2,7 @@ import { component$ } from '@builder.io/qwik';
 
 export default component$(() => {
   return (
-    <section class="bg-white dark:bg-gray-800">
-      <div class="mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-        <div class="py-2 px-2 mx-auto bg-gray-200 dark:bg-gray-900 lg:py-16 lg:px-6">
-          <div class="px-3 py-4 bg-gray-100">
+ 
             <form action="#" class="grid max-w-screen-md grid-cols-1 mx-auto gap-x-8 gap-y-6 sm:grid-cols-2">
               <div>
                 <label for="first-name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
@@ -170,9 +167,6 @@ export default component$(() => {
                 Send message
               </button>
             </form>
-          </div>
-        </div>
-      </div>
-    </section>
+      
   );
 });
