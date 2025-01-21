@@ -1,9 +1,11 @@
 import { component$ } from "@builder.io/qwik";
+import { PageWrapper2 } from "../common/PageWrapper2";
 
 
 
 export default component$(() => {
   return (
+    <PageWrapper2>
     <section class="bg-white dark:bg-gray-900">
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div class="mx-auto max-w-screen-md text-center">
@@ -139,5 +141,6 @@ export default component$(() => {
         </div>   
     </div>
   </section>
+  </PageWrapper2>
   );
 });
