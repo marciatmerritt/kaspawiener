@@ -41,8 +41,8 @@ export default component$(() => {
   ];
 
   const social = [
-    { label: "Twitter", icon: IconTwitter, href: "https://x.com/koinonkas" },
-    { label: "Telegram", icon: IconTelegram, href: "https://t.me/+Zhe2fvsS1WQyNTA0" },
+    { label: "Twitter", icon: IconTwitter, href: "/" },
+    { label: "Telegram", icon: IconTelegram, href: "/" },
 
   ];
 
@@ -56,7 +56,7 @@ export default component$(() => {
                 class="inline-block font-bold text-primary-600 hover:text-primary text-xl"
                 href={"/"}
               >
-                MLB Media
+                Digital Art & Restoration
               </Link>
             </div>
 
