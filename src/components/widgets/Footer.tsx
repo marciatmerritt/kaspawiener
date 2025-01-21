@@ -109,20 +109,14 @@ export default component$(() => {
             <ToggleTheme />
           </ul>
 
-          <div class="text-sm text-gray-700 mr-4 pb-2 dark:text-slate-400 flex items-center">
-            {/* Replace favicon span with your Logo component */}
-            © 2025 
+          <div class="text-sm text-gray-700 mr-4 pb-2 dark:text-slate-400 flex items-center justify-between md:justify-start">
+  {/* Replace favicon span with your Logo component */}
+  <span>© 2025 All Rights Reserved</span>
+  <a class="text-gray-900 underline dark:text-gray-200" href="#">
+    Powered by Webdev.ca
+  </a>
+</div>
 
-            Powered {" "} by&nbsp;
-            <a class="text-gray-900 underline dark:text-gray-200" href="#">
-              Webdev.ca
-            </a>{" "} 
-            {/* &nbsp;&&nbsp;
-            <a class="text-gray-900 underline dark:text-gray-200" href="#">
-              nft.cx
-            </a> */}
-            {/* <span class="hidden md:inline"> · All rights reserved.</span> */}
-          </div>
         </div>
       </div>
     </footer>
