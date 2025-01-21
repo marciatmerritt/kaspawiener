@@ -111,8 +111,9 @@ export default component$(() => {
 
           <div class="text-sm text-gray-700 mr-4 pb-2 dark:text-slate-400 flex items-center">
             {/* Replace favicon span with your Logo component */}
-            {/* © 2025 Webdev.ca */}
-            Designed & Developed {" "} by&nbsp;
+            © 2025 
+
+            Powered {" "} by&nbsp;
             <a class="text-gray-900 underline dark:text-gray-200" href="#">
               Webdev.ca
             </a>{" "} 
