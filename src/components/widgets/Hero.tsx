@@ -28,7 +28,7 @@ export default component$(() => {
                     <div class="flex w-full">
 
                       <button class="btn w-full bg-primary-300 py-2 rounded-sm dark:bg-primary-400">
-                        Our Services
+                        Browse Services
                       </button>
 
                     </div>
