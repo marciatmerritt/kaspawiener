@@ -1,5 +1,6 @@
 # Menu
 
+## [About](/about)
 ## [Services](/services)
 ## [Reviews](/reviews)
 ## [Gallery](/gallery)

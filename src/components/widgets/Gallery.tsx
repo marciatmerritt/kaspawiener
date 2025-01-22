@@ -8,9 +8,9 @@ export default component$(() => {
     <div>
     <PageWrapper>
       <Headline
-        title={"Our Gallery of Past Work"}
+        title={"Our Past Work"}
         subtitle={"Choose a one-time payment or pay it off over a longer period"}
-        highlight={"Pricing"}
+        highlight={"Gallery"}
       />
       {/* Page content goes here */}
     </PageWrapper>
