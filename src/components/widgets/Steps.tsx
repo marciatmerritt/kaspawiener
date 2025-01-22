@@ -5,38 +5,39 @@ import IconStar from "~/components/icons/IconStar";
 
 export default component$(() => {
   const stepsData = {
-    title: "Our Process: From Vision to Reality",
+    title: "Our Process: From Idea to Finished Print",
     items: [
       {
-        title: "Step 1: Free Consultation",
+        title: "Step 1: Request a Quote",
         description:
-          "Start with a free consultation where we learn about your goals, challenges, and vision for your website. This is where your ideas take shape, and we establish the foundation for success.",
+          "Start by requesting a personalized quote for your printing needs. Share your project details, and we'll provide you with a clear and competitive estimate.",
         icon: IconStar,
       },
       {
-        title: "Step 2: Tailored Design",
+        title: "Step 2: Custom Design Assistance",
         description:
-          "Our team crafts a custom design that aligns with your brand and captivates your audience. Every detail is carefully planned to ensure a seamless and stunning user experience.",
+          "Our expert design team can help you refine your artwork or create a custom design that meets your vision. We ensure your project is print-ready and perfect for production.",
         icon: IconStar,
       },
       {
-        title: "Step 3: Development Excellence",
+        title: "Step 3: High-Quality Printing",
         description:
-          "We bring your design to life with clean, efficient, and scalable code. Our developers ensure your website is fast, responsive, and ready to perform across all devices.",
+          "Once approved, we bring your project to life using state-of-the-art printing technology. We guarantee vibrant colors, sharp details, and exceptional quality in every print.",
         icon: IconStar,
       },
       {
-        title: "Step 4: Testing & Launch",
+        title: "Step 4: Quality Check & Delivery",
         description:
-          "Before going live, we rigorously test your website to ensure it meets the highest quality standards. Once perfected, we launch your site, setting you up for digital success.",
+          "Before your order leaves our shop, we conduct a thorough quality check to ensure perfection. Then, we pack and deliver your prints right to your doorstep, on time and in perfect condition.",
         icon: IconStar,
       },
     ],
     image: {
-      src: "/assets/images/steps.webp",
-      alt: "Steps to success image",
+      src: "/assets/images/print-steps.webp",
+      alt: "Steps to professional printing success",
     },
   };
+  
   
   const { title, items, image } = stepsData;
 
