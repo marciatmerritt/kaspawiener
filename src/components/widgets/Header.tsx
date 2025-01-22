@@ -6,6 +6,8 @@ import IconTelegram from "../icons/IconTelegram";
 import IconTwitter from "../icons/IconTwitter";
 import { useContent } from "@builder.io/qwik-city";
 import { Logo } from "../common/KoinLogo";
+import IconFacebook from "../icons/IconFacebook";
+import IconApps from "../icons/IconApps";
 
 
 
@@ -107,7 +109,7 @@ export default component$(() => {
                         title={"Telegram"}
                         href={"/"}
                       >
-                        <IconTelegram />
+                        <IconFacebook />
                       </a>
 
                       <a
@@ -117,7 +119,7 @@ export default component$(() => {
                         href={"/"}
       
                       >
-                        <IconTwitter />
+                        <IconApps />
                       </a>
             </div>
             <span class="ml-4 rtl:ml-0 rtl:mr-4">
