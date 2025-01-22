@@ -27,7 +27,7 @@ export default component$(() => {
                   <a href="/services">
                     <div class="flex w-full">
 
-                      <button class="btn w-full bg-primary-200 py-2 rounded-md dark:bg-primary-400">
+                      <button class="btn w-full bg-primary-400 py-2 rounded-md dark:bg-primary-600">
                         Browse Services
                       </button>
 
@@ -36,7 +36,7 @@ export default component$(() => {
                   <a href="/contact">
                     <div class="flex w-full">
 
-                      <button class="btn w-full bg-primary-400 py-2 rounded-md dark:bg-primary-600">
+                      <button class="btn w-full bg-primary-200 py-2 rounded-md dark:bg-primary-400">
                         Request A Quote
                       </button>
 
