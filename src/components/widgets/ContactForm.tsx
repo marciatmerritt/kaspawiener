@@ -45,7 +45,7 @@ export default component$(() => {
                 </dl>
             </div>
         </div>
-        <form action="#" method="POST" class="px-6 pb-8 pt-12 sm:pb-32 lg:px-8 lg:py-24">
+        <form action="#" method="POST" class="px-4 pb-8 pt-12 sm:pb-32 lg:px-8 lg:py-24">
             <div class="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
                 <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                     <div>
@@ -85,7 +85,7 @@ export default component$(() => {
                     <div class="sm:col-span-2">
                         <label for="message" class="block text-sm/6 font-semibold text-gray-900 dark:text-white">Message</label>
                         <div class="mt-2.5">
-                        <textarea id="message" rows={6} class="block p-2.5 w-full text-md text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+                        <textarea id="message" rows={4} class="block p-2.5 w-full text-md text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
                         </div>
                     </div>
                 </div>

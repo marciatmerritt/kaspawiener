@@ -10,13 +10,13 @@ export default component$(() => {
         
     <section class="bg-white dark:bg-gray-900">
           
-    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-6 lg:px-6">
     <Headline
                 title={"What Our Clients Say"}
                 subtitle={"Explore how our photography and videography services bring stories to life with creativity and precision."}
                 highlight={"Reviews"}
               />
-        <div class="grid gap-8 lg:grid-cols-3">
+        <div class="grid pt-2 gap-8 lg:grid-cols-3">
             <div class="space-y-6">
                 <figure class="p-6 bg-gray-50 rounded dark:bg-gray-800">
                     <blockquote class="text-sm text-gray-500 dark:text-gray-400">
