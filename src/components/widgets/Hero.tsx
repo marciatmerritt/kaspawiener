@@ -1,9 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import { Image } from "@unpic/qwik";
 
-
-const coverImage =
-  "/images/Print.mp4";
 
 export default component$(() => {
   return (
