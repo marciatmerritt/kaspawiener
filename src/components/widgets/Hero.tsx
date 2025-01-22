@@ -27,7 +27,7 @@ export default component$(() => {
                   <a href="/services">
                     <div class="flex w-full">
 
-                      <button class="btn w-full bg-primary-300 py-2 rounded-sm dark:bg-primary-400">
+                      <button class="btn w-full bg-primary-200 py-2 rounded-md dark:bg-primary-400">
                         Browse Services
                       </button>
 
@@ -36,7 +36,7 @@ export default component$(() => {
                   <a href="/contact">
                     <div class="flex w-full">
 
-                      <button class="btn w-full bg-primary-200 py-2 rounded-sm dark:bg-primary-600">
+                      <button class="btn w-full bg-primary-400 py-2 rounded-md dark:bg-primary-600">
                         Request A Quote
                       </button>
 
@@ -62,7 +62,7 @@ export default component$(() => {
               priority={true}
               breakpoints={[320, 480, 640, 768, 1024]}
             /> */}
-              <img src="https://cdn.svgator.com/images/2021/10/solar-system-animation.svg" width="700" height="400" fetchPriority="high" alt="Animated Vectors Flying to the Moon and Back: About the Space Animation Trend" />
+              <img class="rounded-md" src="https://cdn.svgator.com/images/2021/10/solar-system-animation.svg" width="700" height="400" fetchPriority="high" alt="Animated Vectors Flying to the Moon and Back: About the Space Animation Trend" />
             </div>
 
           </div>
