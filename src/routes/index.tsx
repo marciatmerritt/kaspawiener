@@ -7,7 +7,7 @@ import Steps from "~/components/widgets/Steps";
 import { SITE } from "~/config.mjs";
 import { qwikSerialized } from "~/utils/qwikSerialized";
 import Services from "~/components/pages/Services";
-import ReviewGrid from "~/components/widgets/ReviewGrid";
+import Reviews from "~/components/pages/Reviews";
 
 const IconBrandTailwind = qwikSerialized(() => import("../components/icons/IconBrandTailwind"));
 const IconApps = qwikSerialized(() => import("../components/icons/IconApps"));
@@ -21,7 +21,7 @@ export default component$(() => {
       <Hero />
       <Services/>
       <Steps/>
-      <ReviewGrid/>
+      <Reviews/>
       <Features
         highlight="Our Portfolio"
         title="Past Work with some awesome clients"

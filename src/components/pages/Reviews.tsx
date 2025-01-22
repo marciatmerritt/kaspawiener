@@ -2,6 +2,7 @@ import { component$ } from '@builder.io/qwik';
 import { Headline } from '../ui/Headline';
 import { PageWrapper } from '../common/PageWrapper';
 import { ContentWrapper } from '../common/ContentWrapper';
+import ReviewGrid from '../widgets/ReviewGrid';
 
 const reviews = [
   {
@@ -63,9 +64,10 @@ export default component$(() => {
           subtitle={"Discover the experiences and success stories from our clients."}
           highlight={"Reviews"}
         />
+        <ReviewGrid/>
       </PageWrapper>
 
-    <ContentWrapper>
+    {/* <ContentWrapper>
    
             <div class="grid gap-2 md:gap-4 lg:grid-cols-3">
               {reviews.map(({ title, text, name, position, image}, index) => (
@@ -94,7 +96,7 @@ export default component$(() => {
               ))}
             </div>
             </ContentWrapper>
-    
+     */}
     </div>
   );
 });

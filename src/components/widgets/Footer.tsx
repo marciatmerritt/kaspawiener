@@ -109,11 +109,11 @@ export default component$(() => {
             <ToggleTheme />
           </ul>
 
-          <div class="text-sm text-gray-700 mr-4 pb-2 dark:text-slate-400 flex items-center justify-between md:justify-start">
+          <div class="text-sm text-gray-700 pb-2 dark:text-slate-400 flex items-center justify-between md:justify-start">
   {/* Replace favicon span with your Logo component */}
-  <span>© 2025 All Rights Reserved</span>
-  <a class="text-gray-900 underline dark:text-gray-200" href="#">
-    Powered by Webdev.ca
+  <span>© 2025 Digital Art & Restoration&nbsp;</span> <span class="hidden sm:block">&nbsp;· &nbsp;</span>
+  <a class="text-gray-900 dark:text-gray-200" href="#">
+    Powered by <span class="underline">Webdev.ca</span>
   </a>
 </div>
 

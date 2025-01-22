@@ -1,7 +1,8 @@
 import { component$ } from '@builder.io/qwik';
 import { Headline } from '../ui/Headline';
 import { PageWrapper } from '../common/PageWrapper';
-import ServiceList from '../widgets/ServiceList';
+import ServiceGrid from '../widgets/ServiceGrid';
+
 
 export default component$(() => {
   return (
@@ -12,7 +13,7 @@ export default component$(() => {
         subtitle={"Explore how our photography and videography services bring stories to life with creativity and precision."}
         highlight={"Services"}
       />
-     <ServiceList/>
+     <ServiceGrid/>
     </PageWrapper>
   
 </div>
