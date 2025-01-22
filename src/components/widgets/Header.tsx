@@ -1,15 +1,10 @@
 import { component$, useStore } from "@builder.io/qwik";
 import ToggleMenu from "~/components/common/ToggleMenu";
 import IconChevronDown from "../icons/IconChevronDown";
-
-import IconTelegram from "../icons/IconTelegram";
-import IconTwitter from "../icons/IconTwitter";
 import { useContent } from "@builder.io/qwik-city";
 import { Logo } from "../common/KoinLogo";
 import IconFacebook from "../icons/IconFacebook";
 import IconApps from "../icons/IconApps";
-
-
 
 export default component$(() => {
   
@@ -49,7 +44,7 @@ export default component$(() => {
                         title={"Telegram"}
                         href={"https://t.me/+Zhe2fvsS1WQyNTA0"}
                       >
-                        <IconTelegram />
+                        <IconFacebook />
                       </a>
 
                       <a
@@ -59,7 +54,7 @@ export default component$(() => {
                         href={"https://x.com/koinonkas"}
       
                       >
-                        <IconTwitter />
+                        <IconApps />
                       </a>
             <ToggleMenu />
           </div>
