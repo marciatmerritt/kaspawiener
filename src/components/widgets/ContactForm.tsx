@@ -18,7 +18,7 @@ export default component$(() => {
                                 subtitle={"Explore how our photography and videography services bring stories to life with creativity and precision."}
                                 highlight={"Contact Us"}
                               />
-                <dl class="mt-10 space-y-4 text-base/7 text-gray-600 dark:text-gray-300">
+                <dl class="mt-8 space-y-4 text-base/7 text-gray-600 dark:text-gray-300">
                     <div class="flex gap-x-4">
                         <dt class="flex-none">
                             <span class="sr-only">Address</span>
