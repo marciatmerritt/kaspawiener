@@ -6,7 +6,7 @@ export default component$(() => {
  
     <div class="relative isolate bg-white rounded-lg dark:bg-gray-900">
     <div class="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
-        <div class="relative px-6 pb-8 pt-10 sm:pt-32 lg:static lg:px-8 lg:py-24">
+        <div class="relative px-6 pb-8 pt-8 sm:pt-32 lg:static lg:px-8 lg:py-24">
             <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
                 <div class="absolute inset-y-0 left-0 -z-10 w-full overflow-hidden bg-gray-100 ring-1 ring-gray-900/10 dark:bg-gray-900 dark:ring-white/5 lg:w-1/2">
                     <div class="absolute -left-56 top-[calc(100%-13rem)] transform-gpu blur-3xl lg:left-[max(-14rem,calc(100%-59rem))] lg:top-[calc(50%-7rem)]" aria-hidden="true">
@@ -54,25 +54,25 @@ export default component$(() => {
                 <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                     <div>
                         <label for="first-name" class="block text-sm/6 font-semibold text-gray-900 dark:text-white">Name</label>
-                        <div class="mt-2.5">
+                        <div class="mt-1.5">
                         <input type="text" id="first-name" class="block p-2.5 w-full text-md text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Bonnie" required/>
                         </div>
                     </div>
                     <div>
                         <label for="last-name" class="block text-sm/6 font-semibold text-gray-900 dark:text-white">Company</label>
-                        <div class="mt-2.5">
+                        <div class="mt-1.5">
                         <input type="text" id="last-name" class="block p-2.5 w-full text-md text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Green" required/>
                         </div>
                     </div>
                     <div class="sm:col-span-2">
                         <label for="email" class="block text-sm/6 font-semibold text-gray-900 dark:text-white">Email</label>
-                        <div class="mt-2.5">
+                        <div class="mt-1.5">
                         <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-md rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required/>
                         </div>
                     </div>
                     <div class="sm:col-span-1">
                         <label for="phone-number" class="block text-sm/6 font-semibold text-gray-900 dark:text-white">Phone number</label>
-                        <div class="mt-2.5">
+                        <div class="mt-1.5">
                         <input type="number" id="phone-number" class="block p-2.5 w-full text-md text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="+12 345 6789" required/>
                         </div>
                     </div>
@@ -88,7 +88,7 @@ export default component$(() => {
                     </div>
                     <div class="sm:col-span-2">
                         <label for="message" class="block text-sm/6 font-semibold text-gray-900 dark:text-white">Message</label>
-                        <div class="mt-2.5">
+                        <div class="mt-1.5">
                         <textarea id="message" rows={4} class="block p-2.5 w-full text-md text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
                         </div>
                     </div>
