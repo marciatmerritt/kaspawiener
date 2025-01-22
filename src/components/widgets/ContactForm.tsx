@@ -82,8 +82,9 @@ export default component$(() => {
                             <option selected>Select a topic</option>
                             <option value="US">Switch plans and add-ons</option>
                             <option value="CA">Billing & Invoice</option>
-                            <option value="FR">I can't log in to Flowbite</option>
                             <option value="DE">Parental controls</option>
+                            <option value="XU">Billing & Invoice</option>
+
                         </select>
                     </div>
                     <div class="sm:col-span-2">
