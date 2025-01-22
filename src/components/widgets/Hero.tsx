@@ -16,7 +16,7 @@ export default component$(() => {
               </a>
               <h1 class="text-5xl md:text-7xl font-bold leading-tighter tracking-tighter text-primary mb-4 font-heading dark:text-gray-200">
 
-                <span class="text-primary">Bring Your Favourite Memories to Life</span>
+                <span class="text-primary">Bring Your Best Memories to Life</span>
               </h1>
               <div class="max-w-3xl mx-auto lg:max-w-none">
                 <p class="text-xl mb-6 dark:text-slate-300">
