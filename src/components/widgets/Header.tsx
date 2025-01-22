@@ -5,7 +5,6 @@ import { useContent } from "@builder.io/qwik-city";
 import { Logo } from "../common/KoinLogo";
 import IconFacebook from "../icons/IconFacebook";
 import IconApps from "../icons/IconApps";
-import IconInstagram from "../icons/IconInstagram";
 
 export default component$(() => {
   
@@ -55,7 +54,7 @@ export default component$(() => {
                         href={"/"}
       
                       >
-                        <IconInstagram />
+                        <IconApps />
                       </a>
             <ToggleMenu />
           </div>
