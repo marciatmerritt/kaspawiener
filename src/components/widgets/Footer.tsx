@@ -59,18 +59,23 @@ export default component$(() => {
                 Digital Art & Restoration
               </Link>
             </div>
-
+  
             <div class="text-sm mb-2 text-gray-600 dark:text-gray-400">
-            Elevate your brand with our professional photography and videography services. We specialize in creating stunning visuals that capture your story and leave a lasting impression.
-
-
-
-
-
-
-
-</div>
+              Elevate your brand with our professional photography and videography services. We specialize in creating stunning visuals that capture your story and leave a lasting impression.
+            </div>
+  
+            {/* Action Button */}
+            <div class="mt-4">
+              <a href="/contact">
+              <button
+                class="px-6 py-2 bg-primary-600 text-white font-semibold rounded-lg shadow-md hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition"
+              >
+                Request a Quote
+              </button>
+              </a>
+            </div>
           </div>
+  
           {links.map(({ title, items }, index) => (
             <div key={index} class="col-span-6 md:col-span-3 lg:col-span-2">
               <div class="text-gray-800 dark:text-gray-300 font-medium mb-3">{title}</div>
@@ -90,10 +95,10 @@ export default component$(() => {
               )}
             </div>
           ))}
-
         </div>
+  
         <div class="md:flex md:items-center md:justify-between pb-3 md:pt-8 md:pb-2">
-          <ul class="flex md:order-1 -ml-2 md:ml-4 md:mb-0 justify-end">
+          <ul class="flex md:order-1 -ml-2 md:ml-4 md:mb-0 justify-start">
             {social.map(({ label, href, icon: Icon }, index) => (
               <li key={index}>
                 <Link
@@ -108,17 +113,16 @@ export default component$(() => {
             ))}
             <ToggleTheme />
           </ul>
-
+  
           <div class="text-sm text-gray-700 pb-2 dark:text-slate-400 flex items-center justify-between md:justify-start">
-  {/* Replace favicon span with your Logo component */}
-  <span>© 2025 Digital Art & Restoration&nbsp;</span> <span class="hidden sm:block">&nbsp;· &nbsp;</span>
-  <a class="text-gray-900 dark:text-gray-200" href="#">
-    Powered by <span class="underline">Webdev.ca</span>
-  </a>
-</div>
-
+            <span>© 2025 All Rights Reserved&nbsp;</span>
+            <span class="hidden sm:block">&nbsp;· &nbsp;</span>
+            <a class="text-gray-900 dark:text-gray-200" href="#">
+              Powered by <span class="underline">Webdev.ca</span>
+            </a>
+          </div>
         </div>
       </div>
     </footer>
   );
-});
+})  
