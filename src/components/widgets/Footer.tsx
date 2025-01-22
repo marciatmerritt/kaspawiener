@@ -56,7 +56,7 @@ export default component$(() => {
                 class="inline-block font-bold text-primary-600 hover:text-primary text-xl"
                 href={"/"}
               >
-                Digital Art & Restoration
+                Webdev.ca
               </Link>
             </div>
   
