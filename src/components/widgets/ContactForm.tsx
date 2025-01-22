@@ -51,7 +51,7 @@ export default component$(() => {
         </div>
         <form action="#" method="POST" class="px-4 pb-8 pt-8 sm:pb-32 lg:px-8 lg:py-24">
             <div class="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
-                <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+                <div class="grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
                     <div>
                         <label for="first-name" class="block text-sm/6 font-semibold text-gray-900 dark:text-white">Name</label>
                         <div class="mt-1.5">
@@ -77,7 +77,7 @@ export default component$(() => {
                         </div>
                     </div>
                     <div>
-                    <label for="topic" class="pb-1 block text-sm/6 font-semibold text-gray-900 dark:text-white">Service</label>
+                    <label for="topic" class="pb-1.5 block text-sm/6 font-semibold text-gray-900 dark:text-white">Service</label>
                     <select id="topic" class="bg-gray-50 border border-gray-300 text-gray-900 text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                             <option selected>Select a topic</option>
                             <option value="US">Switch plans and add-ons</option>
