@@ -73,7 +73,7 @@ export default component$(() => {
                         </div>
                     </div>
                     <div>
-                    <label for="topic" class="block text-sm/6 font-semibold text-gray-900 dark:text-white">Service</label>
+                    <label for="topic" class="pb-1 block text-sm/6 font-semibold text-gray-900 dark:text-white">Service</label>
                     <select id="topic" class="bg-gray-50 border border-gray-300 text-gray-900 text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                             <option selected>Select a topic</option>
                             <option value="US">Switch plans and add-ons</option>
