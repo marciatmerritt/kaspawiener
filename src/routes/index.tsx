@@ -21,7 +21,6 @@ export default component$(() => {
   return (
     <>
       <Hero />
-    <FAQmobile/>
       <Services/>
       <Steps/>
       <div class="sm:hidden">
@@ -76,7 +75,7 @@ export default component$(() => {
 
       
 
-
+      <FAQmobile/>
 
 
 {/* <FAQs
