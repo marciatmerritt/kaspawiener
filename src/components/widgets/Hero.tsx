@@ -1,4 +1,5 @@
 import { component$ } from "@builder.io/qwik";
+import { Image } from "@unpic/qwik";
 
 
 export default component$(() => {
@@ -10,13 +11,13 @@ export default component$(() => {
           <div class="pt-0 md:pt-[60px] pointer-events-none"></div>
           <div class="pt-6 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
             <div class="basis-1/2 text-center lg:text-left pb-8 md:pb-16 mx-auto">
-              <a href="/audit" class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-5 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700" role="alert">
-                <span class="text-xs bg-primary rounded-full text-white px-4 py-1.5 mr-3">New</span> <span class="text-sm font-medium">Free Web Audit & SEO Report</span>
+              <a href="https://kas.fyi/token/krc20/WIENER" class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-5 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700" role="alert">
+                <span class="text-xs bg-primary rounded-full text-white px-4 py-1.5 mr-3">New</span> <span class="text-sm font-medium">Minting Now In Progress!</span>
                 <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
               </a>
               <h1 class="text-5xl md:text-7xl font-bold leading-tighter tracking-tighter text-primary mb-4 font-heading dark:text-gray-200">
 
-                <span class="text-primary">Website Design & Development Services</span>
+                <span class="text-primary">WIENER on Kaspa</span>
               </h1>
               <div class="max-w-3xl mx-auto lg:max-w-none">
                 <p class="text-xl mb-6 dark:text-slate-300">
@@ -52,8 +53,8 @@ export default component$(() => {
 
 
             <div class="basis-1/2 pb-10">
-              {/* <Image
-              src={coverImage}
+              <Image
+                 src="/images/logo.jpg"
               layout="constrained"
               width={500}
               height={500}
@@ -61,8 +62,8 @@ export default component$(() => {
               class="mx-auto lg:mr-0 object-fit w-full drop-shadow-2xl rounded-md"
               priority={true}
               breakpoints={[320, 480, 640, 768, 1024]}
-            /> */}
-              <img class="rounded-md" src="https://cdn.svgator.com/images/2021/10/solar-system-animation.svg" width="700" height="400" fetchPriority="high" alt="Animated Vectors Flying to the Moon and Back: About the Space Animation Trend" />
+            />
+              {/* <img class="rounded-md" src="https://cdn.svgator.com/images/2021/10/solar-system-animation.svg" width="700" height="400" fetchPriority="high" alt="Animated Vectors Flying to the Moon and Back: About the Space Animation Trend" /> */}
             </div>
 
           </div>

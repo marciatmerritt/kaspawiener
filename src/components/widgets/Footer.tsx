@@ -10,39 +10,46 @@ export default component$(() => {
     {
       title: "About",
       items: [
-        { title: "Our Team", href: "#team" },
-        { title: "Our Process", href: "#process" },
-        { title: "Testimonials", href: "#testimonials" },
+        { title: "Team", href: "#team" },
+        { title: "Roadmap", href: "#roadmap" },
+        { title: "Tokenomics", href: "#tokenomics" },
+
       ],
     },
     {
-      title: "Services",
+      title: "Exchanges",
       items: [
-        { title: "Photography", href: "#photography" },
-        { title: "Videography", href: "#videography" },
-        { title: "Editing", href: "#editing" },
-      ],
-    },
-    {
-      title: "Portfolio",
-      items: [
-        { title: "Photography Projects", href: "#photo-projects" },
-        { title: "Video Projects", href: "#video-projects" },
+     
+        { title: "KSPR Bot", href: "https://t.me/kspr_home_bot?start=WdRcvw" },
+        { title: "Chainge (coming soon)", href: "https://dapp.chainge.finance/?fromChain=KAS&toChain=KAS&fromToken=KAS&toToken=KOIN_krc20" },
+
       ],
     },
 
     {
-      title: "Contact",
+      title: "Resources",
       items: [
-        { title: "Get in Touch", href: "#contact" },
-        { title: "Request a Quote", href: "#quote" },
+        { title: "Kas.fyi", href: "https://kas.fyi/token/krc20/KOIN" },
+        { title: "KRC-20", href: "https://kasplex.org/" },
+
+
       ],
     },
+    {
+      title: "Kaspa",
+      items: [
+        { title: "Docs", href: "https://kaspa.org/" },
+        { title: "Explorer", href: "https://explorer.kaspa.org/?_gl=1*zucsjw*_ga*MTU0NTUwNzk2NC4xNzM0MTE4NTEw*_ga_YSMK4G52CC*MTczNjQwNzQ0Ny4yMi4xLjE3MzY0MDc4NjEuMC4wLjA." },
+
+
+      ],
+    },
+
   ];
 
   const social = [
-    { label: "Twitter", icon: IconTwitter, href: "/" },
-    { label: "Telegram", icon: IconTelegram, href: "/" },
+    { label: "Twitter", icon: IconTwitter, href: "https://x.com/koinonkas" },
+    { label: "Telegram", icon: IconTelegram, href: "https://t.me/+Zhe2fvsS1WQyNTA0" },
 
   ];
 
@@ -52,11 +59,12 @@ export default component$(() => {
         <div class="grid grid-cols-12 gap-4 gap-y-4 sm:gap-8 pt-6 md:pt-8 pb-2">
           <div class="col-span-12 lg:col-span-4 pr-8">
             <div class="flex items-center mb-3">
+              <img class="rounded-full" height={25} width={25} src="/images/logo.jpg"></img>
               <Link
-                class="inline-block font-bold text-primary-600 hover:text-primary text-xl"
+                class="inline-block font-bold pl-1 text-primary-600 hover:text-primary text-xl"
                 href={"/"}
               >
-                Webdev.ca
+                WIENER on Kaspa
               </Link>
             </div>
   
@@ -118,7 +126,7 @@ export default component$(() => {
             <span>© 2025 All Rights Reserved&nbsp;</span>
             <span class="hidden sm:block">&nbsp;· &nbsp;</span>
             <a class="text-gray-900 dark:text-gray-200" href="#">
-              Powered by <span class="underline">Webdev.ca</span>
+              Powered by <span class="underline">Nft.cx</span>
             </a>
           </div>
         </div>
