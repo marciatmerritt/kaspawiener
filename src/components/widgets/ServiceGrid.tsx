@@ -55,12 +55,12 @@ export default component$(() => {
             height={400}
             src={image}
             alt={alt}
-            class="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-105"
+            class="w-full h-45 object-cover transition-transform duration-300 group-hover:scale-105"
           />
           <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100 flex items-center justify-center">
             <p class="text-white text-center px-4">{details}</p>
           </div>
-          <div class="p-4 bg-gray-100 dark:bg-gray-800">
+          <div class="px-4 py-3 bg-gray-100 dark:bg-gray-800">
             <h3 class="text-lg font-semibold text-gray-900 dark:text-white">{title}</h3>
             <p class="text-sm text-gray-600 dark:text-gray-400">{description}</p>
           </div>
