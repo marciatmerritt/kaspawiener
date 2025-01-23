@@ -69,9 +69,9 @@ export default component$(() => {
       {/* <ReviewsMobile/> */}
 
       
-
+<div class="sm:hidden">
       <FAQmobile/>
-
+      </div>
 
 {/* <FAQs
         highlight="Features"
