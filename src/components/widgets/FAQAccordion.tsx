@@ -49,7 +49,7 @@ export default component$(() => {
         <Accordion.Trigger class="text-xl flex trigger-text justify-between hover:text-primary items-center py-3 border-b border-gray-300 dark:border-gray-700">
           <span>Community</span>
         </Accordion.Trigger>
-        <Accordion.Content class=" py-2">
+        <Accordion.Content class="">
           {/* Service Links with Highlight and Divider */}
           <div class="hover:bg-primary/35 transition border-b border-gray-300 dark:border-gray-700 last:border-none">
             <a href="/" class="block text-lg py-3 px-2">Web Design</a>

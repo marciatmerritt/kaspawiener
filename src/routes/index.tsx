@@ -9,7 +9,7 @@ import { qwikSerialized } from "~/utils/qwikSerialized";
 import Services from "~/components/pages/Services";
 import Reviews from "~/components/pages/Reviews";
 import Pricing from "~/components/pages/Pricing";
-import FAQAccordion from "~/components/widgets/FAQAccordion";
+import FAQmobile from "~/components/pages/FAQmobile";
 
 const IconBrandTailwind = qwikSerialized(() => import("../components/icons/IconBrandTailwind"));
 const IconApps = qwikSerialized(() => import("../components/icons/IconApps"));
@@ -21,7 +21,7 @@ export default component$(() => {
   return (
     <>
       <Hero />
-    <FAQAccordion/>
+    <FAQmobile/>
       <Services/>
       <Steps/>
       <div class="sm:hidden">
