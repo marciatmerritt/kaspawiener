@@ -26,7 +26,7 @@ export default component$(() => {
       <div class="sm:hidden">
       <Pricing/>
       </div>
-      <Steps/>
+    
       <Reviews/>
       <Features
         highlight="Our Portfolio"
