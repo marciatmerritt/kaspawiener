@@ -115,9 +115,9 @@ export default component$(() => {
           },
         ]}
       /> */}
-<div class="-mx-3">
+
 <Contact/>
-</div>
+
 
     </>
   );
