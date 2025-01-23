@@ -7,7 +7,7 @@ export default component$(() => {
       {/* Services Section */}
       <Accordion.Item class="dark:border-gray-700">
         <Accordion.Trigger class="text-xl flex trigger-text justify-between hover:text-primary items-center py-3 border-b border-gray-300 dark:border-gray-700">
-          <span>How many questions are in this FAQ accordion?</span>
+          <span>How many questions are in this FAQ?</span>
         </Accordion.Trigger>
         <Accordion.Content class="">
           {/* Service Links with Highlight and Divider */}
