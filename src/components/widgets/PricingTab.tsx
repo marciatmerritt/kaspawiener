@@ -4,7 +4,6 @@ import { Card } from '../ui/Card';
 
 export default component$(() => {
     return (
-      
             <Tabs.Root class="flex flex-col items-center">
                 <Tabs.List class="grid w-full max-w-[400px] grid-cols-2">
                     <Tabs.Tab selectedClassName='bg-primary-200' class="bg-gray-100 rounded-none">Custom Site - $5000</Tabs.Tab>
@@ -61,7 +60,6 @@ export default component$(() => {
                     </Card.Root>
                 </Tabs.Panel>
             </Tabs.Root>
-      
     );
 });
 
