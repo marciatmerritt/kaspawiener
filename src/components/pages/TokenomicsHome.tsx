@@ -7,7 +7,7 @@ export default component$(() => {
   return (
     <div>
     <PageWrapper3>
-        <div class="h-5"></div>
+        <div class="h-4"></div>
       <Headline
         title={"$WIENER Tokenomics"}
         subtitle={"Choose a one-time payment or pay it off over a longer period"}
