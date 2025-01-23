@@ -13,13 +13,10 @@ export default component$(() => {
         subtitle={"Choose a one-time payment or pay it off over a longer period"}
         highlight={"Pricing"}
       />
-      {/* Page content goes here */}
+      <PricingTab/>
     </PageWrapper>
 
-    <ContentWrapper>
-
-      <PricingTab/>
-    </ContentWrapper>
+   
 
     </div>
   );

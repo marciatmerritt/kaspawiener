@@ -2,8 +2,10 @@ import { component$, useStore } from "@builder.io/qwik";
 import ToggleMenu from "~/components/common/ToggleMenu";
 import IconChevronDown from "../icons/IconChevronDown";
 import { useContent } from "@builder.io/qwik-city";
+import { Logo } from "../common/KoinLogo";
 import IconFacebook from "../icons/IconFacebook";
 import IconApps from "../icons/IconApps";
+import ToggleTheme from "../common/ToggleTheme";
 
 export default component$(() => {
   
@@ -34,29 +36,12 @@ export default component$(() => {
       <div class="relative text-default py-2.5 px-2.5 md:px-6 mx-auto w-full md:flex md:justify-between max-w-7xl">
         <div class="mr-auto rtl:mr-0 rtl:ml-auto flex justify-between">
           <a class="flex items-center" href={"/"}>
-           
-            <img width={50} height={50} src="/images/shield.svg"/>
-            <h1 class="text-2xl pl-1 ">ADEPTLOCK</h1>
+            <Logo />
+                  {/* <img width={50} height={50} src="/images/shield.svg"/> */}
+            {/* <h1 class="text-2xl pl-1 font-normal ">ADEPTLOCK</h1> */}
           </a>
           <div class="flex items-center md:hidden">
-          <a
-                        class="text-gray-500 dark:text-gray-400 hover:text-white hover:bg-primary focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
-                        aria-label={"Telegram"}
-                        title={"Telegram"}
-                        href={"/"}
-                      >
-                        <IconFacebook />
-                      </a>
-
-                      <a
-                        class="text-gray-500 dark:text-gray-400 mr-2 hover:bg-primary hover:text-white  focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
-                        aria-label={"X"}
-                        title={"X"}
-                        href={"/"}
-      
-                      >
-                        <IconApps />
-                      </a>
+          <ToggleTheme/>
             <ToggleMenu />
           </div>
         </div>

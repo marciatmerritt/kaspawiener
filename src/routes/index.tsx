@@ -8,6 +8,7 @@ import { SITE } from "~/config.mjs";
 import { qwikSerialized } from "~/utils/qwikSerialized";
 import Services from "~/components/pages/Services";
 import Reviews from "~/components/pages/Reviews";
+import Pricing from "~/components/pages/Pricing";
 
 const IconBrandTailwind = qwikSerialized(() => import("../components/icons/IconBrandTailwind"));
 const IconApps = qwikSerialized(() => import("../components/icons/IconApps"));
@@ -21,6 +22,9 @@ export default component$(() => {
       <Hero />
       <Services/>
       <Steps/>
+      <div class="sm:hidden">
+      <Pricing/>
+      </div>
       <Reviews/>
       <Features
         highlight="Our Portfolio"

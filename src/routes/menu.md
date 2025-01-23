@@ -2,7 +2,7 @@
 
 ## [About](/about)
 ## [Services](/services)
-## [Gallery](/gallery)
+## [Pricing](/pricing)
 ## [Reviews](/reviews)
 ## [Contact](/contact)
 
