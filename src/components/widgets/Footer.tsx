@@ -12,6 +12,17 @@ export default component$(() => {
 
       ],
     },
+    
+    {
+      title: "Resources",
+      items: [
+        { title: "Whitepaper", href: "/" },
+        { title: "Kas.fyi", href: "https://kas.fyi/token/krc20/wiener" },
+        { title: "KRC-20", href: "https://kasplex.org/" },
+
+
+      ],
+    },
     {
       title: "Trade",
       items: [
@@ -22,15 +33,6 @@ export default component$(() => {
       ],
     },
 
-    {
-      title: "Resources",
-      items: [
-        { title: "Kas.fyi", href: "https://kas.fyi/token/krc20/wiener" },
-        { title: "KRC-20", href: "https://kasplex.org/" },
-
-
-      ],
-    },
     {
       title: "Kaspa",
       items: [
@@ -118,7 +120,7 @@ export default component$(() => {
             <span>© 2025 All Rights Reserved&nbsp;</span>
             <span class="hidden sm:block">&nbsp;· &nbsp;</span>
             <a class="text-gray-900 dark:text-gray-200" href="#">
-              Powered by <span class="underline">Nft.cx</span>
+              Donate <span class="text-primary mx-1">♥</span> kaspa:asdiasdoiajsodiaosjd
             </a>
           </div>
         </div>

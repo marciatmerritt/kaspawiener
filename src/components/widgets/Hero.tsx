@@ -25,20 +25,20 @@ export default component$(() => {
                 </p>
 
                 <div class=" sm:max-w-md m-auto grid grid-cols-1 border-radius-dot-25 gap-4 sm:grid-cols-2 lg:grid-cols-2 lg:max-w-7xl">
-                  <a href="/services">
+                  <a href="https://x.com/wienerKRC20">
                     <div class="flex w-full">
 
                       <button class="btn w-full bg-primary-400 py-2 rounded-md dark:bg-primary-600">
-                        Browse Services
+                        Follow on X
                       </button>
 
                     </div>
                   </a>
-                  <a href="/contact">
+                  <a href="https://t.me/+Civ_RQYiZH03Y2I5">
                     <div class="flex w-full">
 
                       <button class="btn w-full bg-primary-200 py-2 rounded-md dark:bg-primary-400">
-                        Request A Quote
+                        Join Telegram
                       </button>
 
                     </div>

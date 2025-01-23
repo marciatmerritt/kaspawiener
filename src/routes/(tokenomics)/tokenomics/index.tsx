@@ -1,10 +1,10 @@
 import { component$ } from "@builder.io/qwik";
-import Roadmap from "~/components/pages/Roadmap";
+import Tokenomics from "~/components/pages/Tokenomics";
 
 export default component$(() => {
   return (
     <>
-   <Roadmap/>
+   <Tokenomics/>
     </>
   );
 });
