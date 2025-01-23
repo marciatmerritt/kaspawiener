@@ -42,7 +42,7 @@ export default component$(() => {
                     <div class="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
                       <div class="relative aspect-2/1 h-64 sm:h-72 md:h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
                         <img
-                          class="absolute inset-0 w-full h-full rounded-2xl bg-gray-800 object-cover shadow-2xl"
+                          class="absolute inset-2 w-full h-full rounded-2xl bg-gray-800 object-cover shadow-2xl"
                           src={testimonial.image}
                           alt={`${testimonial.name} testimonial`}
                         />
