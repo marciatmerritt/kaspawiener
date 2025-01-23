@@ -4,10 +4,10 @@ import { Card } from '../ui/Card';
 
 export default component$(() => {
     return (
-            <Tabs.Root class="flex flex-col items-center">
+            <Tabs.Root class="flex flex-col items-center bg-gray-50 dark:bg-gray-800">
                 <Tabs.List class="grid w-full max-w-[400px] grid-cols-2">
-                    <Tabs.Tab selectedClassName='bg-primary-200' class="bg-gray-100 rounded-none">Custom Site - $5000</Tabs.Tab>
-                    <Tabs.Tab selected={true} selectedClassName='bg-primary-200' class="bg-gray-100 rounded-none">Monthly Plan - $250</Tabs.Tab>
+                    <Tabs.Tab selectedClassName='bg-primary-200 dark:bg-primary-400' class="bg-gray-100 rounded-none dark:bg-gray-800">Custom Site - $5000</Tabs.Tab>
+                    <Tabs.Tab selected={true} selectedClassName='bg-primary-200 dark:bg-primary-400' class="bg-gray-100 dark:bg-gray-800 rounded-none">Monthly Plan - $250</Tabs.Tab>
                 </Tabs.List>
                 <Tabs.Panel>
                     <Card.Root>

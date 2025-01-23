@@ -4,7 +4,6 @@ import IconChevronDown from "../icons/IconChevronDown";
 import { useContent } from "@builder.io/qwik-city";
 import { Logo } from "../common/KoinLogo";
 import IconFacebook from "../icons/IconFacebook";
-import IconApps from "../icons/IconApps";
 import ToggleTheme from "../common/ToggleTheme";
 
 export default component$(() => {
@@ -93,15 +92,7 @@ export default component$(() => {
                         <IconFacebook />
                       </a>
 
-                      <a
-                        class="text-gray-500 dark:text-gray-400 mr-2 hover:bg-primary hover:text-white focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
-                        aria-label={"X"}
-                        title={"X"}
-                        href={"/"}
-      
-                      >
-                        <IconApps />
-                      </a>
+                      <ToggleTheme/>
             </div>
             <span class="ml-4 rtl:ml-0 rtl:mr-4">
               <a
