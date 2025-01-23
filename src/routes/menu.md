@@ -4,7 +4,6 @@
 ## [Roadmap](/roadmap)
 ## [Tokenomics](/tokenomics)
 ## [Whitepaper](/whitepapers)
-## [Contact](/contact)
 
 
 

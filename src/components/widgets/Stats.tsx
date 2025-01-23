@@ -22,7 +22,7 @@ export default component$(() => {
         </div>
         <div class="text-center md:border-r dark:md:border-slate-500 font-heading">
           <div class="text-4xl font-bold lg:text-5xl xl:text-6xl text-primary-600">
-            0%
+            0.1%
           </div>
           <p class="text-sm font-medium tracking-widest text-gray-800 dark:text-slate-400 uppercase lg:text-base">
             Team Allocation
