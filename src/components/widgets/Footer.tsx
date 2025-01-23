@@ -117,7 +117,7 @@ export default component$(() => {
           </ul> */}
   
           <div class="text-sm text-gray-700 pb-2 pt-3 dark:text-slate-400 flex items-center justify-between md:justify-start">
-            <span class="hidden sm:block">© 2025 All Rights Reserved&nbsp;</span>
+            <span class="hidden sm:block">© 2025 Bailey the $WIENER&nbsp;</span>
             <span class="hidden sm:block">&nbsp;· &nbsp;</span>
             <a class="text-gray-900 dark:text-gray-200" href="#">
               Donate <span class="text-primary mx-1">♥</span> kaspa:asdiasdoiajsodiaosjd
