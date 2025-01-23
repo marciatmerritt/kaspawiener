@@ -14,15 +14,7 @@ export default component$(() => {
           <div class="hover:bg-primary/35 transition border-b border-gray-300 dark:border-gray-700 last:border-none">
             <a href="/" class="block text-lg py-3 px-2">Web Design</a>
           </div>
-          <div class="hover:bg-primary/35 transition border-b border-gray-300 dark:border-gray-700 last:border-none">
-            <a href="/" class="block text-lg py-3 px-2">Development</a>
-          </div>
-          <div class="hover:bg-primary/35 transition border-b border-gray-300 dark:border-gray-700 last:border-none">
-            <a href="/" class="block text-lg py-3 px-2">SEO Optimization</a>
-          </div>
-          <div class="hover:bg-primary/35 transition">
-            <a href="/" class="block text-lg py-3 px-2">Brand Strategy</a>
-          </div>
+    
         </Accordion.Content>
       </Accordion.Item>
 
@@ -35,15 +27,7 @@ export default component$(() => {
           <div class="hover:bg-primary/35 transition border-b border-gray-300 dark:border-gray-700 last:border-none">
             <a href="/" class="block text-lg py-3 px-2">Web Design</a>
           </div>
-          <div class="hover:bg-primary/35 transition border-b border-gray-300 dark:border-gray-700 last:border-none">
-            <a href="/" class="block text-lg py-3 px-2">Development</a>
-          </div>
-          <div class="hover:bg-primary/35 transition border-b border-gray-300 dark:border-gray-700 last:border-none">
-            <a href="/" class="block text-lg py-3 px-2">SEO Optimization</a>
-          </div>
-          <div class="hover:bg-primary/35 transition">
-            <a href="/" class="block text-lg py-3 px-2">Brand Strategy</a>
-          </div>
+
         </Accordion.Content>
       </Accordion.Item>
 
@@ -57,15 +41,7 @@ export default component$(() => {
           <div class="hover:bg-primary/35 transition border-b border-gray-300 dark:border-gray-700 last:border-none">
             <a href="/" class="block text-lg py-3 px-2">Web Design</a>
           </div>
-          <div class="hover:bg-primary/35 transition border-b border-gray-300 dark:border-gray-700 last:border-none">
-            <a href="/" class="block text-lg py-3 px-2">Development</a>
-          </div>
-          <div class="hover:bg-primary/35 transition border-b border-gray-300 dark:border-gray-700 last:border-none">
-            <a href="/" class="block text-lg py-3 px-2">SEO Optimization</a>
-          </div>
-          <div class="hover:bg-primary/35 transition">
-            <a href="/" class="block text-lg py-3 px-2">Brand Strategy</a>
-          </div>
+      
         </Accordion.Content>
       </Accordion.Item>
 
@@ -78,15 +54,7 @@ export default component$(() => {
           <div class="hover:bg-primary/35 transition border-b border-gray-300 dark:border-gray-700 last:border-none">
             <a href="/" class="block text-lg py-3 px-2">Web Design</a>
           </div>
-          <div class="hover:bg-primary/35 transition border-b border-gray-300 dark:border-gray-700 last:border-none">
-            <a href="/" class="block text-lg py-3 px-2">Development</a>
-          </div>
-          <div class="hover:bg-primary/35 transition border-b border-gray-300 dark:border-gray-700 last:border-none">
-            <a href="/" class="block text-lg py-3 px-2">SEO Optimization</a>
-          </div>
-          <div class="hover:bg-primary/35 transition">
-            <a href="/" class="block text-lg py-3 px-2">Brand Strategy</a>
-          </div>
+   
         </Accordion.Content>
       </Accordion.Item>
 
