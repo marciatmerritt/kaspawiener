@@ -56,7 +56,7 @@ export default component$(() => {
                 class="inline-block font-bold pl-1 text-primary-600 hover:text-primary text-xl"
                 href={"/"}
               >
-                WIENER on Kaspa
+                Bailey the $WIENER
               </Link>
             </div>
   
