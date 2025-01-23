@@ -1,7 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import { Headline2 } from "../ui/Headline2";
 import { PageWrapper } from "../common/PageWrapper";
-import { Headline } from "../ui/Headline";
 
 export default component$(() => {
     return (
