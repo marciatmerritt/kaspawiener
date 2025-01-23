@@ -10,7 +10,7 @@ export default component$(() => {
 <PageWrapper>
   <Headline
                                 title={"Frequently Asked Questions"}
-                                subtitle={"Explore how our photography and videography services bring stories to life with creativity and precision."}
+                                // subtitle={"Explore how our photography and videography services bring stories to life with creativity and precision."}
                                 highlight={"FAQs"}
                               />
    <FAQAccordion/>
