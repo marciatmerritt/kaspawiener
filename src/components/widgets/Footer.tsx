@@ -116,8 +116,8 @@ export default component$(() => {
             <ToggleTheme />
           </ul> */}
   
-          <div class="text-sm text-gray-700 pb-2 dark:text-slate-400 flex items-center justify-between md:justify-start">
-            <span>© 2025 All Rights Reserved&nbsp;</span>
+          <div class="text-sm text-gray-700 pb-2 pt-4 dark:text-slate-400 flex items-center justify-between md:justify-start">
+            <span class="hidden sm:block">© 2025 All Rights Reserved&nbsp;</span>
             <span class="hidden sm:block">&nbsp;· &nbsp;</span>
             <a class="text-gray-900 dark:text-gray-200" href="#">
               Donate <span class="text-primary mx-1">♥</span> kaspa:asdiasdoiajsodiaosjd
