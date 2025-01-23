@@ -21,6 +21,7 @@ export default component$(() => {
      <StoryHome/>
      <RoadmapHome/>
 <TokenomicsHome/>
+<div class="h-2"></div>
 
 
 
