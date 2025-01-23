@@ -11,14 +11,14 @@ export default component$(() => {
                 <div class="w-full md:w-1/2 flex flex-col justify-center order-1 md:order-2">
                     <div class="hidden sm:block">
                         <Headline2
-                            title={"Bailey the $WIENER on Kaspa"}
+                            title={"Origin Story of Bailey the $WIENER"}
                             subtitle={"Bailey is the first $WIENER and the origin story. The genesis. Many other wieners will come after Bailey but she started this rocket ship for all the other dogs."}
                             highlight={"Story"}
                         />
                     </div>
                     <div class="block sm:hidden">
                         <Headline
-                            title={"Bailey the $WIENER"}
+                               title={"Origin Story of Bailey the $WIENER"}
                             subtitle={"Bailey is the first $WIENER and the origin story. The genesis. Many other wieners will come after Bailey but she started this rocket ship for all the other dogs."}
                             highlight={"Story"}
                         />
