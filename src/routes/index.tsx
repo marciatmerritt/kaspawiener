@@ -23,9 +23,7 @@ export default component$(() => {
       <Hero />
       <Services/>
       <Steps/>
-      <div class="sm:hidden">
-      <Pricing/>
-      </div>
+     
     
       <Reviews/>
       <Features
