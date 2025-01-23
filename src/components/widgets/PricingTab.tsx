@@ -7,8 +7,8 @@ export default component$(() => {
       
             <Tabs.Root class="flex flex-col items-center">
                 <Tabs.List class="grid w-full max-w-[400px] grid-cols-2">
-                    <Tabs.Tab>Custom Site - $5000</Tabs.Tab>
-                    <Tabs.Tab>Monthly Plan - $250</Tabs.Tab>
+                    <Tabs.Tab selectedClassName='bg-primary-200' class="bg-gray-100 rounded-none">Custom Site - $5000</Tabs.Tab>
+                    <Tabs.Tab selected={true} selectedClassName='bg-primary-200' class="bg-gray-100 rounded-none">Monthly Plan - $250</Tabs.Tab>
                 </Tabs.List>
                 <Tabs.Panel>
                     <Card.Root>
@@ -22,6 +22,8 @@ export default component$(() => {
                             <ul class="list-disc list-inside space-y-1 text-sm">
                                 <li>Custom design and development</li>
                                 <li>Responsive and accessible layout</li>
+                                <li>SEO optimization</li>
+                                <li>Initial hosting setup</li>
                                 <li>SEO optimization</li>
                                 <li>Initial hosting setup</li>
                             </ul>
@@ -47,10 +49,12 @@ export default component$(() => {
                                 <li>Regular updates and backups</li>
                                 <li>24/7 security monitoring</li>
                                 <li>Priority customer support</li>
+                                <li>24/7 security monitoring</li>
+                                <li>Priority customer support</li>
                             </ul>
                         </Card.Content>
                         <Card.Footer>
-                            <button class="btn w-full p-2 bg-secondary text-white hover:bg-secondary-dark">
+                            <button class="btn w-full p-2 bg-primary text-white hover:bg-secondary-dark">
                                 Subscribe Now
                             </button>
                         </Card.Footer>
