@@ -1,7 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import Contact from "~/components/pages/Contact";
-import Features from "~/components/widgets/Features";
 import Hero from "~/components/widgets/Hero";
 import Steps from "~/components/widgets/Steps";
 import { SITE } from "~/config.mjs";
@@ -25,7 +24,7 @@ export default component$(() => {
      
     
       <Reviews/>
-      <Features
+      {/* <Features
         highlight="Our Portfolio"
         title="Past Work with some awesome clients"
         subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae."
@@ -66,7 +65,7 @@ export default component$(() => {
             icon: IconBulb
           },
         ]}
-      />
+      /> */}
     
       {/* <ReviewsMobile/> */}
 
