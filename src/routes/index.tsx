@@ -2,6 +2,8 @@ import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import Contact from "~/components/pages/Contact";
 import Hero from "~/components/widgets/Hero";
+import Roadmap from "~/components/widgets/Roadmap";
+import Story from "~/components/widgets/Story";
 import { SITE } from "~/config.mjs";
 
 
@@ -15,7 +17,8 @@ export default component$(() => {
   return (
     <>
       <Hero />
-     
+     <Story/>
+     <Roadmap/>
 
 <Contact/>
 

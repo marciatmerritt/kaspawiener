@@ -1,10 +1,10 @@
 import { component$ } from "@builder.io/qwik";
-import About from "~/components/pages/About";
+import Roadmap from "~/components/widgets/Roadmap";
 
 export default component$(() => {
   return (
     <>
-   <About/>
+   <Roadmap/>
     </>
   );
 });

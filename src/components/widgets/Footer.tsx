@@ -1,27 +1,23 @@
 import { component$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
 
-import IconTwitter from "~/components/icons/IconTwitter"
-import IconTelegram from "../icons/IconTelegram";
-import ToggleTheme from "../common/ToggleTheme";
-
 export default component$(() => {
   const links = [
     {
       title: "About",
       items: [
-        { title: "Team", href: "#team" },
-        { title: "Roadmap", href: "#roadmap" },
-        { title: "Tokenomics", href: "#tokenomics" },
+        { title: "Story", href: "/story" },
+        { title: "Roadmap", href: "/roadmap" },
+        { title: "Tokenomics", href: "/tokenomics" },
 
       ],
     },
     {
-      title: "Exchanges",
+      title: "Trade",
       items: [
      
         { title: "KSPR Bot", href: "https://t.me/kspr_home_bot?start=WdRcvw" },
-        { title: "Chainge (coming soon)", href: "https://dapp.chainge.finance/?fromChain=KAS&toChain=KAS&fromToken=KAS&toToken=KOIN_krc20" },
+        { title: "Chainge (coming soon)", href: "/" },
 
       ],
     },
@@ -29,7 +25,7 @@ export default component$(() => {
     {
       title: "Resources",
       items: [
-        { title: "Kas.fyi", href: "https://kas.fyi/token/krc20/KOIN" },
+        { title: "Kas.fyi", href: "https://kas.fyi/token/krc20/wiener" },
         { title: "KRC-20", href: "https://kasplex.org/" },
 
 
@@ -47,11 +43,7 @@ export default component$(() => {
 
   ];
 
-  const social = [
-    { label: "Twitter", icon: IconTwitter, href: "https://x.com/koinonkas" },
-    { label: "Telegram", icon: IconTelegram, href: "https://t.me/+Zhe2fvsS1WQyNTA0" },
 
-  ];
 
   return (
     <footer class="py-2 px-2 bg-gradient-to-r from-primary-600 via-primary to-primary-600">
@@ -106,7 +98,7 @@ export default component$(() => {
         </div>
   
         <div class="md:flex md:items-center md:justify-between pb-3 md:pt-8 md:pb-2">
-          <ul class="flex md:order-1 -ml-2 md:ml-4 md:mb-0 justify-start">
+          {/* <ul class="flex md:order-1 -ml-2 md:ml-4 md:mb-0 justify-start">
             {social.map(({ label, href, icon: Icon }, index) => (
               <li key={index}>
                 <Link
@@ -120,7 +112,7 @@ export default component$(() => {
               </li>
             ))}
             <ToggleTheme />
-          </ul>
+          </ul> */}
   
           <div class="text-sm text-gray-700 pb-2 dark:text-slate-400 flex items-center justify-between md:justify-start">
             <span>© 2025 All Rights Reserved&nbsp;</span>

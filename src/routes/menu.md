@@ -1,10 +1,9 @@
 # Menu
 
-## [About](/about)
-## [Services](/services)
-## [Gallery](/)
-## [Reviews](/reviews)
-## [FAQ](/)
+## [Story](/story)
+## [Roadmap](/roadmap)
+## [Tokenomics](/tokenomics)
+## [Trade](/trade)
 ## [Contact](/contact)
 
 

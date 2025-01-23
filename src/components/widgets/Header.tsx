@@ -5,6 +5,8 @@ import { useContent } from "@builder.io/qwik-city";
 import { Logo } from "../common/KoinLogo";
 import IconFacebook from "../icons/IconFacebook";
 import ToggleTheme from "../common/ToggleTheme";
+import IconTelegram from "../icons/IconTelegram";
+import IconTwitter from "../icons/IconTwitter";
 
 export default component$(() => {
   
@@ -36,12 +38,29 @@ export default component$(() => {
         <div class="mr-auto rtl:mr-0 rtl:ml-auto flex justify-between">
           <a class="flex items-center" href={"/"}>
           <img class="rounded-full" src="/images/logo.jpg" height={50} width={50}></img>
-            <Logo />
-                  {/* <img width={50} height={50} src="/images/shield.svg"/> */}
-            {/* <h1 class="text-2xl pl-1 font-normal ">ADEPTLOCK</h1> */}
+          <span class="self-center ml-2 text-3xl md:text-2xl font-bold text-primary-600 hover:text-primary whitespace-nowrap flex items-center">
+  
+  WIENER
+</span>
           </a>
           <div class="flex items-center md:hidden">
           <ToggleTheme/>
+          <a
+                        class="text-gray-500 dark:text-gray-400 hover:bg-primary hover:text-white focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
+                        aria-label={"Telegram"}
+                        title={"Telegram"}
+                        href={"/"}
+                      >
+                        <IconTelegram />
+                      </a>
+          <a
+                        class="text-gray-500 dark:text-gray-400 hover:bg-primary hover:text-white focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
+                        aria-label={"Telegram"}
+                        title={"Telegram"}
+                        href={"/"}
+                      >
+                        <IconTwitter />
+                      </a>
             <ToggleMenu />
           </div>
         </div>
@@ -90,7 +109,15 @@ export default component$(() => {
                         title={"Telegram"}
                         href={"/"}
                       >
-                        <IconFacebook />
+                        <IconTelegram />
+                      </a>
+                      <a
+                        class="text-gray-500 dark:text-gray-400 hover:bg-primary hover:text-white focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
+                        aria-label={"Telegram"}
+                        title={"Telegram"}
+                        href={"/"}
+                      >
+                        <IconTwitter />
                       </a>
 
                       <ToggleTheme/>
@@ -100,7 +127,7 @@ export default component$(() => {
                 href="/contact"
                 class="btn btn-primary ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto"
               >
-                Request Quote
+                Mint $WIENER
               </a>
             </span>
           </div>

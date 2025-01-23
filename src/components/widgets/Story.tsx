@@ -30,7 +30,7 @@ export default component$(() => {
                     <img
                         height={767}
                         width={767}
-                        src="/images/background.jpg"
+                        src="/images/bailey2.jpg"
                         alt="Sample Image"
                         class="w-full h-auto rounded-lg shadow-md"
                     />
