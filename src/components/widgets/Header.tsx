@@ -2,8 +2,7 @@ import { component$, useStore } from "@builder.io/qwik";
 import ToggleMenu from "~/components/common/ToggleMenu";
 import IconChevronDown from "../icons/IconChevronDown";
 import { useContent } from "@builder.io/qwik-city";
-import { Logo } from "../common/KoinLogo";
-import IconFacebook from "../icons/IconFacebook";
+
 import ToggleTheme from "../common/ToggleTheme";
 import IconTelegram from "../icons/IconTelegram";
 import IconTwitter from "../icons/IconTwitter";
