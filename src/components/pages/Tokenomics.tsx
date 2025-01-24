@@ -30,7 +30,7 @@ export default component$(() => {
                                         </div>
                     
                     {/* Stats Grid */}
-                    <div class="grid grid-cols-2 -mt-4 sm:-mt-8 gap-6 md:grid-cols-2 mb-4 md:gap-8">
+                    <div class="grid grid-cols-2 -mt-4 sm:-mt-8 gap-6 md:grid-cols-2 md:gap-8">
                         <div class="text-center md:border-r dark:md:border-slate-500 mb-10 md:mb-0">
                             <div class="text-4xl font-bold lg:text-5xl xl:text-6xl text-primary-600 font-heading">
                                 100%
