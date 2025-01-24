@@ -37,7 +37,7 @@ export default component$(() => {
         <div class="mr-auto rtl:mr-0 rtl:ml-auto flex justify-between">
           <a class="flex items-center" href={"/"}>
           <img class="rounded-full" src="/images/logo.jpg" height={50} width={50}></img>
-          <span class="self-center ml-1 sm:ml-2 text-3xl md:text-2xl font-bold text-primary-600 hover:text-primary whitespace-nowrap flex items-center">
+          <span class="self-center ml-1 sm:ml-2 text-3xl md:text-2xl font-bold text-primary hover:text-primary-300 whitespace-nowrap flex items-center">
   
   WIENER
 </span>
