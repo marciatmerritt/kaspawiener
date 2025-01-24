@@ -23,7 +23,7 @@ export default component$(() => {
                 <p class="text-xl mb-6 dark:text-slate-300">
                 Join the fun with WIENER— the top dog on the Kaspa chain. Fast, fun, and ready for the next big trend.                </p>
 
-                <div class=" sm:max-w-md m-auto grid grid-cols-2 border-radius-dot-25 gap-4 sm:grid-cols-2 lg:grid-cols-2 lg:max-w-7xl">
+                <div class=" sm:max-w-md m-auto grid grid-cols-2 border-radius-dot-25 gap-3 sm:grid-cols-2 lg:grid-cols-2 lg:max-w-7xl">
                   <a href="https://x.com/wienerKRC20">
                     <div class="flex w-full">
 
