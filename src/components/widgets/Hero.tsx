@@ -24,11 +24,11 @@ export default component$(() => {
                   Transform your online presence with our custom web design and development services.
                 </p>
 
-                <div class=" sm:max-w-md m-auto grid grid-cols-1 border-radius-dot-25 gap-4 sm:grid-cols-2 lg:grid-cols-2 lg:max-w-7xl">
+                <div class=" sm:max-w-md m-auto grid grid-cols-2 border-radius-dot-25 gap-4 sm:grid-cols-2 lg:grid-cols-2 lg:max-w-7xl">
                   <a href="https://x.com/wienerKRC20">
                     <div class="flex w-full">
 
-                      <button class="btn w-full bg-primary-400 py-2 rounded-md dark:bg-primary-600">
+                      <button class="btn w-full bg-primary-300 dark:bg-primary-700 py-2 rounded-md ">
                         Follow on X
                       </button>
 
@@ -37,20 +37,33 @@ export default component$(() => {
                   <a href="https://t.me/+Civ_RQYiZH03Y2I5">
                     <div class="flex w-full">
 
-                      <button class="btn w-full bg-primary-300 py-2 rounded-md dark:bg-primary-400">
+                      <button class="btn w-full bg-primary-200 dark:bg-primary-600 py-2 rounded-md ">
                         Join Telegram
                       </button>
 
                     </div>
                   </a>
+                  <a href="/images/WIENER-WHITEPAPER.pdf" download="WIENER-WHITEPAPER.pdf">
+                    <div class="flex w-full">
 
+                      <button class="btn w-full bg-primary-100 dark:bg-primary-500 py-2 rounded-md ">
+                        Whitepaper
+                      </button>
+
+                    </div>
+                  </a>
+                  <a href="https://kas.fyi/token/krc20/WIENER">
+                    <div class="flex w-full">
+
+                      <button class="btn w-full bg-primary-400 py-2 rounded-md ">
+                        Mint $WIENER
+                      </button>
+
+                    </div>
+                  </a>
                 </div>
-
               </div>
             </div>
-
-
-
 
             <div class="basis-1/2 pb-10">
               <Image
@@ -63,13 +76,9 @@ export default component$(() => {
               priority={true}
               breakpoints={[320, 480, 640, 768, 1024]}
             />
-              {/* <img class="rounded-md" src="https://cdn.svgator.com/images/2021/10/solar-system-animation.svg" width="700" height="400" fetchPriority="high" alt="Animated Vectors Flying to the Moon and Back: About the Space Animation Trend" /> */}
             </div>
-
           </div>
-
         </div>
-
       </section>
     </div>
   );

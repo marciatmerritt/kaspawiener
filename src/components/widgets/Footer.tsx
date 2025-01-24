@@ -16,20 +16,15 @@ export default component$(() => {
     {
       title: "Resources",
       items: [
-        { title: "Whitepaper", href: "/whitepaper" },
         { title: "Kas.fyi", href: "https://kas.fyi/token/krc20/wiener" },
         { title: "KRC-20", href: "https://kasplex.org/" },
-
-
       ],
     },
     {
       title: "Trade",
       items: [
-     
         { title: "KSPR Bot", href: "https://t.me/kspr_home_bot?start=WdRcvw" },
         { title: "Chainge (coming soon)", href: "/" },
-
       ],
     },
 
@@ -38,14 +33,9 @@ export default component$(() => {
       items: [
         { title: "Docs", href: "https://kaspa.org/" },
         { title: "Explorer", href: "https://explorer.kaspa.org/?_gl=1*zucsjw*_ga*MTU0NTUwNzk2NC4xNzM0MTE4NTEw*_ga_YSMK4G52CC*MTczNjQwNzQ0Ny4yMi4xLjE3MzY0MDc4NjEuMC4wLjA." },
-
-
       ],
     },
-
   ];
-
-
 
   return (
     <footer class="py-2 px-2 bg-gradient-to-r from-primary-600 via-primary to-primary-600">
@@ -65,17 +55,6 @@ export default component$(() => {
             <div class="text-sm mb-2 text-gray-600 dark:text-gray-400">
               Elevate your brand with our professional photography and videography services. We specialize in creating stunning visuals that capture your story and leave a lasting impression.
             </div>
-  
-            {/* Action Button */}
-            {/* <div class="mt-4 ">
-              <a href="/contact">
-              <button
-                class="px-6 py-2 bg-primary-600 text-white font-semibold rounded-lg shadow-md hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition"
-              >
-                Request a Quote
-              </button>
-              </a>
-            </div> */}
           </div>
   
           {links.map(({ title, items }, index) => (
@@ -100,21 +79,7 @@ export default component$(() => {
         </div>
   
         <div class="md:flex md:items-center md:justify-between pb-3 md:pt-8 md:pb-2">
-          {/* <ul class="flex md:order-1 -ml-2 md:ml-4 md:mb-0 justify-start">
-            {social.map(({ label, href, icon: Icon }, index) => (
-              <li key={index}>
-                <Link
-                  class="text-gray-500 dark:text-gray-400 hover:bg-primary hover:text-white focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
-                  aria-label={label}
-                  title={label}
-                  href={href}
-                >
-                  {typeof Icon !== "undefined" && <Icon />}
-                </Link>
-              </li>
-            ))}
-            <ToggleTheme />
-          </ul> */}
+        
   
           <div class="text-sm text-gray-700 pb-2 pt-3 dark:text-slate-400 flex items-center justify-between md:justify-start">
             <span class="hidden sm:block">© 2025 Bailey the $WIENER&nbsp;</span>

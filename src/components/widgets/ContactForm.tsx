@@ -1,5 +1,7 @@
 import { component$ } from '@builder.io/qwik';
 import { Headline2 } from '../ui/Headline2';
+import IconTelegram from '../icons/IconTelegram';
+import IconTwitter from '../icons/IconTwitter';
 
 export default component$(() => {
     return (
@@ -13,35 +15,31 @@ export default component$(() => {
                             </div>
                         </div>
                         <Headline2
-                            title={"Request A Quote"}
-                            subtitle={"Explore how our photography and videography services bring stories to life with creativity and precision."}
+                            title={"Get in Touch"}
+                            subtitle={"Reach out to learn more and for project collaborations, Bailey will be glad to hear from you!"}
                             highlight={"Contact Us"}
                         />
                         <dl class="mt-8 space-y-4 text-base/7 text-gray-600 dark:text-gray-300">
                             <div class="flex gap-x-4">
                                 <dt class="flex-none">
-                                    <span class="sr-only">Address</span>
-                                    <svg class="h-7 w-6 text-gray-400 dark:text-gray-500" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z" />
-                                    </svg>
+                                    <span class="sr-only">Telegram</span>
+                                   <IconTelegram/>
                                 </dt>
-                                <dd>545 Mavis Island<br />Chicago, IL 99191</dd>
+                                <dd><a class="hover:text-gray-900 dark:hover:text-white" href="https://t.me/+Civ_RQYiZH03Y2I5">https://t.me/+Civ_RQYiZH03Y2I5</a></dd>
+
+                                <a></a>
                             </div>
                             <div class="flex gap-x-4">
                                 <dt class="flex-none">
-                                    <span class="sr-only">Telephone</span>
-                                    <svg class="h-7 w-6 text-gray-400 dark:text-gray-500" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
-                                    </svg>
+                                    <span class="sr-only">Twitter / X</span>
+                                  <IconTwitter/>
                                 </dt>
-                                <dd><a class="hover:text-gray-900 dark:hover:text-white" href="tel:+1 (555) 234-5678">+1 (555) 234-5678</a></dd>
+                                <dd><a class="hover:text-gray-900 dark:hover:text-white" href="https://x.com/wienerKRC20">@wienerKRC20</a></dd>
                             </div>
                             <div class="flex gap-x-4">
                                 <dt class="flex-none">
                                     <span class="sr-only">Email</span>
-                                    <svg class="h-7 w-6 text-gray-400 dark:text-gray-500" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
-                                    </svg>
+                                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg>
                                 </dt>
                                 <dd><a class="hover:text-gray-900 dark:hover:text-white" href="mailto:hello@example.com">hello@example.com</a></dd>
                             </div>
@@ -54,19 +52,19 @@ export default component$(() => {
                             <div>
                                 <label for="first-name" class="block text-sm/6 font-semibold text-gray-900 dark:text-white">Name</label>
                                 <div class="mt-1.5">
-                                    <input type="text" id="first-name" class="block p-2.5 w-full text-md text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Bonnie" required />
+                                    <input type="text" id="first-name" class="block p-2.5 w-full text-md text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Satoshi Nakamoto" required />
                                 </div>
                             </div>
                             <div>
                                 <label for="last-name" class="block text-sm/6 font-semibold text-gray-900 dark:text-white">Project</label>
                                 <div class="mt-1.5">
-                                    <input type="text" id="last-name" class="block p-2.5 w-full text-md text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Green" required />
+                                    <input type="text" id="last-name" class="block p-2.5 w-full text-md text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="$WIENER" required />
                                 </div>
                             </div>
                             <div class="sm:col-span-2">
                                 <label for="email" class="block text-sm/6 font-semibold text-gray-900 dark:text-white">Email</label>
                                 <div class="mt-1.5">
-                                    <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-md rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required />
+                                    <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-md rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="satoshi@kaspa.org" required />
                                 </div>
                             </div>
 
