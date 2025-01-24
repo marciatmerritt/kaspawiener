@@ -67,7 +67,7 @@ export default component$(() => {
                 </div>
 
                 {/* Right Side: Image */}
-                <div class="w-full md:w-1/2 order-2 md:order-1">
+                <div class="w-full md:w-1/2 order-2 px-2 md:order-1">
                     <img
                         height={767}
                         width={767}
