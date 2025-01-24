@@ -13,7 +13,7 @@ export default component$(() => {
                     <div>
                     <div class="hidden sm:block">
                         <Headline2
-                            title={"$WIENER Token Statistics"}
+                            title={"Token Statistics"}
                             subtitle={
                                 "WIENER launched fairly with a strong community from the beginning during mint."
                             }
