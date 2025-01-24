@@ -16,7 +16,7 @@ export default component$(() => {
     {
       title: "Resources",
       items: [
-        { title: "Whitepaper", href: "/" },
+        { title: "Whitepaper", href: "/whitepaper" },
         { title: "Kas.fyi", href: "https://kas.fyi/token/krc20/wiener" },
         { title: "KRC-20", href: "https://kasplex.org/" },
 
