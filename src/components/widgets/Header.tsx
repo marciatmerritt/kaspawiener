@@ -103,7 +103,7 @@ export default component$(() => {
           <div class="items-center flex justify-between w-full md:w-auto">
             <div class="flex">
               <a
-                        class="text-gray-500 dark:text-gray-400 hover:bg-primary hover:text-white focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
+                        class="text-gray-500 dark:text-gray-400 hover:bg-primary-300 hover:text-white focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
                         aria-label={"Telegram"}
                         title={"Telegram"}
                         href={"/"}
@@ -111,7 +111,7 @@ export default component$(() => {
                         <IconTelegram />
                       </a>
                       <a
-                        class="text-gray-500 dark:text-gray-400 hover:bg-primary hover:text-white focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
+                        class="text-gray-500 dark:text-gray-400 hover:bg-primary-300 hover:text-white focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
                         aria-label={"Telegram"}
                         title={"Telegram"}
                         href={"/"}
