@@ -52,7 +52,7 @@ export default component$(() => {
                             <div>
                                 <label for="first-name" class="block text-sm/6 font-semibold text-gray-900 dark:text-white">Name</label>
                                 <div class="mt-1.5">
-                                    <input type="text" id="first-name" class="block p-2.5 w-full text-md text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Satoshi Nakamoto" required />
+                                    <input type="text" id="first-name" class="block p-2.5 w-full text-md text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Satoshi" required />
                                 </div>
                             </div>
                             <div>

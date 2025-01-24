@@ -6,7 +6,7 @@ import { Headline } from "../ui/Headline";
 export default component$(() => {
     return (
         <PageWrapper3>
-            <div class="flex flex-col md:flex-row items-center md:items-start md:justify-between gap-6 md:gap-8  pb-4 md:p-8">
+            <div class="flex flex-col md:flex-row items-center md:items-start md:justify-between gap-6 md:gap-8 -mt-2  pb-4 md:p-8">
                 {/* Left Side: Headline + Stats */}
                 <div class="w-full md:w-1/2 flex flex-col gap-6 order-1 md:order-2">
                     {/* Headline */}
