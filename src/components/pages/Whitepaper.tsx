@@ -2,10 +2,10 @@ import { component$ } from "@builder.io/qwik";
 
 export default component$(() => {
   return (
-    <div class="w-full overflow-hidden">
+    <div class="w-screen overflow-hidden">
       <iframe
         src="/images/whitepaper.pdf"
-        class="w-full max-w-full h-screen md:h-[90vh] rounded-lg"
+        class="w-full h-screen md:h-[90vh]"
         style="border: none;"
         title="Whitepaper"
       ></iframe>
