@@ -12,12 +12,12 @@ export default component$(() => {
           <div class="pt-6 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
             <div class="basis-1/2 text-center lg:text-left pb-8 md:pb-16 mx-auto">
               <a href="https://kas.fyi/token/krc20/WIENER" class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-4 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700" role="alert">
-                <span class="text-xs bg-primary rounded-full text-white px-4 py-1.5 mr-3">New</span> <span class="text-sm font-medium">Minting Now In Progress!</span>
+                <span class="text-xs bg-primary-400 rounded-full text-white px-4 py-1.5 mr-3">New</span> <span class="text-sm font-medium">Minting Now In Progress!</span>
                 <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
               </a>
               <h1 class="text-5xl md:text-7xl font-bold leading-tighter tracking-tighter text-primary mb-4 font-heading dark:text-gray-200">
 
-                <span class="text-primary">Bailey the $WIENER</span>
+                <span class="text-primary">Bailey <span class="text-primary-300">the Kaspian</span> $WIENER</span>
               </h1>
               <div class="max-w-3xl mx-auto lg:max-w-none">
                 <p class="text-xl mb-6 dark:text-slate-300">
@@ -37,7 +37,7 @@ export default component$(() => {
                   <a href="https://t.me/+Civ_RQYiZH03Y2I5">
                     <div class="flex w-full">
 
-                      <button class="btn w-full bg-primary-200 py-2 rounded-md dark:bg-primary-400">
+                      <button class="btn w-full bg-primary-300 py-2 rounded-md dark:bg-primary-400">
                         Join Telegram
                       </button>
 

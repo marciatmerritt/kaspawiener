@@ -6,6 +6,7 @@ import { SITE } from "~/config.mjs";
 import RoadmapHome from "~/components/pages/RoadmapHome";
 import StoryHome from "~/components/pages/StoryHome";
 import TokenomicsHome from "~/components/pages/TokenomicsHome";
+import Contact from "~/components/pages/Contact";
 
 
 // const IconBrandTailwind = qwikSerialized(() => import("../components/icons/IconBrandTailwind"));
@@ -21,6 +22,7 @@ export default component$(() => {
      <StoryHome/>
      <RoadmapHome/>
 <TokenomicsHome/>
+<Contact/>
 <div class="h-2"></div>
 
 
