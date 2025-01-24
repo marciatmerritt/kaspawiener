@@ -6,7 +6,7 @@ export default component$(() => {
   return (
     <div class="relative bg-white/80 dark:bg-gray-900/80 overflow-hidden flex items-center justify-center mx-1.5 mt-1 mb-2 border-radius-dot-25 rounded-lg">
 
-      <section class="relative rounded-lg  md:-mt-[76px] not-prose mx-1.5 my-1.5 bg-white/70 dark:bg-gray-900/85 border-radius-dot-25">
+      <section class="relative rounded-lg  md:-mt-[76px] not-prose mx-1.5 my-1.5 bg-white/70 dark:bg-gray-900/75 border-radius-dot-25">
         <div class="relative max-w-7xl mx-auto px-4 sm:px-10 ">
           <div class="pt-0 md:pt-[60px] pointer-events-none"></div>
           <div class="pt-6 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
