@@ -6,10 +6,10 @@ import tsconfigPaths from "file:///C:/Users/james/projects/adept/node_modules/vi
 
 // src/config.mjs
 var SITE = {
-  name: "Webdev.ca",
-  title: "Webdev.ca \u2014 Premium Website Design & Development Services.",
-  description: "Webdev.ca \u2014 Transform your online presence with our custom web design and development services. We help businesses create stunning, fast, and secure websites.",
-  origin: "https://qwind.pages.dev",
+  name: "WIENER",
+  title: "WIENER \u2014 Bailey the WIENER on Kaspa.",
+  description: "WIENER \u2014 Bailey the WIENER on Kaspa.",
+  origin: "https://wieneronkas.com",
   basePathname: "/",
   trailingSlash: true
 };

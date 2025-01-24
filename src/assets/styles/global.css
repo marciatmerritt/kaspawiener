@@ -115,9 +115,7 @@ html {
   scroll-behavior: smooth;
 }
 
-section {
-  scroll-margin-top: 60px; /* Adjust the value based on your offset */
-}
+
 
 @layer qwik-ui {
   [data-qui-carousel-viewport] {

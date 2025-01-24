@@ -1,12 +1,12 @@
 export const SITE = {
-  name: "Webdev.ca",
+  name: "WIENER",
 
   title:
-    "Webdev.ca — Premium Website Design & Development Services.",
+    "WIENER — Bailey the WIENER on Kaspa",
   description:
-    "Webdev.ca — Transform your online presence with our custom web design and development services. We help businesses create stunning, fast, and secure websites.",
+    "WIENER — Bailey the WIENER on Kaspa.",
 
-  origin: "https://qwind.pages.dev",
+  origin: "https://wieneronkas.com",
   basePathname: "/",
   trailingSlash: true,
 };

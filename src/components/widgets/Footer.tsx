@@ -53,7 +53,7 @@ export default component$(() => {
             </div>
   
             <div class="text-sm mb-2 text-gray-600 dark:text-gray-400">
-              Elevate your brand with our professional photography and videography services. We specialize in creating stunning visuals that capture your story and leave a lasting impression.
+            Join the fun with WIENER— the top dog on the Kaspa chain. Fast, fun, and ready for the next big trend.             
             </div>
           </div>
   
