@@ -3,7 +3,7 @@
 ## [Story](/story)
 ## [Roadmap](/roadmap)
 ## [Tokenomics](/tokenomics)
-## [Whitepaper](/whitepapers)
+## [Whitepaper](/whitepaper)
 ## [Contact](/contact)
 
 
