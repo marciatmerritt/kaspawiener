@@ -41,12 +41,12 @@ export default component$(() => {
                                     <span class="sr-only">Email</span>
                                     <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg>
                                 </dt>
-                                <dd><a class="hover:text-gray-900 dark:hover:text-white" href="mailto:hello@example.com">hello@example.com</a></dd>
+                                <dd><a class="hover:text-gray-900 dark:hover:text-white" href="mailto:admin@wieneronkas.com">admin@wieneronkas.com</a></dd>
                             </div>
                         </dl>
                     </div>
                 </div>
-                <form action="#" method="POST" class="px-4 pb-6 pt-8 sm:pb-32 lg:px-8 lg:py-24">
+                <form action="/" method="POST" class="px-4 pb-6 pt-8 sm:pb-32 lg:px-8 lg:py-24">
                     <div class="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
                         <div class="grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
                             <div>
