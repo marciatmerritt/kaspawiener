@@ -5,6 +5,7 @@ import { PageWrapper3 } from "../common/PageWrapper3";
 export default component$(() => {
     return (
         <PageWrapper3>
+              <div class="h-4"></div>
                  <Headline
                 title={"Trade WIENER"}
                 subtitle={"$WIENER can be traded on KaspaCom and KSPR Bot, stay tuned for more exchanges coming soon!"}

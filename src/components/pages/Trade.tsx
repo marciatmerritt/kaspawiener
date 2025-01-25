@@ -5,6 +5,7 @@ import { Headline } from "../ui/Headline";
 export default component$(() => {
     return (
         <PageWrapper>
+            <div class="h-4"></div>
             <Headline
                 title={"Trade WIENER"}
                 subtitle={"$WIENER can be traded on KaspaCom and KSPR Bot, stay tuned for more exchanges coming soon!"}
