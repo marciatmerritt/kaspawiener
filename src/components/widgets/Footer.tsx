@@ -44,7 +44,7 @@ export default component$(() => {
           <div class="col-span-12 lg:col-span-4 pr-8">
             <div class="flex items-center mb-3">
               <Link
-                class="inline-block font-bold pl-1 text-primary-600 hover:text-primary text-xl"
+                class="inline-block font-bold text-primary-600 hover:text-primary text-xl"
                 href={"/"}
               >
                 Bailey the $WIENER
