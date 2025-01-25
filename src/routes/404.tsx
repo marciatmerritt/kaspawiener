@@ -7,7 +7,7 @@ export default component$(() => {
       <div class="container flex flex-col items-center justify-center px-5 mx-auto my-8">
         <div class="max-w-md text-center">
           <h2 class="mb-8 font-bold text-9xl text-primary">
-            <span class="sr-only">Error</span>
+            <span class="sr-only">Errors</span>
             <span>404</span>
           </h2>
           <p class="text-3xl font-medium md:text-3xl">Sorry, we couldn't find this page.</p>
