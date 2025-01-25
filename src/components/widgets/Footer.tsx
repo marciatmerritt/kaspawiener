@@ -81,7 +81,7 @@ export default component$(() => {
         
   
           <div class="text-sm text-gray-700 pb-2 pt-3 dark:text-slate-400 flex items-center justify-between md:justify-start">
-            <span class="hidden sm:block">© 2025 Bailey the $WIENER&nbsp;</span>
+            <span class="">© 2025 Bailey the $WIENER&nbsp;</span>
             <span class="hidden sm:block">&nbsp;· &nbsp;</span>
            
                <span class="hidden sm:block text-gray-900 dark:text-gray-200">  Donate <span class="text-primary mx-1">♥</span> kaspa:qr3ew0m3gp09utfmyz6arwa79s47x4vrper7e89mpd222jsgmj9sxgzptdvkv </span>
