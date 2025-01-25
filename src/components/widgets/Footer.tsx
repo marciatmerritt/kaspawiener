@@ -85,7 +85,7 @@ export default component$(() => {
             <span class="hidden sm:block">&nbsp;· &nbsp;</span>
            
                <span class="hidden sm:block text-gray-900 dark:text-gray-200">  Donate <span class="text-primary mx-1">♥</span> kaspa:qr3ew0m3gp09utfmyz6arwa79s47x4vrper7e89mpd222jsgmj9sxgzptdvkv </span>
-              <a class="btn py-1 text-xs px-2 dark:bg-primary-700 bg-primary-300" href="https://kas.fyi/address/kaspa:qr3ew0m3gp09utfmyz6arwa79s47x4vrper7e89mpd222jsgmj9sxgzptdvkv"> <span class="block sm:hidden text-gray-900 dark:text-gray-200">Donate<span class="text-primary mx-1">♥</span></span></a>
+              <a class="btn block sm:hidden py-1 text-xs px-2 dark:bg-primary-700 bg-primary-300" href="https://kas.fyi/address/kaspa:qr3ew0m3gp09utfmyz6arwa79s47x4vrper7e89mpd222jsgmj9sxgzptdvkv"> <span class="block sm:hidden text-gray-900 dark:text-gray-200">Donate<span class="text-primary mx-1">♥</span></span></a>
 
             
             
