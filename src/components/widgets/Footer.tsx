@@ -43,7 +43,6 @@ export default component$(() => {
         <div class="grid grid-cols-12 gap-4 gap-y-4 sm:gap-8 pt-6 md:pt-8 pb-2">
           <div class="col-span-12 lg:col-span-4 pr-8">
             <div class="flex items-center mb-3">
-              <img class="rounded-full" height={25} width={25} src="/images/logo.jpg"></img>
               <Link
                 class="inline-block font-bold pl-1 text-primary-600 hover:text-primary text-xl"
                 href={"/"}
@@ -84,9 +83,12 @@ export default component$(() => {
           <div class="text-sm text-gray-700 pb-2 pt-3 dark:text-slate-400 flex items-center justify-between md:justify-start">
             <span class="hidden sm:block">© 2025 Bailey the $WIENER&nbsp;</span>
             <span class="hidden sm:block">&nbsp;· &nbsp;</span>
-            <a class="text-gray-900 dark:text-gray-200" href="#">
-              Donate <span class="text-primary mx-1">♥</span> kaspa:asdiasdoiajsodiaosjd
-            </a>
+           
+               <span class="hidden sm:block text-gray-900 dark:text-gray-200">  Donate <span class="text-primary mx-1">♥</span> kaspa:qr3ew0m3gp09utfmyz6arwa79s47x4vrper7e89mpd222jsgmj9sxgzptdvkv </span>
+               <span class="block sm:hidden text-gray-900 dark:text-gray-200">  Donate <span class="text-primary mx-1">♥</span></span>
+
+            
+            
           </div>
         </div>
       </div>

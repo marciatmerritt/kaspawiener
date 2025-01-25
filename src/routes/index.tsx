@@ -6,6 +6,7 @@ import RoadmapHome from "~/components/pages/RoadmapHome";
 import StoryHome from "~/components/pages/StoryHome";
 import Contact from "~/components/pages/Contact";
 import TokenomicsHome from "~/components/pages/TokenomicsHome";
+import Steps from "~/components/widgets/Steps";
 
 export default component$(() => {
   return (

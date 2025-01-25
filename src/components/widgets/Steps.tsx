@@ -79,19 +79,7 @@ export default component$(() => {
               </div>
             ))}
         </div>
-        <div class="relative">
-          {typeof image !== "undefined" && (
-            <Image
-              layout="constrained"
-              src="/images/steps.webp"
-              width={532}
-              height={704}
-              alt={image.alt}
-              class="inset-0 w-full rounded-md bg-gray-500 object-cover object-top shadow-lg dark:bg-slate-700 md:absolute md:h-full"
-              breakpoints={[320, 480, 640, 1024]}
-            />
-          )}
-        </div>
+
       </div>
     </section>
   );
