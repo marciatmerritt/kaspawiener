@@ -59,7 +59,7 @@ export default component$(() => {
                         highlight={"Roadmap"}
                     />
 
-<div class="mb-4 md:mb-0 md:py-4 md:pr-16">
+<div class="mb-4 mt-2 md:mb-0 md:py-4 md:pr-16">
                         {Array.isArray(items) &&
                             items.length &&
                             items.map(({ title, description, icon: Icon }, index) => (
