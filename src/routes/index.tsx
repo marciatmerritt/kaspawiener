@@ -6,6 +6,7 @@ import RoadmapHome from "~/components/pages/RoadmapHome";
 import StoryHome from "~/components/pages/StoryHome";
 import Contact from "~/components/pages/Contact";
 import TokenomicsHome from "~/components/pages/TokenomicsHome";
+import TradeHome from "~/components/pages/TradeHome";
 
 export default component$(() => {
   return (
@@ -13,6 +14,7 @@ export default component$(() => {
       <Hero />
      <StoryHome/>
      <RoadmapHome/>
+     <TradeHome/>
      <TokenomicsHome/>
 
 <Contact/>
