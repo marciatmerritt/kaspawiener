@@ -37,10 +37,7 @@ export default component$(() => {
         <div class="mr-auto rtl:mr-0 rtl:ml-auto flex justify-between">
           <a class="flex items-center" href={"/"}>
           
-          <div
-  class="rounded-full"
-  style="width: 50px; height: 50px; background: url('/images/logo.svg') no-repeat center/cover;">
-</div>          <span class="self-center ml-1 sm:ml-2 text-3xl md:text-2xl font-bold text-primary hover:text-primary-300 whitespace-nowrap flex items-center">
+          <img class="rounded-full" src="/images/logo.svg" height={50} width={50}></img>         <span class="self-center ml-1 sm:ml-2 text-3xl md:text-2xl font-bold text-primary hover:text-primary-300 whitespace-nowrap flex items-center">
   
   WIENER
 </span>
