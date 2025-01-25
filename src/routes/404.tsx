@@ -15,7 +15,7 @@ export default component$(() => {
             But dont worry, you can find plenty of other things on our homepage.
           </p>
           <a rel="noopener noreferrer" href="/" class="btn">
-            Back to home
+            Back to home!
           </a>
         </div>
       </div>
