@@ -7,31 +7,31 @@ import IconStar from "../icons/IconStar";
     title: "Our Process: From Idea to Finished Print",
     items: [
         {
-          title: "Step 1: Token Launch and Online Presence (2025 Q1)",
+          title: "2025 Q1: Token Launch and Online Presence",
           description:
             "Deploy the token, mint initial supplies, and establish an online presence. Kickstart the project with active shilling to build awareness.",
           icon: IconStar,
         },
         {
-          title: "Step 2: Community Engagement (2025 Q2)",
+          title: "2025 Q2: Community Engagement",
           description:
             "Focus on community voting, secure a few exchange listings, and launch the Content Creator Support Initiative to amplify outreach.",
           icon: IconStar,
         },
         {
-          title: "Step 3: NFT Launch and Partnerships (2025 Q3)",
+          title: "2025 Q3: NFT Launch and Partnerships",
           description:
             "Roll out NFTs using the KRC721 standard. Build strategic partnerships and identify talent to scale the project further.",
           icon: IconStar,
         },
         {
-          title: "Step 4: Community Rewards and Year Review (2025 Q4)",
+          title: "2025 Q4: Community Rewards and Year Review",
           description:
             "Host the Economic Mission Contest and the 'Make The World A Better Place' showcase. Wrap up the year with a review and celebrate progress with the community.",
           icon: IconStar,
         },
         {
-          title: "Step 5: Global Impact and Future Planning (2026)",
+          title: "2026: Global Impact and Future Planning",
           description:
             "Research global opportunity gaps, form partnerships with organizations like the United Nations and World Economic Forum, and host the Meme of the Year Rewards. Reevaluate the project and plan for the next phase.",
           icon: IconStar,
