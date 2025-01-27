@@ -13,8 +13,9 @@ export default component$(() => {
     <>
       <Hero />
      <StoryHome/>
-     <RoadmapHome/>
      <TradeHome/>
+     <RoadmapHome/>
+    
      <TokenomicsHome/>
 
 <Contact/>

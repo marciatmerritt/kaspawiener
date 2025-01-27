@@ -9,13 +9,13 @@ const stepsData = {
         {
             title: "2025 Q1: Token Launch and Online Presence",
             description:
-                "Deploy the token, mint initial supplies, and establish an online presence. Kickstart the project with active shilling to build awareness.",
+            "Deploy $WIENER token, mint initial supplies, and secure our first exchange listings. Grow the project with active community outreach to build awareness.",
             icon: IconStar,
         },
         {
             title: "2025 Q2: Community Engagement",
             description:
-                "Focus on community voting, secure a few exchange listings, and launch the Content Creator Support Initiative to amplify outreach.",
+                "Focus on community voting and launch the Content Creator Support Initiative to amplify outreach.",
             icon: IconStar,
         },
         {

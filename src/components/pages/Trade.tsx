@@ -12,6 +12,11 @@ export default component$(() => {
                 highlight={"Exchanges"}
             />
             <div class="grid grid-cols-1 gap-5 md:grid-cols-3 pt-4 p-4">
+
+            <a href="https://kaspamarket.io/token/WIENER" target="_blank">
+                    <img width="540" height="540" src="/images/km.jpg" alt="Kaspa Market" class="w-full h-48 object-cover rounded-md hover:opacity-80" />
+                </a>
+
                 <a href="https://t.me/kspr_home_bot?start=WdRcvw" target="_blank">
                     <img width="720" height="332" src="/images/ksprbot.png" alt="KSPR Bot" class="w-full h-48 object-cover rounded-md hover:opacity-80" />
                 </a>
