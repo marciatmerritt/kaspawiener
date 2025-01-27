@@ -8,7 +8,7 @@ export default component$(() => {
             <div class="h-4"></div>
             <Headline
                 title={"Trade WIENER"}
-                subtitle={"$WIENER can be traded on KaspaCom and KSPR Bot, stay tuned for more exchanges coming soon!"}
+                subtitle={"$WIENER can be traded on KaspaMarket, KaspaCom and KSPR Bot. Stay tuned for more exchanges coming soon!"}
                 highlight={"Exchanges"}
             />
             <div class="grid grid-cols-1 gap-5 md:grid-cols-3 pt-4 p-4">
