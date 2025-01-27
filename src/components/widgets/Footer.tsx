@@ -84,9 +84,9 @@ export default component$(() => {
             <span class="">© 2025 Bailey the $WIENER&nbsp;</span>
             <span class="hidden sm:block">&nbsp;· &nbsp;</span>
            
-               <span class="hidden sm:block text-gray-900 dark:text-gray-200">  Donate <span class="text-primary mx-1">♥</span> kaspa:qqdz0j2zmsyehnfd8yd2hlhk6fjsr36x44zwnphcfa2ld7x4z2tysw48ck8yg</span>
+               {/* <span class="hidden sm:block text-gray-900 dark:text-gray-200">  Donate <span class="text-primary mx-1">♥</span> kaspa:qqdz0j2zmsyehnfd8yd2hlhk6fjsr36x44zwnphcfa2ld7x4z2tysw48ck8yg</span>
               <a class="btn block sm:hidden py-1 text-xs px-2 dark:bg-primary-700 bg-primary-300"
-               href="https://kas.fyi/address/kaspa:qqdz0j2zmsyehnfd8yd2hlhk6fjsr36x44zwnphcfa2ld7x4z2tysw48ck8yg"> <span class="block sm:hidden text-gray-900 dark:text-gray-200">Donate<span class="text-primary mx-1">♥</span></span></a>
+               href="https://kas.fyi/address/kaspa:qqdz0j2zmsyehnfd8yd2hlhk6fjsr36x44zwnphcfa2ld7x4z2tysw48ck8yg"> <span class="block sm:hidden text-gray-900 dark:text-gray-200">Donate<span class="text-primary mx-1">♥</span></span></a> */}
 
             
             
