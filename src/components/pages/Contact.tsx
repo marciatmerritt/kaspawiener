@@ -5,7 +5,7 @@ import ContactForm from '../widgets/ContactForm';
 export default component$(() => {
   return (
     <PageWrapper2>
-   <ContactForm/>
-</PageWrapper2>
+      <ContactForm />
+    </PageWrapper2>
   );
 });
