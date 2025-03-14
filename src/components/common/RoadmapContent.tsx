@@ -2,6 +2,7 @@ import { component$ } from '@builder.io/qwik';
 import { Headline2 } from '../ui/Headline2';
 import IconStar from '../icons/IconStar';
 import { stepsData } from '~/utils/roadmapData';
+import ImgRoadmap from '~/media/images/roadmap2.jpg?w=767&jsx';
 
 export const RoadmapContent = component$(() => {
   const { highlight, title, items } = stepsData;
@@ -60,13 +61,7 @@ export const RoadmapContent = component$(() => {
 
       {/* Image Container */}
       <div class='order-2 w-full md:order-2 md:w-1/2'>
-        <img
-          height={767}
-          width={767}
-          src='/images/roadmap2.jpg'
-          alt='Sample Image'
-          class='h-auto w-full rounded-lg shadow-md'
-        />
+        <ImgRoadmap class='h-auto w-full rounded-lg shadow-md' />
       </div>
     </div>
   );
