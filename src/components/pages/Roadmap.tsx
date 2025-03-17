@@ -3,9 +3,5 @@ import { PageWrapper } from '../common/PageWrapper';
 import { RoadmapContent } from '../common/RoadmapContent';
 
 export default component$(() => {
-  return (
-    <PageWrapper>
-      <RoadmapContent />
-    </PageWrapper>
-  );
+  return <RoadmapContent PageWrapperComponent={PageWrapper} />;
 });

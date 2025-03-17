@@ -2,7 +2,7 @@ import { component$ } from '@builder.io/qwik';
 import { Headline2 } from '../ui/Headline2';
 import { Headline } from '../ui/Headline';
 import { Image } from '@unpic/qwik';
-import storyContent from '../../utils/storyContent.json';
+import storyContent from '../../data/story/content.json';
 
 export const StoryContent = component$(
   ({
@@ -23,7 +23,8 @@ export const StoryContent = component$(
         {stories.map((story) => {
           const { title, subtitle, highlight, image } = story;
           const localSrc = `/images/${image.fileName}`;
-          const imageSrc = localSrc
+          const cdnSrc = `cdnUrl` in image ? image.cdnUrl : '';
+          const imageSrc = image.provider === 'local' ? localSrc : cdnSrc;
           return (
             <div
               key={story.id}
@@ -54,7 +55,7 @@ export const StoryContent = component$(
                   alt={image.alt}
                   width={image.width}
                   height={image.height}
-                  layout="constrained"
+                  layout='constrained'
                   class='h-auto w-full rounded-lg shadow-md'
                 />
               </div>

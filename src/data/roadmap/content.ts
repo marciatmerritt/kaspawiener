@@ -1,4 +1,4 @@
-import IconStar from '../components/icons/IconStar';
+import IconStar from '../../components/icons/IconStar';
 
 export const stepsData = {
   title: '$WIENER Roadmap',
