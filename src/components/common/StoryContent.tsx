@@ -2,8 +2,23 @@ import { component$ } from '@builder.io/qwik';
 import { Headline2 } from '../ui/Headline2';
 import { Headline } from '../ui/Headline';
 import { Image } from '@unpic/qwik';
-import storyContent from '../../data/story/content.json';
+import { getImageSrc } from '~/utils/getImageSrc';
+import { storyData } from '~/data/story';
+import type { StoryEntry } from '~/data/story/types';
 
+/**
+ * StoryContent component.
+ *
+ * Displays one or more story entries, each with a headline, subtitle, and image.
+ * Optionally filters to display a single story based on the provided `storyId`.
+ *
+ * @component
+ * @param {{ PageWrapperComponent: any; storyId?: string }} props
+ * - `PageWrapperComponent`: Layout wrapper component for consistent page structure.
+ * - `storyId` (optional): If provided, filters and displays only the matching story.
+ *
+ * @returns {JSX.Element} Rendered story section.
+ */
 export const StoryContent = component$(
   ({
     PageWrapperComponent,
@@ -12,7 +27,7 @@ export const StoryContent = component$(
     PageWrapperComponent: any;
     storyId?: string;
   }) => {
-    let stories = storyContent.stories;
+    let stories: StoryEntry[] = storyData.stories;
     if (storyId) {
       // Filter for a single story if `storyId` is provided
       stories = stories.filter((story) => story.id === storyId);
@@ -22,9 +37,7 @@ export const StoryContent = component$(
       <PageWrapperComponent>
         {stories.map((story) => {
           const { title, subtitle, highlight, image } = story;
-          const localSrc = `/images/${image.fileName}`;
-          const cdnSrc = `cdnUrl` in image ? image.cdnUrl : '';
-          const imageSrc = image.provider === 'local' ? localSrc : cdnSrc;
+
           return (
             <div
               key={story.id}
@@ -51,7 +64,7 @@ export const StoryContent = component$(
               {/* Image Container */}
               <div class='order-2 w-full md:order-1 md:w-1/2'>
                 <Image
-                  src={imageSrc}
+                  src={getImageSrc(image)}
                   alt={image.alt}
                   width={image.width}
                   height={image.height}

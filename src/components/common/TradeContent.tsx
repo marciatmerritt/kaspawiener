@@ -1,38 +1,32 @@
 import { component$ } from '@builder.io/qwik';
 import { Headline } from '../ui/Headline';
 import { Image } from '@unpic/qwik';
-import tradeContent from '../../data/trade/content.json';
+import { tradeData } from '../../data/trade';
 import { getImageSrc } from '../../utils/getImageSrc';
 
 /**
  * TradeContent component.
  *
- * - Displays trade-related content, including a headline and a grid of images.
- * - Accepts a `PageWrapperComponent` prop to allow flexible wrapping in different layouts.
- * - Loads content from `trade/content.json` and dynamically generates image links.
+ * Displays a section with external trading platform links and images.
+ * Includes a headline and a responsive grid of logo cards that link to supported exchanges or tools.
  *
  * @component
- * @param {Object} props - Component properties.
- * @param {React.ElementType} props.PageWrapperComponent - A wrapper component that provides layout structure.
- * @returns {JSX.Element} The rendered trade content.
+ * @param {{ PageWrapperComponent: any }} props - Layout wrapper component used to apply consistent page structure.
+ * @returns {JSX.Element} Rendered trade section with platform links.
  */
 export const TradeContent = component$(
   ({ PageWrapperComponent }: { PageWrapperComponent: any }) => {
+    const { images, title, subtitle, highlight } = tradeData;
     return (
       <PageWrapperComponent>
         <div class='h-4'></div>
-        <Headline
-          title={tradeContent.title}
-          subtitle={tradeContent.subtitle}
-          highlight={tradeContent.highlight}
-        />
+        <Headline title={title} subtitle={subtitle} highlight={highlight} />
         <div class='grid grid-cols-1 gap-5 p-4 md:grid-cols-3'>
-          {tradeContent.images.map((image) => {
-            const imageSrc = getImageSrc(image);
+          {images.map((image) => {
             return (
               <a key={image.id} href={image.link} target='_blank'>
                 <Image
-                  src={imageSrc}
+                  src={getImageSrc(image)}
                   alt={image.alt}
                   width={image.width}
                   height={image.height}

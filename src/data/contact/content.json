@@ -1,0 +1,24 @@
+{
+  "headline": {
+    "title": "Get in Touch",
+    "subtitle": "Reach out to learn more and for project collaborations!",
+    "highlight": "Contact Us"
+  },
+  "contacts": [
+    {
+      "platform": "Telegram",
+      "icon": "IconTelegram",
+      "href": "https://t.me/yourtelegram"
+    },
+    {
+      "platform": "Twitter",
+      "icon": "IconTwitter",
+      "href": "https://x.com/yourtwitter"
+    },
+    {
+      "platform": "Email",
+      "icon": "IconEmail",
+      "href": "mailto:your@email.com"
+    }
+  ]
+}

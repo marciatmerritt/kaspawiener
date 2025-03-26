@@ -1,5 +1,15 @@
 import { component$ } from '@builder.io/qwik';
-import tokenomicsData from '../../data/tokenomics/content.json';
+import { tokenomicsData } from '../../data/tokenomics';
+
+/**
+ * TokenomicsStats component.
+ *
+ * Renders a responsive grid of token-related statistics, including values and labels.
+ * Designed to visually showcase key metrics such as launch details, supply, or community data.
+ *
+ * @component
+ * @returns {JSX.Element} A grid of token statistics.
+ */
 
 export const TokenomicsStats = component$(() => {
   return (

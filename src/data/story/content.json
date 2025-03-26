@@ -11,7 +11,8 @@
         "alt": "Bailey the $WIENER",
         "width": 767,
         "height": 767,
-        "provider": "local"
+        "provider": "local",
+        "customClass": "h-auto w-full rounded-lg shadow-md"
       }
     },
     {
@@ -26,7 +27,8 @@
         "width": 767,
         "height": 767,
         "provider": "cdn",
-        "cdnUrl": "https://fastly.picsum.photos/id/40/4106/2806.jpg?hmac=MY3ra98ut044LaWPEKwZowgydHZ_rZZUuOHrc3mL5mI"
+        "cdnUrl": "https://fastly.picsum.photos/id/40/4106/2806.jpg?hmac=MY3ra98ut044LaWPEKwZowgydHZ_rZZUuOHrc3mL5mI",
+        "customClass": "h-auto w-full rounded-lg shadow-md"
       }
     }
   ]

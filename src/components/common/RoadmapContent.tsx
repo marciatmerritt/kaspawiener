@@ -1,12 +1,13 @@
 import { component$ } from '@builder.io/qwik';
 import { Headline2 } from '../ui/Headline2';
 import IconStar from '../icons/IconStar';
-import { stepsData } from '../../data/roadmap/content';
-import ImgRoadmap from '~/media/images/roadmap2.jpg?w=767&jsx';
+import { roadmapData } from '../../data/roadmap';
+import { Image } from '@unpic/qwik';
+import { getImageSrc } from '../../utils/getImageSrc';
 
 export const RoadmapContent = component$(
   ({ PageWrapperComponent }: { PageWrapperComponent: any }) => {
-    const { highlight, title, items } = stepsData;
+    const { highlight, title, items, image } = roadmapData;
 
     return (
       <PageWrapperComponent>
@@ -65,7 +66,13 @@ export const RoadmapContent = component$(
 
           {/* Image Container */}
           <div class='order-2 w-full md:order-2 md:w-1/2'>
-            <ImgRoadmap class='h-auto w-full rounded-lg shadow-md' />
+            <Image
+              src={getImageSrc(image)}
+              alt={image.alt}
+              width={image.width}
+              layout='constrained'
+              class='h-auto w-full rounded-lg shadow-md'
+            />
           </div>
         </div>
       </PageWrapperComponent>
