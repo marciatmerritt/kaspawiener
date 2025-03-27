@@ -1,10 +1,10 @@
 import { component$, Slot } from '@builder.io/qwik';
 
-interface UlProps {
+interface ListProps {
   class?: string;
 }
 
-export const Ul = component$<UlProps>(({ class: className }) => {
+export const List = component$<ListProps>(({ class: className }) => {
   return (
     <ul class={className}>
       <Slot />

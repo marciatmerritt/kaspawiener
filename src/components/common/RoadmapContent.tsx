@@ -3,7 +3,7 @@ import { Headline2 } from '../ui/Headline2';
 import { roadmapData } from '../../data/roadmap';
 import { Image } from '@unpic/qwik';
 import { getImageSrc } from '../../utils/getImageSrc';
-import { iconMap } from '../../data/site/iconMap';
+import { iconMap } from '../icons/iconMap';
 
 /**
  * RoadmapContent Component
@@ -33,7 +33,7 @@ export const RoadmapContent = component$(
     const stepItems = items.map((item, index) => ({
       ...item,
       isLast: index === items.length - 1,
-      iconComponent: iconMap[item.icon] ?? iconMap['IconStar'],
+      iconComponent: iconMap[item.icon] ?? iconMap['star'],
     }));
 
     return (

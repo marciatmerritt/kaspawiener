@@ -1,6 +1,6 @@
 import { component$, Slot } from '@builder.io/qwik';
 
-interface AProps {
+interface AnchorProps {
   href: string;
   class?: string;
   target?: string;
@@ -9,7 +9,7 @@ interface AProps {
   title?: string;
 }
 
-export const A = component$<AProps>(
+export const Anchor = component$<AnchorProps>(
   ({ href, class: className, target, rel, ...rest }) => {
     return (
       <a

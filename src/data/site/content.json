@@ -1,11 +1,17 @@
 {
   "brand": {
-    "name": "Bailey the $WIENER",
+    "default": "Bailey the WIENER",
+    "name": "WIENER",
+    "token": "Bailey the $WIENER",
+    "tokenCTA": "Mint $WIENER",
     "tokenUrl": "https://kas.fyi/token/krc20/WIENER",
     "logo": {
+      "src": "",
       "fileName": "logo.jpg",
+      "alt": "Logo",
       "width": 40,
-      "height": 40
+      "height": 40,
+      "provider": "local"
     }
   },
   "navigation": [
@@ -71,5 +77,29 @@
         ]
       }
     ]
+  },
+  "social": [
+    {
+      "id": "telegram",
+      "icon": "telegram",
+      "title": "Join the conversation on Telegram",
+      "url": "https://t.me/+Civ_RQYiZH03Y2I5"
+    },
+    {
+      "id": "twitter",
+      "icon": "twitter",
+      "title": "Follow us on Twitter",
+      "url": "https://x.com/wienerKRC20",
+      "meta": {
+        "handle": "@wienerKRC20"
+      }
+    }
+  ],
+  "contact": {
+    "email": {
+      "icon": "email",
+      "title": "Email",
+      "url": "mailto:admin@wieneronkas.com"
+    }
   }
 }
