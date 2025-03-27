@@ -1,0 +1,75 @@
+{
+  "brand": {
+    "name": "Bailey the $WIENER",
+    "tokenUrl": "https://kas.fyi/token/krc20/WIENER",
+    "logo": {
+      "fileName": "logo.jpg",
+      "width": 40,
+      "height": 40
+    }
+  },
+  "navigation": [
+    {
+      "text": "Home",
+      "href": "/"
+    },
+    {
+      "text": "About",
+      "items": [
+        { "text": "Story", "href": "/story" },
+        { "text": "Roadmap", "href": "/roadmap" }
+      ]
+    },
+    {
+      "text": "Tokenomics",
+      "href": "/tokenomics"
+    },
+    {
+      "text": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "footer": {
+    "description": "Join the fun with WIENER— the top dog on the Kaspa chain. Fast, fun, and ready for the next big trend.",
+    "copyright": "© 2025 Bailey the $WIENER",
+    "donation": {
+      "text": "Donate ♥",
+      "address": "kaspa:qqdz0j2zmsyehnfd8yd2hlhk6fjsr36x44zwnphcfa2ld7x4z2tysw48ck8yg",
+      "link": "https://kas.fyi/address/kaspa:qqdz0j2zmsyehnfd8yd2hlhk6fjsr36x44zwnphcfa2ld7x4z2tysw48ck8yg"
+    },
+    "links": [
+      {
+        "title": "About",
+        "items": [
+          { "title": "Story", "href": "/story" },
+          { "title": "Roadmap", "href": "/roadmap" },
+          { "title": "Tokenomics", "href": "/tokenomics" }
+        ]
+      },
+      {
+        "title": "Resources",
+        "items": [
+          { "title": "Kas.fyi", "href": "https://kas.fyi/token/krc20/wiener" },
+          { "title": "KRC-20", "href": "https://kasplex.org/" }
+        ]
+      },
+      {
+        "title": "Trade",
+        "items": [
+          {
+            "title": "KSPR Bot",
+            "href": "https://t.me/kspr_home_bot?start=WdRcvw"
+          },
+          { "title": "Chainge (coming soon)", "href": "/" }
+        ]
+      },
+      {
+        "title": "Kaspa",
+        "items": [
+          { "title": "Docs", "href": "https://kaspa.org/" },
+          { "title": "Explorer", "href": "https://explorer.kaspa.org/" }
+        ]
+      }
+    ]
+  }
+}
