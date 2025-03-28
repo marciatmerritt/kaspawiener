@@ -3,6 +3,14 @@ import { siteContent } from '~/data/site';
 import { Anchor } from '../ui/Anchor';
 import { iconMap } from '../icons/iconMap';
 
+/**
+ * A dynamic list of social media links rendered in the header.
+ *
+ * Pulls data from `siteContent.social` and maps each item to a styled `Anchor`
+ * with an associated icon from `iconMap`.
+ *
+ * Each link is accessible with appropriate `aria-label` and `title` attributes.
+ */
 export default component$(() => {
   const { social } = siteContent;
 

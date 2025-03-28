@@ -1,6 +1,24 @@
-import { useVisibleTask$ } from '@builder.io/qwik';
-import type { QRL } from '@builder.io/qwik';
+import { useVisibleTask$, type QRL } from '@builder.io/qwik';
 
+/**
+ * A reusable scroll listener hook for Qwik components.
+ *
+ * Attaches a scroll event listener to the window and triggers the provided
+ * callback with the current `scrollY` value. The scroll event is debounced
+ * to reduce performance overhead.
+ *
+ * @param onScroll$ - A QRL-wrapped callback that receives the current scrollY position.
+ * @param debounceMs - Optional debounce time in milliseconds (default: 100ms).
+ *
+ * @example
+ * ```tsx
+ * useScrollListener(
+ *   $((scrollY) => {
+ *     store.isScrolling = scrollY >= 10;
+ *   })
+ * );
+ * ```
+ */
 export const useScrollListener = (
   onScroll$: QRL<(scrollY: number) => void>,
   debounceMs = 100

@@ -1,12 +1,10 @@
 export interface BrandInfo {
+  default: string;
   name: string;
+  token: string;
+  tokenCTA: string;
   tokenUrl: string;
-  logo: {
-    fileName: string;
-    width: number;
-    height: number;
-    cdnUrl?: string;
-  };
+  logo: SiteImage;
 }
 
 export interface FooterLinkItem {
@@ -43,8 +41,36 @@ export interface NavigationSubItem {
   icon?: string;
 }
 
+export interface SocialLink {
+  id: string;
+  icon: string;
+  title: string;
+  url: string;
+  meta?: Record<string, any>;
+}
+
+export interface ContactLink {
+  icon: string;
+  title: string;
+  url: string;
+}
+
+export interface SiteImage {
+  src: string;
+  fileName: string;
+  alt: string;
+  width: number;
+  height: number;
+  provider: 'local' | 'cdn';
+  cdnUrl?: string;
+}
+
 export interface SiteContent {
   brand: BrandInfo;
   footer: FooterInfo;
   navigation: NavigationItem[];
+  social: SocialLink[];
+  contact: {
+    email: ContactLink;
+  };
 }

@@ -3,6 +3,13 @@ import { Image } from '@unpic/qwik';
 import { siteContent } from '~/data/site';
 import { getImageSrc } from '~/utils/getImageSrc';
 
+/**
+ * Logo component used in the site header.
+ *
+ * Displays the brand logo image and name pulled from `siteContent.brand`.
+ * Uses `@unpic/qwik` for optimized image rendering and `getImageSrc` utility
+ * to resolve the image source path.
+ */
 export default component$(() => {
   const { brand } = siteContent;
 

@@ -3,6 +3,13 @@ import { siteContent } from '~/data/site';
 import { List } from '../ui/List';
 import { NavItem } from './NavItem';
 
+/**
+ * Main navigation menu component used in the site header.
+ *
+ * Renders a list of navigation items from `siteContent.navigation` using `NavItem`.
+ * Hidden on mobile and displayed on medium (`md`) screens and above.
+ *
+ */
 export const NavMenu = component$(() => {
   const { navigation } = siteContent;
 
