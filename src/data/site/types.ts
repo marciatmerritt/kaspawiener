@@ -18,10 +18,12 @@ export interface FooterLinkSection {
 }
 
 export interface FooterInfo {
+  title: string;
   description: string;
   copyright: string;
   donation: {
     text: string;
+    icon: string;
     address: string;
     link: string;
   };

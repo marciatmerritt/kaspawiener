@@ -36,10 +36,12 @@
     }
   ],
   "footer": {
+    "title": "Bailey the $WIENER",
     "description": "Join the fun with WIENER— the top dog on the Kaspa chain. Fast, fun, and ready for the next big trend.",
     "copyright": "© 2025 Bailey the $WIENER",
     "donation": {
-      "text": "Donate ♥",
+      "text": "Donate",
+      "icon": "♥",
       "address": "kaspa:qqdz0j2zmsyehnfd8yd2hlhk6fjsr36x44zwnphcfa2ld7x4z2tysw48ck8yg",
       "link": "https://kas.fyi/address/kaspa:qqdz0j2zmsyehnfd8yd2hlhk6fjsr36x44zwnphcfa2ld7x4z2tysw48ck8yg"
     },
