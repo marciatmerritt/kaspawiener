@@ -1,7 +1,9 @@
 {
-  "title": "Token Statistics",
-  "subtitle": "WIENER launched fairly with a strong community from the beginning during mint.",
-  "highlight": "Tokenomics",
+  "headline": {
+    "title": "Token Statistics",
+    "subtitle": "WIENER launched fairly with a strong community from the beginning during mint.",
+    "highlight": "Tokenomics"
+  },
   "image": {
     "id": 1,
     "src": "",

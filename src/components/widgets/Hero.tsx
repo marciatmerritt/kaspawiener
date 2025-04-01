@@ -29,25 +29,25 @@ export default component$(() => {
               </Anchor>
               <h1 class='leading-tighter font-heading mb-4 text-5xl font-bold tracking-tighter text-primary dark:text-gray-200 md:text-7xl'>
                 <span class='text-primary'>
-                  {hero.title.pre}{' '}
-                  <span class='text-primary-300'>{hero.title.highlight}</span>{' '}
-                  {hero.title.post}
+                  {hero.headline.title.pre}{' '}
+                  <span class='text-primary-300'>{hero.headline.title.highlight}</span>{' '}
+                  {hero.headline.title.post}
                 </span>
               </h1>
               <div class='mx-auto max-w-3xl lg:max-w-none'>
                 <p class='mb-6 text-xl dark:text-slate-300'>
-                  {brand.description}{' '}
+                  {hero.headline.description}{' '}
                 </p>
 
                 {/* CTA button section */}
                 <div class='border-radius-dot-25 m-auto grid grid-cols-2 gap-3 sm:max-w-md sm:grid-cols-2 lg:max-w-7xl lg:grid-cols-2'>
-                  {hero.buttons?.map((btn) => (
+                  {hero.buttons?.map((button) => (
                     <HeroButton
-                      key={btn.label}
-                      href={btn.url}
-                      label={btn.label}
-                      style={btn.style}
-                      download={btn.fileName}
+                      key={button.label}
+                      href={button.href}
+                      label={button.label}
+                      style={button.style}
+                      download={button.fileName}
                     />
                   ))}
                 </div>

@@ -13,18 +13,18 @@ import type { ContactItem } from '~/data/contact/types';
  *
  * @example
  * <DefinitionListItem
- *   platform="Email"
+ *   title="Email"
  *   icon="email"
  *   href="mailto:user@example.com"
  * />
  */
 export const DefinitionListItem = component$<ContactItem>(
-  ({ platform, icon, href }) => {
+  ({ title, icon, href }) => {
     const Icon = icon ? iconMap[icon] : undefined;
     return (
       <div class='flex gap-x-4'>
         <DefinitionTerm class='flex-none'>
-          <span class='sr-only'>{platform}</span>
+          <span class='sr-only'>{title}</span>
           {Icon && <Icon />}
         </DefinitionTerm>
         <DefinitionDescription>

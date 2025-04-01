@@ -29,7 +29,7 @@ import { iconMap } from '../icons/iconMap';
  */
 export const RoadmapContent = component$(
   ({ PageWrapperComponent }: { PageWrapperComponent: any }) => {
-    const { highlight, title, items, image } = roadmapData;
+    const { headline, items, image } = roadmapData;
     const stepItems = items.map((item, index) => ({
       ...item,
       isLast: index === items.length - 1,
@@ -41,7 +41,7 @@ export const RoadmapContent = component$(
         <div class='flex flex-col items-center gap-6 p-4 md:flex-row md:items-start md:justify-between md:gap-8 md:p-8'>
           {/* Text Container */}
           <div class='order-1 flex w-full flex-col justify-center md:order-1 md:w-1/2'>
-            <Headline2 title={title} highlight={highlight} />
+            <Headline2 title={headline.title} highlight={headline.highlight} />
 
             <div role='list' class='mb-4 mt-2 md:mb-0 md:py-4 md:pr-16'>
               {stepItems.map(

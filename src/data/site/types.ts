@@ -1,7 +1,6 @@
-import type { SiteImage } from '~/types/common';
+import type { SiteImage, SectionHeadline, ButtonItem, SocialLink, LinkItem} from '~/types/common';
 
 export interface BrandInfo {
-  default: string;
   description: string;
   name: string;
   token: string;
@@ -10,28 +9,24 @@ export interface BrandInfo {
   logo: SiteImage;
 }
 
-export interface HeroButtonItem {
-  label: string;
-  url: string;
-  style?: string;
-  fileName?: string;
-  icon?: string;
-}
-
-export interface HeroContent {
+export interface HeroHeadline extends Omit<SectionHeadline, 'title' | 'highlight'> {
   title: {
     pre: string;
     highlight: string;
     post: string;
   };
-  description?: string;
+}
+
+
+export interface HeroContent {
+  headline: HeroHeadline;
   image: SiteImage;
   alert: {
     label: string;
     text: string;
-    url: string;
+    href: string;
   };
-  buttons?: HeroButtonItem[];
+  buttons?: ButtonItem[];
 }
 
 export interface FooterLinkItem {
@@ -70,21 +65,6 @@ export interface NavigationSubItem {
   icon?: string;
 }
 
-export interface SocialLink {
-  id: string;
-  icon: string;
-  title: string;
-  subtitle?: string;
-  url: string;
-  meta?: Record<string, any>;
-}
-
-export interface ContactLink {
-  icon: string;
-  title: string;
-  url: string;
-}
-
 export interface SiteContent {
   brand: BrandInfo;
   hero: HeroContent;
@@ -92,6 +72,6 @@ export interface SiteContent {
   navigation: NavigationItem[];
   social: SocialLink[];
   contact: {
-    email: ContactLink;
+    email: LinkItem;
   };
 }

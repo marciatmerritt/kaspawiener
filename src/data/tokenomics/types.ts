@@ -1,4 +1,4 @@
-import type { SiteImage } from '~/types/common';
+import type { SiteImage, SectionHeadline } from '~/types/common';
 
 export interface TokenStat {
   value: string;
@@ -6,9 +6,7 @@ export interface TokenStat {
 }
 
 export interface TokenomicsContent {
-  title: string;
-  subtitle: string;
-  highlight: string;
+  headline: SectionHeadline;
   image: SiteImage;
   stats: TokenStat[];
 }

@@ -16,7 +16,7 @@ export default component$(() => {
 
   return (
     <>
-      {social.map(({ id, title, url, icon }) => {
+      {social.map(({ id, title, href, icon }) => {
         const Icon = iconMap[icon];
 
         return (
@@ -25,7 +25,7 @@ export default component$(() => {
             class='inline-flex items-center rounded-lg p-2.5 text-sm text-gray-500 hover:bg-primary hover:text-white focus:outline-none focus:ring-4 focus:ring-gray-200 dark:text-gray-400 dark:focus:ring-gray-700'
             aria-label={title}
             title={title}
-            href={url}
+            href={href}
           >
             {Icon && <Icon />}
           </Anchor>

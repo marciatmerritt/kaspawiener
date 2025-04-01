@@ -1,20 +1,12 @@
-export type ContactHeadline = {
-  title: string;
-  subtitle: string;
-  highlight: string;
-};
+import type { SectionHeadline, LinkItem } from "~/types/common";
 
-export type ContactItem = {
-  platform: string;
-  icon: string;
-  href: string;
-};
+export type ContactItem = LinkItem;
 
 export type ContactFormField = {
   id: string;
   label: string;
   placeholder: string;
-  required: boolean;
+  required?: boolean;
   rows?: number;
   type: 'text' | 'email' | 'textarea';
   colSpan?: 'full' | 'half';
@@ -28,7 +20,7 @@ export type ContactFormConfig = {
 };
 
 export type ContactContent = {
-  headline: ContactHeadline;
+  headline: SectionHeadline;
   contacts: ContactItem[];
   formConfig: ContactFormConfig;
 };

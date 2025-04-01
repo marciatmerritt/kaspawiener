@@ -1,11 +1,8 @@
-import type { SiteImage } from '../site/types';
+import type { BaseContentItem } from "~/types/common";
 
-export interface StoryEntry {
-  id: string;
-  title: string;
+export interface StoryEntry extends BaseContentItem {
   subtitle: string;
   highlight: string;
-  image: SiteImage;
 }
 
 export interface StoryContent {

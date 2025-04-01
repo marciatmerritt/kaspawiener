@@ -1,6 +1,8 @@
 {
-  "title": "$WIENER Roadmap",
-  "highlight": "Roadmap",
+  "headline": {
+    "title": "$WIENER Roadmap",
+    "highlight": "Roadmap"
+  },
   "itemTitle": "Our Process: From Idea to Finished Print",
   "items": [
     {

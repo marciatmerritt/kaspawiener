@@ -18,7 +18,7 @@ import { getImageSrc } from '~/utils/ui';
  */
 export const TokenomicsContent = component$(
   ({ PageWrapperComponent }: { PageWrapperComponent: any }) => {
-    const { title, subtitle, highlight, image } = tokenomicsData;
+    const { headline, image } = tokenomicsData;
 
     return (
       <PageWrapperComponent>
@@ -29,17 +29,17 @@ export const TokenomicsContent = component$(
             <div>
               <div class='hidden sm:block'>
                 <Headline2
-                  title={title}
-                  subtitle={subtitle}
-                  highlight={highlight}
+                  title={headline.title}
+                  subtitle={headline.subtitle}
+                  highlight={headline.highlight}
                 />
               </div>
             </div>
             <div class='block sm:hidden'>
               <Headline
-                title={title}
-                subtitle={subtitle}
-                highlight={highlight}
+                title={headline.title}
+                subtitle={headline.subtitle}
+                highlight={headline.highlight}
               />
             </div>
             {/* Stats Grid */}

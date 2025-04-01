@@ -1,15 +1,9 @@
-import type { SiteImage } from '~/types/common';
+import type { SiteImage, SectionHeadline, BaseContentItem } from '~/types/common';
 
-export interface RoadmapItem {
-  id: string;
-  title: string;
-  description: string;
-  icon: string;
-}
+export type RoadmapItem = BaseContentItem;
 
 export interface RoadmapContent {
-  title: string;
-  highlight: string;
+  headline: SectionHeadline;
   itemTitle: string;
   items: RoadmapItem[];
   image: SiteImage;
