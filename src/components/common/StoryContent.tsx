@@ -2,7 +2,7 @@ import { component$ } from '@builder.io/qwik';
 import { Headline2 } from '../ui/Headline2';
 import { Headline } from '../ui/Headline';
 import { Image } from '@unpic/qwik';
-import { getImageSrc } from '~/utils/getImageSrc';
+import { getImageSrc } from '~/utils/ui';
 import { storyData } from '~/data/story';
 import type { StoryEntry } from '~/data/story/types';
 

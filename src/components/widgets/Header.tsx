@@ -4,7 +4,7 @@ import Logo from './Logo';
 import { Anchor } from '../ui/Anchor';
 import { MobileMenu } from './MobileMenu';
 import { DesktopMenu } from './DesktopMenu';
-import { useScrollListener } from '~/utils/useScrollListener';
+import { useScrollListener } from '~/hooks/useScrollListener';
 
 /**
  * Header component for the site layout.

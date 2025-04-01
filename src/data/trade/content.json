@@ -1,7 +1,9 @@
 {
-  "title": "Trade WIENER",
-  "subtitle": "$WIENER can be traded on KaspaMarket, KaspaCom, and KSPR Bot. Stay tuned for more exchanges coming soon!",
-  "highlight": "Exchanges",
+  "headline": {
+    "title": "Trade WIENER",
+    "subtitle": "$WIENER can be traded on KaspaMarket, KaspaCom and KSPR Bot. Stay tuned for more exchanges coming soon!",
+    "highlight": "Exchanges"
+  },
   "images": [
     {
       "id": 1,
@@ -11,6 +13,7 @@
       "width": 540,
       "height": 540,
       "provider": "local",
+      "layout": "constrained",
       "link": "https://kaspamarket.io/token/WIENER"
     },
     {
@@ -21,6 +24,7 @@
       "width": 720,
       "height": 332,
       "provider": "local",
+      "layout": "constrained",
       "link": "https://t.me/kspr_home_bot?start=WdRcvw"
     },
     {
@@ -31,6 +35,7 @@
       "width": 540,
       "height": 540,
       "provider": "local",
+      "layout": "constrained",
       "link": "https://www.kaspa.com/marketplace/token/wiener?ref=wiener"
     }
   ]

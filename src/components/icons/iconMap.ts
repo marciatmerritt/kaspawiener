@@ -4,6 +4,7 @@ import IconBrandGoogle from './IconBrandGoogle';
 import IconBrandTailwind from './IconBrandTailwind';
 import IconBulb from './IconBulb';
 import IconChevronDown from './IconChevronDown';
+import IconChevronRight from './IconChevronRight';
 import IconEmail from './IconEmail';
 import IconFacebook from './IconFacebook';
 import IconGithub from './IconGithub';
@@ -22,6 +23,7 @@ export const iconMap: Record<string, any> = {
   arrowDownRight: IconArrowDownRight,
   bulb: IconBulb,
   chevronDown: IconChevronDown,
+  chevronRight: IconChevronRight,
   menu: IconMenu,
   rocket: IconRocket,
   star: IconStar,
@@ -36,7 +38,7 @@ export const iconMap: Record<string, any> = {
   github: IconGithub,
   facebook: IconFacebook,
   instagram: IconInstagram,
-  twitter: IconTwitter, 
+  twitter: IconTwitter,
   email: IconEmail,
   telegram: IconTelegram,
 };

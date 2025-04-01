@@ -2,7 +2,8 @@ import { component$ } from '@builder.io/qwik';
 import { Headline } from '../ui/Headline';
 import { Image } from '@unpic/qwik';
 import { tradeData } from '../../data/trade';
-import { getImageSrc } from '../../utils/getImageSrc';
+import { getImageSrc } from '../../utils/ui';
+import { Anchor } from '../ui/Anchor';
 
 /**
  * TradeContent component.
@@ -16,24 +17,29 @@ import { getImageSrc } from '../../utils/getImageSrc';
  */
 export const TradeContent = component$(
   ({ PageWrapperComponent }: { PageWrapperComponent: any }) => {
-    const { images, title, subtitle, highlight } = tradeData;
+    const { images, headline } = tradeData;
+
     return (
       <PageWrapperComponent>
         <div class='h-4'></div>
-        <Headline title={title} subtitle={subtitle} highlight={highlight} />
+        <Headline
+          title={headline.title}
+          subtitle={headline.subtitle}
+          highlight={headline.highlight}
+        />
         <div class='grid grid-cols-1 gap-5 p-4 md:grid-cols-3'>
           {images.map((image) => {
             return (
-              <a key={image.id} href={image.link} target='_blank'>
+              <Anchor key={image.id} href={image.link} target='_blank'>
                 <Image
                   src={getImageSrc(image)}
                   alt={image.alt}
                   width={image.width}
                   height={image.height}
-                  layout='constrained'
+                  layout={image.layout}
                   class='h-48 w-full rounded-md object-cover hover:opacity-80'
                 />
-              </a>
+              </Anchor>
             );
           })}
         </div>

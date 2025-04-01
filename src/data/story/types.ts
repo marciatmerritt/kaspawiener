@@ -1,19 +1,11 @@
-export interface StoryImage {
-  src: string;
-  fileName: string;
-  alt: string;
-  width: number;
-  height: number;
-  provider: 'local' | 'cdn';
-  cdnUrl?: string;
-}
+import type { SiteImage } from '../site/types';
 
 export interface StoryEntry {
   id: string;
   title: string;
   subtitle: string;
   highlight: string;
-  image: StoryImage;
+  image: SiteImage;
 }
 
 export interface StoryContent {

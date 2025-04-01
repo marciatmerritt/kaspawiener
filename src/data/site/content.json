@@ -1,6 +1,7 @@
 {
   "brand": {
     "default": "Bailey the WIENER",
+    "description": "Join the fun with WIENER— the top dog on the Kaspa chain. Fast, fun, and ready for the next big trend.",
     "name": "WIENER",
     "token": "Bailey the $WIENER",
     "tokenCTA": "Mint $WIENER",
@@ -8,16 +9,69 @@
     "logo": {
       "src": "",
       "fileName": "logo.jpg",
-      "alt": "Logo",
+      "alt": "Bailey Logo",
       "width": 40,
       "height": 40,
       "provider": "local"
     }
   },
+  "hero": {
+    "title": {
+      "pre": "Bailey",
+      "highlight": "the Kaspian",
+      "post": "WIENER"
+    },
+    "description": "Join the fun with WIENER— the top dog on the Kaspa chain. Fast, fun, and ready for the next big trend.",
+    "alert": {
+      "label": "New",
+      "text": "$WIENER live on KaspaMarket!",
+      "url": "https://kaspamarket.io/token/WIENER"
+    },
+    "image": {
+      "src": "/images/logo.jpg",
+      "fileName": "logo.jpg",
+      "alt": "Qwind Hero Image (Cools dog)",
+      "width": 500,
+      "height": 500,
+      "provider": "local",
+      "layout": "constrained",
+      "priority": true,
+      "breakpoints": [320, 480, 768, 1024]
+    },
+    "buttons": [
+      {
+        "label": "Follow on X",
+        "url": "https://x.com/wienerKRC20",
+        "style": "bg-primary-300 dark:bg-primary-700",
+        "icon": "twitter"
+      },
+      {
+        "label": "Join Telegram",
+        "url": "https://t.me/+Civ_RQYiZH03Y2I5",
+        "style": "bg-primary-200 dark:bg-primary-600",
+        "icon": "telegram"
+      },
+      {
+        "label": "Whitepaper",
+        "url": "/images/WIENER-WHITEPAPER.pdf",
+        "fileName": "WIENER-WHITEPAPER.pdf",
+        "style": "bg-primary-100 dark:bg-primary-500"
+      },
+      {
+        "label": "Mint $WIENER",
+        "url": "https://kas.fyi/token/krc20/WIENER",
+        "style": "bg-primary-400"
+      }
+    ]
+  },
   "navigation": [
     {
-      "text": "Home",
-      "href": "/"
+      "text": "Story",
+      "href": "/story"
+    },
+    {
+      "text": "Roadmap",
+      "href": "/roadmap"
     },
     {
       "text": "About",
@@ -25,6 +79,10 @@
         { "text": "Story", "href": "/story" },
         { "text": "Roadmap", "href": "/roadmap" }
       ]
+    },
+    {
+      "text": "Trade",
+      "href": "/trade"
     },
     {
       "text": "Tokenomics",
@@ -85,12 +143,14 @@
       "id": "telegram",
       "icon": "telegram",
       "title": "Join the conversation on Telegram",
+      "subtitle": "Join Telegram",
       "url": "https://t.me/+Civ_RQYiZH03Y2I5"
     },
     {
       "id": "twitter",
       "icon": "twitter",
       "title": "Follow us on Twitter",
+      "subtitle": "Follow on X",
       "url": "https://x.com/wienerKRC20",
       "meta": {
         "handle": "@wienerKRC20"

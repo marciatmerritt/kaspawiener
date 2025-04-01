@@ -1,3 +1,5 @@
+import type { SiteImage } from '~/types/common';
+
 export interface RoadmapItem {
   id: string;
   title: string;
@@ -5,20 +7,10 @@ export interface RoadmapItem {
   icon: string;
 }
 
-export interface RoadmapImage {
-  src: string;
-  fileName: string;
-  alt: string;
-  width: number;
-  height: number;
-  provider: 'local' | 'cdn';
-  cdnUrl?: string;
-}
-
 export interface RoadmapContent {
   title: string;
   highlight: string;
   itemTitle: string;
   items: RoadmapItem[];
-  image: RoadmapImage;
+  image: SiteImage;
 }

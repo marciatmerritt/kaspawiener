@@ -41,6 +41,7 @@
     "width": 767,
     "height": 767,
     "provider": "local",
+    "layout": "constrained",
     "customClass": "h-auto w-full rounded-lg shadow-md"
   }
 }

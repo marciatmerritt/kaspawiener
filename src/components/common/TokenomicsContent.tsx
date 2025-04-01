@@ -4,7 +4,7 @@ import { Headline } from '../ui/Headline';
 import { tokenomicsData } from '../../data/tokenomics';
 import { Image } from '@unpic/qwik';
 import { TokenomicsStats } from '../widgets/TokenomicsStats';
-import { getImageSrc } from '~/utils/getImageSrc';
+import { getImageSrc } from '~/utils/ui';
 
 /**
  * TokenomicsContent component.

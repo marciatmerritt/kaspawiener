@@ -1,10 +1,37 @@
+import type { SiteImage } from '~/types/common';
+
 export interface BrandInfo {
   default: string;
+  description: string;
   name: string;
   token: string;
   tokenCTA: string;
   tokenUrl: string;
   logo: SiteImage;
+}
+
+export interface HeroButtonItem {
+  label: string;
+  url: string;
+  style?: string;
+  fileName?: string;
+  icon?: string;
+}
+
+export interface HeroContent {
+  title: {
+    pre: string;
+    highlight: string;
+    post: string;
+  };
+  description?: string;
+  image: SiteImage;
+  alert: {
+    label: string;
+    text: string;
+    url: string;
+  };
+  buttons?: HeroButtonItem[];
 }
 
 export interface FooterLinkItem {
@@ -47,6 +74,7 @@ export interface SocialLink {
   id: string;
   icon: string;
   title: string;
+  subtitle?: string;
   url: string;
   meta?: Record<string, any>;
 }
@@ -57,18 +85,9 @@ export interface ContactLink {
   url: string;
 }
 
-export interface SiteImage {
-  src: string;
-  fileName: string;
-  alt: string;
-  width: number;
-  height: number;
-  provider: 'local' | 'cdn';
-  cdnUrl?: string;
-}
-
 export interface SiteContent {
   brand: BrandInfo;
+  hero: HeroContent;
   footer: FooterInfo;
   navigation: NavigationItem[];
   social: SocialLink[];

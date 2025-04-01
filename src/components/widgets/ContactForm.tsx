@@ -4,7 +4,7 @@ import { Form } from '../ui/Form';
 import { Button } from '../ui/Button';
 import { FormField } from '../ui/FormField';
 import { FormControl } from '../ui/FormControl';
-import { getColSpanClass } from '~/utils/form';
+import { getColSpanClass } from '~/utils/ui';
 
 /**
  * The dynamic contact form component rendered inside the Contact section.

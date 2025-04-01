@@ -2,7 +2,7 @@ import { component$ } from '@builder.io/qwik';
 import { Headline2 } from '../ui/Headline2';
 import { roadmapData } from '../../data/roadmap';
 import { Image } from '@unpic/qwik';
-import { getImageSrc } from '../../utils/getImageSrc';
+import { getImageSrc } from '../../utils/ui';
 import { iconMap } from '../icons/iconMap';
 
 /**
@@ -43,13 +43,13 @@ export const RoadmapContent = component$(
           <div class='order-1 flex w-full flex-col justify-center md:order-1 md:w-1/2'>
             <Headline2 title={title} highlight={highlight} />
 
-            <div role="list" class='mb-4 mt-2 md:mb-0 md:py-4 md:pr-16'>
+            <div role='list' class='mb-4 mt-2 md:mb-0 md:py-4 md:pr-16'>
               {stepItems.map(
                 (
                   { title, description, iconComponent: Icon, isLast },
                   index
                 ) => (
-                  <div role="listitem" key={`step-${index}`} class='flex'>
+                  <div role='listitem' key={`step-${index}`} class='flex'>
                     <div class='mr-4 flex flex-col items-center'>
                       <div
                         class={`flex size-10 items-center justify-center rounded-full border-2 border-primary-900 ${
